@@ -1,0 +1,1 @@
+Kimmo Ihanus blog site built with Next.js

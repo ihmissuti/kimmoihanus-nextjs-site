@@ -1,0 +1,13 @@
+.grahic iframe {
+  max-width: 100%;
+}
+
+.graphic-preview .overlay {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .graphic-preview:hover .overlay {
+    display: flex;
+  }
+}
