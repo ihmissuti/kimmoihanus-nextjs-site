@@ -10,7 +10,7 @@ export default function About() {
         title="About Kimmo Ihanus"
         description="A Full Stack Hacker from Helsinki, Finland."
       />
-      <Heading className="mb-8">A Full Stack Hacker from Helsinki, Finland.</Heading>
+      <Heading className="mb-8">A Full Stack Marketer from Helsinki, Finland.</Heading>
 
       <div className="prose">
         <AboutText />

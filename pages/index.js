@@ -55,7 +55,18 @@ export default function Home({ posts, graphics }) {
             <h3 className="text-4xl font-bold mb-4">Projects</h3>
           </div>
         </div>
-      
+        <Project
+          title="Grew AI"
+          image="/grew_ai.PNG"
+          status="Launched"
+          buttonText="Visit Website"
+          buttonUrl="https://www.grew.ai"
+          flipped
+        >
+          <div className="mb-4">
+          Grew AI is an easy-to-use simulator tool that uses AI to predict which content will work the best.
+          </div>
+        </Project>
         <Project
           title="pointNG"
           image="/pointng_main_page.png"
