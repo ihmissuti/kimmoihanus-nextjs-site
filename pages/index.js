@@ -56,15 +56,15 @@ export default function Home({ posts, graphics }) {
           </div>
         </div>
         <Project
-          title="Grew AI"
-          image="/grew_ai.PNG"
+          title="Superlines"
+          image="/superlines.JPG"
           status="Launched"
           buttonText="Visit Website"
-          buttonUrl="https://www.grew.ai"
+          buttonUrl="https://www.superlines.io"
           flipped
         >
           <div className="mb-4">
-          Grew AI is an easy-to-use simulator tool that uses AI to predict which content will work the best.
+          GPT-3 powered email subject line tester.
           </div>
         </Project>
         <Project
