@@ -58,7 +58,7 @@ export default function Home({ posts, graphics }) {
         <Project
           title="Superlines"
           image="/superlines.JPG"
-          status="Launched"
+          status="In Progress"
           buttonText="Visit Website"
           buttonUrl="https://www.superlines.io"
           flipped
