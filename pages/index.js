@@ -55,15 +55,7 @@ export default function Home({ posts, graphics }) {
             <h3 className="text-4xl font-bold mb-4">Projects</h3>
           </div>
         </div>
-        <Project
-          title="Whirrel"
-          image="/whirrel.JPG"
-          status="In Progress"
-          buttonText="Visit Website"
-          buttonUrl="https://whirrel.com"
-        >
-          Whirrel uses synthetic data made with GPT-3 and machine learning to predict Tweet performance.
-        </Project>
+
         <Project
           title="Superlines"
           image="/superlines.JPG"
