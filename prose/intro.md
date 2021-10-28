@@ -1,1 +1,1 @@
-I'm Kimmo Ihanus, a maker and a Co-Founder at [Grew](https://grew.dev). Currently developing [Superlines](httsp://superlines.io) - GPT-3 powered email content tester.
+I'm Kimmo Ihanus, Growth Lead at [Cronvall](https://www.cronvall.fi) and a co-Founder at [Grew](https://grew.dev). Developed [Superlines](httsp://superlines.io) - GPT-3 powered email content tester, [Whirrel](https://www.whirrel.com) - a tool for predicting stock & crypto price moves, [consolechat.io](https://consolechat.io) - a chat room in browser's console, and many more.

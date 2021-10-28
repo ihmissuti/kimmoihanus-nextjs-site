@@ -55,11 +55,23 @@ export default function Home({ posts, graphics }) {
             <h3 className="text-4xl font-bold mb-4">Projects</h3>
           </div>
         </div>
+        <Project
+          title="Whirrel"
+          image="/front_page_5.PNG"
+          status="Launched"
+          buttonText="Visit Website"
+          buttonUrl="https://www.whirrel.com"
+   
+        >
+     
+          Predict stock & crypto price moves
+       
+        </Project>
 
         <Project
           title="Superlines"
           image="/superlines.JPG"
-          status="In Progress"
+          status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://www.superlines.io"
           flipped
@@ -71,7 +83,7 @@ export default function Home({ posts, graphics }) {
         <Project
           title="pointNG"
           image="/pointng_main_page.png"
-          status="In Progress"
+          status="Prototype"
           buttonText="Visit Website"
           buttonUrl="https://www.pointng.io"
         >
@@ -92,7 +104,7 @@ export default function Home({ posts, graphics }) {
         <Project
           title="ConsoleChat.io"
           image="/consolechat.png"
-          status="In Progress"
+          status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://www.consolechat.io"
         >
@@ -105,7 +117,7 @@ export default function Home({ posts, graphics }) {
         <Project
           title="Pixtu"
           image="/pixtu.png"
-          status="In Progress"
+          status="Prototype"
           buttonText="Visit Website"
           buttonUrl="https://www.pixtu.io"
           flipped
