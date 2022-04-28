@@ -1,4 +1,4 @@
-I'm a maker and a marketer who creates ideas and builds them.
+I'm a multi-talented growth marketer
 
 I Co-Founded [Grew](https://grew.dev) after inventing the AI-based secure location detection system in 2020.
 

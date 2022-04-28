@@ -52,10 +52,10 @@ export default function Home({ posts, graphics }) {
       <div>
         <div className={"max-w-5xl mx-auto mb-6 p-4"}>
           <div className="mt-12">
-            <h3 className="text-4xl font-bold mb-4">Projects</h3>
+            <h3 className="text-4xl font-bold mb-4">Coding Projects</h3>
           </div>
         </div>
-        <Project
+        {/* <Project
           title="Whirrel"
           image="/front_page_5.PNG"
           status="Launched"
@@ -66,7 +66,7 @@ export default function Home({ posts, graphics }) {
      
           Predict stock & crypto price moves
        
-        </Project>
+        </Project> */}
 
         <Project
           title="Superlines"
@@ -80,7 +80,7 @@ export default function Home({ posts, graphics }) {
           GPT-3 powered email subject line tester.
           </div>
         </Project>
-        <Project
+        {/* <Project
           title="pointNG"
           image="/pointng_main_page.png"
           status="Prototype"
@@ -88,8 +88,8 @@ export default function Home({ posts, graphics }) {
           buttonUrl="https://www.pointng.io"
         >
           pointNG is a machine learning based innovation (patent pending) that uses neural networks to detect user location securely in the browser. I built the algorithms with <a href="https://www.brain.js.org">Brain.js</a> machine learning models and invented the "chaining" method that makes running neural networks possible and light in a browser environment.
-        </Project>
-        <Project
+        </Project> */}
+        {/* <Project
           title="Hacker-AI"
           image="/hacker_ai.png"
           status="Launched"
@@ -100,7 +100,7 @@ export default function Home({ posts, graphics }) {
           <div className="mb-4">
           Hacker-AI uses machine learning to predict the success of Hacker News post titles. If you're uncertain about what title to use, trust statistical mathematics! Pre-test your "Show HN" titles and increase your chances of hitting high points in Hacker News. Built with <a href="https://brain.js.org">Brain.js</a>
           </div>
-        </Project>
+        </Project> */}
         <Project
           title="ConsoleChat.io"
           image="/consolechat.png"
@@ -109,12 +109,15 @@ export default function Home({ posts, graphics }) {
           buttonUrl="https://www.consolechat.io"
         >
           <div className="mb-4">
-            ConsoleChat turns the browser's console into a global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!
+            This thing wen viral and was featured as #1 at Hacker New.
+          </div>
+          <div className="mb-4">
+            This thing wen viral and was featured as #1 at Hacker New. ConsoleChat turns the browser's console into a global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!
           </div>
           <ul className="mb-4">
           </ul>
         </Project>
-        <Project
+        {/* <Project
           title="Pixtu"
           image="/pixtu.png"
           status="Prototype"
@@ -123,8 +126,8 @@ export default function Home({ posts, graphics }) {
           flipped
         >
           Cookieless real-time lead conversion optimization tool that predicts whether your website visitors will buy or bounce. Read more from <a href="https://ihmissuti.medium.com/real-time-website-visitor-conversion-prediction-ddc13553a61a" target="_blank">this blog</a>.
-        </Project>
-        <Project
+        </Project> */}
+        {/* <Project
           title="abtestcalculation.com"
           image="/abtestcalculation.png"
           status="Launched"
@@ -132,8 +135,8 @@ export default function Home({ posts, graphics }) {
           buttonUrl="http://www.abtestcalculation.com"
         >
           Calculate the results of your A/B or multivariate test and estimate the required duration to achieve statistical significance. Built with Vue.js
-        </Project>
-        <Project
+        </Project> */}
+        {/* <Project
           title="Emobot.io"
           status="Prototype"
           buttonText="Visit Website"
@@ -142,12 +145,12 @@ export default function Home({ posts, graphics }) {
           flipped
         >
          Emotional chatbot that reacts to love confessions and insults. Made with <a href="https://www.rivescript.com/" target="_blank">RiveScript.</a>
-        </Project>
+        </Project> */}
       </div>
       <div className="py-12 max-w-5xl mx-auto mb-8 p-4">
         <h2 className="font-bold text-2xl mb-4">Graphics</h2>
         <p className="mb-8">
-          Here are some weird graphics I have made with my phone when bored.{' '}
+          Made with iPhone{' '}
           <Link href="/graphics">
             <a className="underline">Click here to see them all.</a>
           </Link>

@@ -8,9 +8,9 @@ export default function About() {
     <Wrapper>
       <NextSeo
         title="About Kimmo Ihanus"
-        description="A Full Stack Hacker from Helsinki, Finland."
+        description="Senior Growth Hacker from Helsinki, Finland."
       />
-      <Heading className="mb-8">A Full Stack Marketer from Helsinki, Finland.</Heading>
+      <Heading className="mb-8">Senior Growth Hacker from Helsinki, Finland.</Heading>
 
       <div className="prose">
         <AboutText />
