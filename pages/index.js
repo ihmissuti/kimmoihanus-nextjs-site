@@ -70,14 +70,14 @@ export default function Home({ posts, graphics }) {
 
         <Project
           title="Superlines"
-          image="/superlines.JPG"
+          image="/ctr_predictions_2.png"
           status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://www.superlines.io"
           flipped
         >
           <div className="mb-4">
-          GPT-3 powered email subject line tester.
+          GPT-3 & machine learning powered Google Ads copy text optimizer tool
           </div>
         </Project>
         {/* <Project
@@ -109,10 +109,7 @@ export default function Home({ posts, graphics }) {
           buttonUrl="https://www.consolechat.io"
         >
           <div className="mb-4">
-            This thing wen viral and was featured as #1 at Hacker New.
-          </div>
-          <div className="mb-4">
-            This thing wen viral and was featured as #1 at Hacker New. ConsoleChat turns the browser's console into a global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!
+            This project went viral and was featured on HackerNews. ConsoleChat turns the browser's console into a global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!
           </div>
           <ul className="mb-4">
           </ul>

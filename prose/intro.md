@@ -2,7 +2,7 @@ I'm Kimmo Ihanus, a growth marketer with +10 years of experience in building, co
 
 - Currently working as Growth Lead at [Cronvall](https://www.cronvall.fi). Responsible for growth operations and performance marketing
 
-- Co-founded [Grew](https://grew.dev) where I developed [Superlines](httsp://superlines.io), the GPT-3 powered email content tester, and acquired paying enterprize customers
+- Co-founder at [Grew](https://grew.dev) and built [Superlines](httsp://superlines.io), the GPT-3 powered Google Ads content tester
 
 - Spent over a decade consulting large organizations and startups as a Senior Growth Hacker at [Avaus](https://www.avaus.com) - the leading marketing and analytics companpy in the Nordics
 
