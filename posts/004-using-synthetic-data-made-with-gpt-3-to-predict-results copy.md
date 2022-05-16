@@ -16,5 +16,3 @@ Before using the approach in production for the email use case, I'm using Twitte
 ### A real-world prototype
 
 To make my experiment more concrete, I used my synthetic tweet data to train a machine learning model and wrapped on top of that a UI for predicting Twitter text success. The idea is that if my data and algorithms could be trusted, I could use this tool for making fast decisions when optimizing twitter texts.
-
-The tool is not yet reliable enough to be trusted, but you can try it out [here](https://whirrel.com) already.
