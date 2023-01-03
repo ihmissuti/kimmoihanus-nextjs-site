@@ -102,11 +102,11 @@ export default function Home({ posts, graphics }) {
           </div>
         </Project> */}
         <Project
-          title="ConsoleChat.io"
+          title="ConsoleChat"
           image="/consolechat.png"
-          status="Launched"
+          status="Prototype"
           buttonText="Visit Website"
-          buttonUrl="https://www.consolechat.io"
+          buttonUrl="https://eloquent-fermat-e14224.netlify.app/"
         >
           <div className="mb-4">
             This project went viral and was featured on HackerNews. ConsoleChat turns the browser's console into a global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!
