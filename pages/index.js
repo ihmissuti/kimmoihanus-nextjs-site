@@ -52,21 +52,21 @@ export default function Home({ posts, graphics }) {
       <div>
         <div className={"max-w-5xl mx-auto mb-6 p-4"}>
           <div className="mt-12">
-            <h3 className="text-4xl font-bold mb-4">Coding Projects</h3>
+            <h3 className="text-4xl font-bold mb-4">Projects I build</h3>
           </div>
         </div>
-        {/* <Project
-          title="Whirrel"
-          image="/front_page_5.PNG"
+        <Project
+          title="We Became Shadows"
+          image="/IMG_2424.jpg"
           status="Launched"
           buttonText="Visit Website"
-          buttonUrl="https://www.whirrel.com"
+          buttonUrl="https://www.webecameshadows.com"
    
         >
      
-          Predict stock & crypto price moves
+                A location-based web game built with Mapbox, node.js and socket.io. Escape and defend your position against bots that seek you on a real-life map.
        
-        </Project> */}
+        </Project>
 
         <Project
           title="Superlines"
@@ -77,7 +77,7 @@ export default function Home({ posts, graphics }) {
           flipped
         >
           <div className="mb-4">
-          GPT-3 & machine learning powered Google Ads copy text optimizer tool
+            A grammarly for marketers. AI-driven content tester for email, Facebook, Google Ads and mobile channels.
           </div>
         </Project>
         {/* <Project
@@ -102,11 +102,11 @@ export default function Home({ posts, graphics }) {
           </div>
         </Project> */}
         <Project
-          title="ConsoleChat"
+          title="ConsoleChat.io"
           image="/consolechat.png"
-          status="Prototype"
+          status="Launched"
           buttonText="Visit Website"
-          buttonUrl="https://eloquent-fermat-e14224.netlify.app/"
+          buttonUrl="https://consolechat.io"
         >
           <div className="mb-4">
             This project went viral and was featured on HackerNews. ConsoleChat turns the browser's console into a global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!
