@@ -65,7 +65,7 @@ export default function Graphics({ graphics }) {
       <NextSeo title="Graphics" />
       <Heading className="mb-8">Graphics</Heading>
 
-      <p className="mb-8">Somewhere around 2015, I created a habit of playing around with my phone’s photo editing apps whenever it gets boring, for example, while waiting for a bus. As a result, I have tons of weird and surreal images lying on my phone. I decided to publish a couple of examples here.</p>
+      <p className="mb-8">Around 2015, I got into the habit of playing with photo editing apps. As a result, my phone is full of these weird images.</p>
 
       {isScrollActive ? (
         <ul className="-mx-4 bg-white">

@@ -77,7 +77,7 @@ export default function Home({ posts, graphics }) {
           flipped
         >
           <div className="mb-4">
-            A grammarly for marketers. AI-driven content tester for email, Facebook, Google Ads and mobile channels.
+            AI Platform that automates analysis, testing, optimization and marketing content creation. 
           </div>
         </Project>
         {/* <Project
