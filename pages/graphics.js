@@ -65,7 +65,12 @@ export default function Graphics({ graphics }) {
       <NextSeo title="Graphics" />
       <Heading className="mb-8">Graphics</Heading>
 
-      <p className="mb-8">Around 2015, I got into the habit of playing with photo editing apps. As a result, my phone is full of these weird images.</p>
+      <p className="mb-8">
+        Back in 2015—years before AI image generators like DALL-E and Midjourney existed—I discovered the creative
+        potential of mobile photo editing apps. Armed with just an iPhone, iPad, and apps like Pixite, I spent countless
+        hours crafting these surreal compositions. A reminder that creative experimentation doesn't require the latest
+        tech.
+      </p>
 
       {isScrollActive ? (
         <ul className="-mx-4 bg-white">

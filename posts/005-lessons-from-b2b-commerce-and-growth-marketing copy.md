@@ -1,5 +1,5 @@
 ---
-title: "Lessons on B2B e-commerce and growth marketing"
+title: 'Lessons on B2B e-commerce and growth marketing'
 date: 2022-05-16
 ---
 
@@ -20,11 +20,12 @@ A big lesson is that while a company may be operating in an industry where digit
 When making decisions on how to orchestrate performance marketing, instead of finding ways to gain quick wins with hacks and optimization tricks, think about what your business needs to achieve next on a concrete level and organize your marketing stack so that you can achieve this with existing resources.
 
 For example, when planning how to organize Search Engine Marketing and Google Ads, we have learned that to maintain a profitable ROAS we should follow some basic principles:
+
 - Keep it simple - our team must be able to understand the data and be able to optimize marketing easily and fast
 - Write and create content for your customers instead of Google’s algorithms.
 - Keep control in your hands instead of letting Google’s dynamic tools make all the decisions
 
-This works for us but the principals should be aligned with each business.
+This works for us but the principles should be aligned with each business.
 
 ### Lesson #3: Trust drives conversion
 

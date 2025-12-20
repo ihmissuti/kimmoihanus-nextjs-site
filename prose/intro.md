@@ -1,15 +1,15 @@
-I'm Kimmo Ihanus, a growth marketer with +10 years of experience in building and growing businesses of all size and stage.
+I'm Kimmo Ihanus, a technical founder and AI expert with 15+ years of experience in AI, marketing, and data. Based in Helsinki, Finland.
 
-- Co-founder and main developer of [Superlines](httsp://www.superlines.io), the AI Platform for marketing that automates the daily marketing grind
+- Co-founder & CTO of [Superlines](https://www.superlines.io) - the leading AI Search Analytics platform helping brands optimize their visibility across ChatGPT, Perplexity, Gemini, and other AI platforms. Featured in [Helsingin Sanomat](https://www.hs.fi/visio/art-2000011333578.html) and [Markkinointiuutiset](https://www.markkinointiuutiset.fi/artikkelit/suomalainen-markkinoijille-suunnattu-tekoaly-startup-hamuaa-vauhdilla-globaaleille-markkinoille).
 
-- Was Growth Lead at [Cronvall](https://www.cronvall.com) where I built a modern growth organization and operations, was responsible for performance marketing (SEM focus) and marketing automation.
+- Among the first teams in the Nordics to gain access to OpenAI's GPT-3 in 2020, well before most realized how transformative AI would become.
 
-- Spent over a decade consulting large organizations and startups as a Senior Growth Hacker at [Avaus](https://www.avaus.com) - the leading marketing and analytics companpy in the Nordics
+- Selected for Google's AI Startup Program, receiving technical support and cloud credits.
 
-- Worked as a growth marketer at succesfull Finnish startup [Yousician](https://www.yousician.com)
+- Previously Growth Lead at [Cronvall](https://www.cronvall.com), growth marketer at Slush 100 winner [Yousician](https://www.yousician.com), and Senior Growth Hacker at [Avaus](https://www.avaus.com).
 
-- Created a [COVID-19 tracker app](https://www.youtube.com/watch?v=wdVjZzIqaB0) that led me to innovate [pointNG technology](https://pointng.io) - a location tracking algorithm that works securely in the browser.
+- Builder of experimental tech products like [pointNG](https://pointng.io) (privacy-first location detection using edge ML), [Hacker-AI](https://hacker-ai.com) (A/B test your HackerNews titles before publishing), and [ConsoleChat](https://consolechat.io) (underground chat in the browser console).
 
-I'm a big fan of crazy tech ideas. As an example I made [consolechat.io](https://eloquent-fermat-e14224.netlify.app/) - underground chat that works in the console (no longer active).
+I've been obsessed with AI and algorithms my entire career. Marketing is one of the best fields to use AI: lots of data and complex problems, many of which are impossible for humans to solve.
 
-Need help with your business and growth? Shoot me a [message](mailto:kimmo@superlines.io) and let's have a chat.
+Want to discuss AI Search, GEO, or growth? Reach out on [X](https://x.com/ihmissuti), [LinkedIn](https://www.linkedin.com/in/kimmo-ihanus-8175aa56/), or [email](mailto:kimmo@superlines.io).

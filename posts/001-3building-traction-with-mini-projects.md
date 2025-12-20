@@ -1,9 +1,9 @@
 ---
-title: "Building Traction with Mini Projects"
+title: 'Building Traction with Mini Projects'
 date: 2020-12-02
 ---
 
-As a young startup [Grew](https://grew.dev) faces the same challenge as many others: we don't have an existing audience, and we don't have loads of money for paid advertising. Also, building SEO reputation takes time and requires traffic. 
+As a young startup [Grew](https://grew.dev) faces the same challenge as many others: we don't have an existing audience, and we don't have loads of money for paid advertising. Also, building SEO reputation takes time and requires traffic.
 
 So how to get early traction and start attracting potential customers?
 
@@ -32,6 +32,6 @@ These figures compound in the best way: more and more people are becoming aware 
 
 Creating a new user acquisition channel through building side-projects is great because it's based on creating value and trust. In the end, we believe that SaaS is about trust.
 
-If your audience's trust you, it's a million times easier to get traction and feedback.
+If your audience trusts you, it's a million times easier to get traction and feedback.
 
 In the coming blogs, I'll describe what tools and tactics we use to build our mini-projects.

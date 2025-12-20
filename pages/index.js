@@ -9,10 +9,7 @@ import styles from '@/css/graphics.module.css';
 import PostListItem from '@/components/PostListItem';
 
 export async function getStaticProps() {
-  const [posts, graphics] = await Promise.all([
-    getPosts(),
-    getGraphics(),
-  ]);
+  const [posts, graphics] = await Promise.all([getPosts(), getGraphics()]);
 
   return {
     props: {
@@ -36,9 +33,9 @@ export default function Home({ posts, graphics }) {
             <Intro />
           </div>
         </div>
-          <div className="mt-12">
-            <h2 className="text-4xl font-bold mb-4">Posts</h2>
-            </div>
+        <div className="mt-12">
+          <h2 className="text-4xl font-bold mb-4">Posts</h2>
+        </div>
         <ul className="mb-4">
           {posts.map((post) => {
             return <PostListItem key={post.title} post={post} href="/posts/[slug]" as={`/posts/${post.nextPath}`} />;
@@ -47,37 +44,51 @@ export default function Home({ posts, graphics }) {
         <Link href="/posts">
           <a className="text-sm text-gray-600 dark:text-gray-300 font-medium">All Posts</a>
         </Link>
-       
       </div>
       <div>
-        <div className={"max-w-5xl mx-auto mb-6 p-4"}>
+        <div className={'max-w-5xl mx-auto mb-6 p-4'}>
           <div className="mt-12">
             <h3 className="text-4xl font-bold mb-4">Projects I build</h3>
           </div>
         </div>
         <Project
-          title="We Became Shadows"
-          image="/IMG_2424.jpg"
-          status="Launched"
-          buttonText="Visit Website"
-          buttonUrl="https://www.webecameshadows.com"
-   
-        >
-     
-                A location-based web game built with Mapbox, node.js and socket.io. Escape and defend your position against bots that seek you on a real-life map.
-       
-        </Project>
-
-        <Project
           title="Superlines"
-          image="/ctr_predictions_2.png"
+          image="/superlines_2.png"
           status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://www.superlines.io"
+        >
+          <div className="mb-4">
+            AI Search Analytics for Marketers. Track and improve your brand's visibility across all major AI platforms
+            like ChatGPT, Perplexity, Google AI Mode and more. Trusted by forward-thinking marketing teams globally.
+          </div>
+        </Project>
+
+        <Project
+          title="AI Search Index"
+          image="/ui_1.png"
+          status="Launched"
+          buttonText="Visit Website"
+          buttonUrl="https://www.aisearchindex.com"
           flipped
         >
           <div className="mb-4">
-            AI Platform that automates analysis, testing, optimization and marketing content creation. 
+            Analytics that shows your AI traffic. ChatGPT, Perplexity, Claude and other AI agents visit your website
+            every day. Traditional analytics can't see them. AI Search Index identifies 50+ AI crawlers and shows
+            real-time agent vs human traffic split.
+          </div>
+        </Project>
+
+        <Project
+          title="EmailMCP"
+          image="/emailmcp.png"
+          status="Launched"
+          buttonText="Visit Website"
+          buttonUrl="https://emailmcp.co"
+        >
+          <div className="mb-4">
+            Your personal AI assistant that lives in your inbox. Research anything, remember everything, and never
+            forget with reminders. Built on MCP (Model Context Protocol), the same standard powering Claude Desktop.
           </div>
         </Project>
         {/* <Project
@@ -107,12 +118,26 @@ export default function Home({ posts, graphics }) {
           status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://consolechat.io"
+          flipped
         >
           <div className="mb-4">
-            This project went viral and was featured on HackerNews. ConsoleChat turns the browser's console into a global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any software - just open up your console and join the pit!
+            This project went viral and was featured on HackerNews. ConsoleChat turns the browser's console into a
+            global real-time chat. If you're browsing a site that uses ConsoleChat.io you don't need to install any
+            software - just open up your console and join the pit!
           </div>
-          <ul className="mb-4">
-          </ul>
+        </Project>
+
+        <Project
+          title="We Became Shadows"
+          image="/IMG_2424.jpg"
+          status="Launched"
+          buttonText="Visit Website"
+          buttonUrl="https://www.webecameshadows.com"
+        >
+          <div className="mb-4">
+            A location-based web game built with Mapbox, node.js and socket.io. Escape and defend your position against
+            bots that seek you on a real-life map.
+          </div>
         </Project>
         {/* <Project
           title="Pixtu"
@@ -147,9 +172,10 @@ export default function Home({ posts, graphics }) {
       <div className="py-12 max-w-5xl mx-auto mb-8 p-4">
         <h2 className="font-bold text-2xl mb-4">Graphics</h2>
         <p className="mb-8">
-          Made with iPhone{' '}
+          Created in 2015 with mobile apps—before AI art generators existed. Just an iPhone, creative apps, and
+          imagination.{' '}
           <Link href="/graphics">
-            <a className="underline">Click here to see them all.</a>
+            <a className="underline">See the full collection.</a>
           </Link>
         </p>
         <div className="grid gap-4 md:gap-8 grid-cols-3 md:grid-cols-5">

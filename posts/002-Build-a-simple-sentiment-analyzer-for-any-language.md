@@ -1,5 +1,5 @@
 ---
-title: "Build a Simple Sentiment Analyzer for Any Language with Node.js"
+title: 'Build a Simple Sentiment Analyzer for Any Language with Node.js'
 date: 2020-12-07
 ---
 
@@ -16,9 +16,11 @@ $ npm install sentiment
 ```
 
 Next, locate the file containing a word list that Sentiment uses to conduct sentiment analysis. The file is located in your project folder path:
+
 ```
 node_modules/sentiment/languages/en/labels.json
 ```
+
 ![Labels.json](/blog/images/sentiment_view.png)
 
 Copy-paste the whole content of labels.json file to your text editor / notepad.
@@ -46,4 +48,4 @@ You should see the result of the analysis in the terminal window.
 
 That's it! This method is not perfect or the most sophisticated, but it's a hack that gets the job done quickly and you can tweak it for your purposes.
 
-Here's a [demo](http://sentiment-analyzer-fi.herokuapp.com/) application that I build that uses the same approach to conduct Finnish sentiment analysis. Check the source code from [Github](https://github.com/ihmissuti/fi-sentiment-analysis).
+Here's a [demo](http://sentiment-analyzer-fi.herokuapp.com/) application that I built using the same approach to conduct Finnish sentiment analysis. Check the source code from [Github](https://github.com/ihmissuti/fi-sentiment-analysis).

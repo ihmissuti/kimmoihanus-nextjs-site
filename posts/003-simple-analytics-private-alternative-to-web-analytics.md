@@ -1,19 +1,19 @@
 ---
-title: "Simple Analytics - Private Alternative to Web Analytics"
+title: 'Simple Analytics - Private Alternative to Web Analytics'
 date: 2020-12-16
 ---
 
-[In my previous post](https://kimmoihanus.com/blog/building-traction-with-mini-projects/), I wrote how we at [Grew](https://grew.dev/) create traction by building small tools. I continue with the same topic by presenting tools that we use in many of our side-projects. 
+[In my previous post](https://kimmoihanus.com/blog/building-traction-with-mini-projects/), I wrote how we at [Grew](https://grew.dev/) create traction by building small tools. I continue with the same topic by presenting tools that we use in many of our side-projects.
 
 ## Our requirements for web analytics
 
 I often use analytics software such as [Mixpanel](https://www.mixpanel.com/) to understand my users' behavior. But when we only need to measure some basic stats (visitor views, referrals, visitors per country) to validate if our solution is getting traction, I want to avoid tracking unnecessary data and implementing cookie banners.
 
-As a developer, I value solutions that provide simple solutions to problems and are easy to install when creating smaller projects. The same goes for web analytics. 
+As a developer, I value solutions that provide simple solutions to problems and are easy to install when creating smaller projects. The same goes for web analytics.
 
-#3 Meet Simple Analytics
+## Meet Simple Analytics
 
-[Simple Analytics](https://simpleanalytics.com/) is a private alternative to Google Analytics and it's relatives. It doesn't use cookies so that you don't have to insert those annoying cookie banners on your site. You own all your data and can export it to your storage.
+[Simple Analytics](https://simpleanalytics.com/) is a private alternative to Google Analytics and its relatives. It doesn't use cookies so that you don't have to insert those annoying cookie banners on your site. You own all your data and can export it to your storage.
 
 After plugging in the tracking script to your site and including your domain in the web portal, Simple Analytics shows your website stats in an intuitive and simple Dashboard view:
 
