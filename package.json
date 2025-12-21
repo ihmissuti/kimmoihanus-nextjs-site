@@ -2,6 +2,9 @@
   "name": "kimmoihanus-nextjs-site",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "PORT=3000; while lsof -Pi :$PORT -sTCP:LISTEN -t >/dev/null 2>&1; do PORT=$((PORT+1)); done; echo \"Starting on port $PORT\" && NODE_OPTIONS=--openssl-legacy-provider next dev -p $PORT",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
