@@ -8,9 +8,9 @@ export default function About() {
     <Wrapper>
       <NextSeo
         title="About Kimmo Ihanus"
-        description="Senior Growth Hacker from Helsinki, Finland."
+        description="Co-Founder & CTO at Superlines. Technical founder and AI expert with 15+ years of experience in AI, marketing, and data."
       />
-      <Heading className="mb-8">Senior Growth Hacker from Helsinki, Finland.</Heading>
+      <Heading className="mb-8">Technical Founder & AI Expert from Helsinki, Finland.</Heading>
 
       <div className="prose">
         <AboutText />

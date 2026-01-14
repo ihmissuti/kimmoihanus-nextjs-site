@@ -12,7 +12,7 @@ export default function Header() {
 
         <nav className="flex items-center">
           <NavItem href="/">Home</NavItem>
-          {/* <NavItem href="/about">About</NavItem> */}
+          <NavItem href="/cv">CV</NavItem>
           <NavItem href="/posts">Posts</NavItem>
           <NavItem href="/graphics">Graphics</NavItem>
         </nav>
