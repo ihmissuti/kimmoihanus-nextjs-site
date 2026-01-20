@@ -4,8 +4,11 @@ import { useRef } from 'react';
 export default function CV() {
   const cvRef = useRef(null);
 
-  const handlePrint = () => {
-    window.print();
+  const handleDownloadPDF = () => {
+    console.log('PDF button clicked');
+    if (typeof window !== 'undefined') {
+      window.print();
+    }
   };
 
   const handleCopy = async () => {
@@ -34,7 +37,7 @@ October 2023 - Present | Helsinki, Finland
 • Deployed over 100 AI agents to produce analysis and insights
 • Platform tracks brand visibility across ChatGPT, Perplexity, Gemini, Claude, Google AI Mode
 • Featured in Helsingin Sanomat, Talouselämä, and Markkinointiuutiset
-• Secured €245,000 pre-seed funding from angel investors and Innovesto
+• Secured pre-seed funding from angel investors and Innovesto
 
 CO-FOUNDER | Grew Oy
 September 2020 - Present | Helsinki, Finland
@@ -133,7 +136,6 @@ MEDIA & RECOGNITION
 • Featured in Talouselämä - AI Search visibility insights (talouselama.fi/uutiset/a/6f5337ec-37d7-4aef-ab4b-b6d60e54bab0)
 • Featured in Markkinointiuutiset - Superlines global expansion (markkinointiuutiset.fi)
 • Published in HackerNoon - "Turning Users Invisible: Edge ML in Privacy-First Location Detection" (hackernoon.com/turning-users-invisible-edge-machine-learning-in-privacy-first-location-detection-k1a34tj)
-• Selected for Google's AI Startup Program
 • Speaker at CX Masterclass - "AI Search Optimisation Today" (shirute.com/cxmasterclass/who/kimmo-ihanus/)
 • ConsoleChat.io featured on HackerNews front page
 
@@ -163,34 +165,19 @@ English (Fluent)
       {/* Print-only styles and action buttons */}
       <style jsx global>{`
         @media print {
-          .no-print {
+          .no-print,
+          footer,
+          nav,
+          .nav,
+          header.nav {
             display: none !important;
           }
-          .print-only {
+          .cv-container header {
             display: block !important;
           }
-          body {
-            background: white !important;
-            color: black !important;
-            font-size: 11pt;
-            line-height: 1.4;
-          }
-          .cv-container {
-            max-width: 100% !important;
-            padding: 0 !important;
-            margin: 0 !important;
-          }
-          h1 {
-            font-size: 18pt !important;
-          }
-          h2 {
-            font-size: 14pt !important;
-          }
-          h3 {
-            font-size: 12pt !important;
-          }
-          .page-break {
-            page-break-before: always;
+          * {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
           }
         }
       `}</style>
@@ -213,8 +200,9 @@ English (Fluent)
             Copy as Text
           </button>
           <button
-            onClick={handlePrint}
+            onClick={handleDownloadPDF}
             className="inline-flex items-center px-4 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-sm font-medium rounded-md hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors"
+            title="Select 'Save as PDF' in the print dialog"
           >
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -224,7 +212,7 @@ English (Fluent)
                 d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
               />
             </svg>
-            Download PDF
+            Save as PDF
           </button>
         </div>
       </div>
@@ -288,10 +276,10 @@ English (Fluent)
               <li>Responsible for product development, sales, client support, and marketing</li>
               <li>Platform tracks brand visibility across ChatGPT, Perplexity, Gemini, Claude, Google AI Mode</li>
               <li>
-                Selected for <strong>Google's AI Startup Program</strong> (up to $350,000 in cloud credits)
+                Selected for <strong>Google's AI Startup Program</strong>
               </li>
               <li>Featured in Helsingin Sanomat, Talouselämä, and Markkinointiuutiset</li>
-              <li>Secured €245,000 pre-seed funding from angel investors and Innovesto</li>
+              <li>Secured pre-seed funding from angel investors and Innovesto</li>
               <li>Built API and MCP support for agentic workflows</li>
             </ul>
           </ExperienceItem>
@@ -347,7 +335,7 @@ English (Fluent)
             companyUrl="https://www.yousician.com"
             period="June 2016 - September 2016"
             location="Helsinki, Finland"
-            badge="Slush 100 Winner"
+            badge=""
           >
             <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
               <li>Implemented email onboarding programs with Mixpanel</li>

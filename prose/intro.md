@@ -4,8 +4,6 @@ I'm Kimmo Ihanus, a technical founder and AI expert with 15+ years of experience
 
 - Among the first teams in the Nordics to gain access to OpenAI's GPT-3 in 2020, well before most realized how transformative AI would become. An AI-native developer long before "vibe coding" was a thing.
 
-- Selected for Google's AI Startup Program, receiving technical support and cloud credits.
-
 - Superlines platform utilizes over 100 individual AI agents to produce analysis and insights, with full API and MCP support.
 
 - Previously Growth Lead at [Cronvall](https://www.cronvall.com), growth marketer at Slush 100 winner [Yousician](https://www.yousician.com), and Senior Growth Hacker at [Avaus](https://www.avaus.com).

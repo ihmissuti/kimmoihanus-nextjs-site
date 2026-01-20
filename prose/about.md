@@ -12,7 +12,7 @@ Before Superlines, I spent over 10 years in the marketing technology space:
 
 - **Growth Lead** at [Cronvall](https://www.cronvall.com) (2021-2023)
 - **Senior Growth Hacker** at [Avaus](https://www.avaus.com) (2016-2020)
-- **Growth Marketer** at [Yousician](https://www.yousician.com) (Slush 100 Winner)
+- **Growth Marketer** at [Yousician](https://www.yousician.com)
 - Various roles in marketing automation and growth at Avaus and IKEA
 
 ## Technical Skills
