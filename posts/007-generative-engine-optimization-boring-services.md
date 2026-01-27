@@ -9,19 +9,21 @@ Here's a number that caught my attention: Resend just hit [1.4 million weekly np
 
 Resend sends emails. That's it. Boring, right?
 
-But here's my hypothesis: a meaningful chunk of this growth is coming from AI coding assistants choosing Resend as their default recommendation.
+The data hints at why. Looking at AI search analytics from [Superlines](https://www.superlines.io), an interesting pattern emerges: while SendGrid still leads in raw AI visibility (5.6% share of voice vs Resend's 1.5%), Resend shows a striking difference in sentiment. Roughly 89% of Resend mentions are positive recommendations, compared to around 20% for SendGrid.
 
-## The shift in developer behavior
+It's a narrow dataset, but the signal is worth considering: AI assistants may not just be mentioning tools—they could be actively favoring the ones with cleaner developer experience.
+
+## The developer behavior
 
 According to the [JetBrains Developer Ecosystem Survey 2025](https://blog.jetbrains.com/research/2025/10/state-of-developer-ecosystem-2025/), 85% of developers now regularly use AI tools for coding, and 62% rely on at least one AI coding assistant or agent. The [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/ai) shows that 51% of professional developers use AI tools daily.
 
 These tools don't just help write code—they make infrastructure decisions. When a developer asks Cursor or Claude to "add email functionality," the AI picks the service, writes the integration, and often runs the install command.
 
-The traditional funnel has collapsed:
+Changes in the traditional funnel:
 
-**Traditional:** Marketing → Landing page → Trial → Conversion (47 touchpoints)
+**Traditional:** Marketing → Landing page → Docs → Trial → Evaluation → Conversion
 
-**Agent funnel:** Problem → AI suggestion → `npm install` → Subscription (3 touchpoints)
+**Agent funnel:** Problem → AI suggestion → `npm install` → Subscription
 
 ## GEO is bigger than content optimization
 
@@ -31,7 +33,7 @@ That's part of it. But it misses the bigger picture.
 
 GEO expands to a whole new level when businesses start to consider the infrastructure layer where AI operates to find and process information.
 
-In ecommerce, the battle will happen over visibility, discovery, schemas, UCP protocols, and agentic shopping. There are many steps before a purchase, and each one is an optimization opportunity.
+In ecommerce the battle will happen over visibility, discovery, schemas, UCP protocols, and agentic shopping. There are many steps before a purchase, and each one is an optimization opportunity.
 
 But in devtools? The battle is already won or lost at the moment of code generation.
 
@@ -43,7 +45,7 @@ These platforms are creating a new class of builders—people who can ship produ
 
 And every single one of these projects needs the boring stuff: email, authentication, payments, database, logging, error tracking, tunnels for local development.
 
-Here's the kicker: if an AI assistant defaults to your solution across millions of projects being built, you've won distribution that no marketing budget can buy.
+If an AI assistant defaults to your solution across millions of projects being built, you've won distribution that no marketing budget can buy.
 
 ## MCP changes everything
 
@@ -69,7 +71,7 @@ Looking at what's working, patterns emerge:
 
 **5. Quick time-to-working.** From install to "it works" in under 5 minutes. No complex onboarding flows.
 
-## How incumbents can defend themselves
+## How leading companies can and should defend themselves
 
 If you're an established player, you're not helpless. But you need to act strategically:
 
@@ -92,13 +94,14 @@ Every "boring" infrastructure service is now up for grabs:
 - **Database:** Supabase, PlanetScale, Neon
 - **Error tracking:** Sentry vs newcomers
 - **Logging:** The next disruption?
+  etc.
 
-The playbook is clear: pick a category where incumbents have complex SDKs, confusing docs, or legacy architectures. Build the cleanest possible developer experience. Ship an MCP server. Be the answer when an AI assistant is asked "what should I use for X?"
+I'd pick a category where incumbents have complex SDKs, confusing docs, or legacy architectures. Build the cleanest possible developer experience. Ship an MCP server. Be the answer when an AI assistant is asked "what should I use for X?"
 
-## My challenge to you
+## Join the party!
 
 Pick a "boring" service in your domain. Now ask: How would an AI agent evaluate this vs competitors?
 
 That's your GEO strategy.
 
-The companies that understand this will win the next decade. The companies that don't will wonder why their market share is disappearing despite having "better features."
+I bet that the companies that understand this will have higher chances of winning in the near future. The companies that don't will wonder why their market share is disappearing despite having "better features.
