@@ -1,5 +1,5 @@
 ---
-title: "Resend is boring. It's also one of the most exciting products in tech right now."
+title: 'The new developer funnel: AI picks, you subscribe'
 date: 2026-01-21
 ---
 
@@ -26,8 +26,6 @@ Changes in the traditional funnel:
 ## GEO is bigger than content optimization
 
 We've been talking about GEO (Generative Engine Optimization) as if it's just "SEO for ChatGPT"—optimizing content so that AI systems cite and recommend your products.
-
-That's part of it. But it misses the bigger picture.
 
 GEO expands to a whole new level when businesses start to consider the infrastructure layer where AI operates to find and process information.
 
