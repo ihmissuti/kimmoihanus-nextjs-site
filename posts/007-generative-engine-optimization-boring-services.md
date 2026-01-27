@@ -55,7 +55,7 @@ When Cursor or Claude can directly interact with your service through an MCP ser
 
 ## What makes a service "agent-friendly"?
 
-Looking at what's working, patterns emerge:
+Looking at what's working, these are the patterns :
 
 **1. SDK-first design.** Documentation leads with working code, not feature lists. APIs are consistent and predictable. Type definitions are complete.
 
