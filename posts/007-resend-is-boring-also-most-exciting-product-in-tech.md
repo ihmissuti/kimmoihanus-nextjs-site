@@ -1,5 +1,5 @@
 ---
-title: 'The new developer funnel: AI picks, you subscribe'
+title: "Resend is boring. It's also one of the most exciting products in tech right now."
 date: 2026-01-21
 ---
 
