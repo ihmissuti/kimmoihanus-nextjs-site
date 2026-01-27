@@ -5,11 +5,13 @@ date: 2026-01-27
 
 ## The masses will never build their own AI agent.
 
-There's a narrative in tech right now that goes something like: "MCP will democratize AI agents. Everyone will build their own. The future is personal AI customization."
+There's a narrative being pushed by no-code platforms right now: "Anyone can build AI agents. No coding required. The future is personal AI customization."
 
-I think this is wrong.
+Meanwhile, developer circles are excited about MCP as the infrastructure layer that will make agents actually useful.
 
-Here's what I actually believe: The masses will never build their own AI agent. Just like they never built their own website (despite WordPress), never wrote their own app (despite no-code), never managed their own server (despite AWS free tier).
+Both groups are missing something.
+
+The masses will never build their own AI agent. Just like they never built their own website (despite WordPress), never wrote their own app (despite no-code), never managed their own server (despite AWS free tier).
 
 The winner in AI agents won't be a platform for building agents. It'll be one agent. Well-branded. Radically simple. That just works.
 
