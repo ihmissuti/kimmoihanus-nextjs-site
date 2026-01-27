@@ -1,5 +1,5 @@
 ---
-title: 'The GEO opportunity: why boring services are the next big disruption'
+title: 'The new developer funnel: AI picks, you subscribe'
 date: 2026-01-21
 ---
 
