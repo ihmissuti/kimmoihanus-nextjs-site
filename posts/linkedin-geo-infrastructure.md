@@ -1,6 +1,10 @@
-# LinkedIn Post
-
 ---
+title: 'GEO and AI-native infrastructure'
+date: 2026-01-21
+draft: true
+---
+
+# LinkedIn Post
 
 **🚀 The next disruption won't come from better SEO. It'll come from "agentifying" boring infrastructure.**
 
