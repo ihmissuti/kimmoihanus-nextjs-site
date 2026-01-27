@@ -39,7 +39,7 @@ Even Andrej Karpathy, co-founder of OpenAI, recently claimed agents aren't ready
 
 MCP is incredible. It's the interoperability layer that lets AI agents actually do things—connect to your calendar, read your email, access your tools.
 
-But here's the thing: users don't care about plumbing.
+Majority of users don't care about plumbing and complex tech.
 
 A [heated debate on Hacker News](https://news.ycombinator.com/item?id=46552254) titled "MCP is a fad" had one commenter nail it: "MCP is to AI agents what LSP is to IDEs." It defines how things communicate, but it doesn't handle the user experience. That's the job of the product.
 
@@ -107,7 +107,7 @@ But the brand? The approachability? The "I'd actually use this" factor?
 
 That's day one or never.
 
-## The race is on
+## Build the product
 
 Somewhere right now, someone is building the Lovable of AI agents. Not a platform. Not a protocol. A product.
 
