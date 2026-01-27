@@ -108,7 +108,7 @@ The companies that understand this will win the next decade. The companies that 
 **Sources:**
 
 - [Resend 1M Users](https://resend.com/blog/1-million-users) - December 2025
-- [npm trends: Resend vs SendGrid](https://npmtrends.com/resend-vs-@sendgrid/mail)
+- [npm trends: Resend vs SendGrid](https://npmtrends.com/resend-vs-%40sendgrid/mail)
 - [JetBrains Developer Ecosystem 2025](https://blog.jetbrains.com/research/2025/10/state-of-developer-ecosystem-2025/)
 - [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/ai)
 - [Lovable $100M ARR](https://lovable.dev/blog/agent)
