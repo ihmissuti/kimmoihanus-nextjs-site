@@ -5,9 +5,7 @@ date: 2026-01-21
 
 ## Resend is boring. It's also one of the most exciting products in tech right now.
 
-Here's a number that caught my attention: Resend just hit [1.4 million weekly npm downloads](https://resend.com/blog/1-million-users), closing in on market leader SendGrid's 1.65 million. That's a 7.4x growth in a single year.
-
-Resend sends emails. That's it. Boring, right?
+Resend sends emails. That's boring. But here's a number that caught my attention: Resend just hit [1.4 million weekly npm downloads](https://resend.com/blog/1-million-users), closing in on market leader SendGrid's 1.65 million. That's a 7.4x growth in a single year.
 
 The data hints at why. Looking at AI search analytics from [Superlines](https://www.superlines.io), an interesting pattern emerges: while SendGrid still leads in raw AI visibility (5.6% share of voice vs Resend's 1.5%), Resend shows a striking difference in sentiment. Roughly 89% of Resend mentions are positive recommendations, compared to around 20% for SendGrid.
 
