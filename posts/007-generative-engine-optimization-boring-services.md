@@ -1,5 +1,5 @@
 ---
-title: 'The GEO Opportunity: Why Boring Services Are the Next Big Disruption'
+title: 'The GEO opportunity: why boring services are the next big disruption'
 date: 2026-01-21
 ---
 
