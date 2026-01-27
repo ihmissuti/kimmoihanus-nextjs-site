@@ -1,5 +1,5 @@
 ---
-title: "The next big AI company won't have 'AI' in its name"
+title: 'Why the winning AI agent will be a product, not a platform'
 date: 2026-01-27
 ---
 
@@ -11,7 +11,7 @@ I think this is wrong.
 
 Here's what I actually believe: The masses will never build their own AI agent. Just like they never built their own website (despite WordPress), never wrote their own app (despite no-code), never managed their own server (despite AWS free tier).
 
-The winner in AI agents won't be a platform for building agents. It'll be one agent. Beautifully branded. Stupidly simple. That just works.
+The winner in AI agents won't be a platform for building agents. It'll be one agent. Well-branded. Radically simple. That just works.
 
 ## The pattern we keep missing
 
@@ -33,7 +33,7 @@ Meanwhile on Reddit, [a post in r/learnmachinelearning](https://www.reddit.com/r
 
 And in [r/AI_Agents](https://www.reddit.com/r/AI_Agents/comments/1pmz3dr/what_is_the_state_of_the_ai_industry_in_the/), someone captured the confusion perfectly: "The LLM Agentic Industry is a complete mess, flooded with lots of hype, and bits of real case studies. Difficult to discern signal to noise."
 
-Even Andrej Karpathy, co-founder of OpenAI, recently claimed agents aren't ready for production yet. Ilya Sutskever said we're back to "the age of research" after 2020-2024's scaling era.
+Even Andrej Karpathy, co-founder of OpenAI, [said in October 2025](https://thenewstack.io/openai-co-founder-ai-agents-are-still-10-years-away/) that reliable AI agents are likely a decade away. Ilya Sutskever [told Dwarkesh Patel](https://www.dwarkesh.com/p/ilya-sutskever-2) we're now in "the age of research" after 2020-2024's scaling era.
 
 ## The plumbing vs. the product
 
@@ -75,13 +75,13 @@ The survivors? Companies building real infrastructure (orchestration, monitoring
 
 **Invisible complexity.** MCP servers, LLM orchestration, RAG pipelines—all happening behind a friendly "Here's what I found!" response.
 
-## The "Lovable" insight
+## The product insight
 
-[Lovable went from $0 to $100M ARR](https://lovable.dev/blog/agent) in eight months. Why? Not because it was the most powerful AI coding tool. It won because:
+Look at what's working in AI right now. Lovable reached $100M ARR in eight months. Bolt.new generated over a million sites. Perplexity became the default for AI search. Why? Not because they were the most powerful tools. They won because:
 
-- The name is approachable
+- The names are approachable
 - The onboarding is instant
-- The output feels like magic
+- The output feels seamless
 - You don't need to understand how it works
 
 The AI agent equivalent will be the same. Not "configure your MCP servers" but "Hi, I'm [Name]. What can I help you with today?"
@@ -109,16 +109,16 @@ That's day one or never.
 
 ## Build the product
 
-Somewhere right now, someone is building the Lovable of AI agents. Not a platform. Not a protocol. A product.
+Somewhere right now, someone is building the breakout consumer AI agent. Not a platform. Not a protocol. A product.
 
 It'll have:
 
 - A friendly name
-- A stupidly simple interface (probably your inbox)
-- Magic that happens under the hood (MCP + LLMs + memory)
+- A simple interface (probably your inbox)
+- Complexity hidden under the hood (MCP + LLMs + memory)
 - Zero technical setup
 
-And it'll eat the market.
+And it'll dominate.
 
 Because at the end of the day, people don't want to build AI agents. They want an AI agent that feels like it was built for them.
 
@@ -126,6 +126,6 @@ Because at the end of the day, people don't want to build AI agents. They want a
 
 **Discussion questions:**
 
-1. What would you name the "Lovable of AI agents"?
+1. What would you name a consumer AI agent?
 2. Email, SMS, or something else as the primary interface?
 3. What's the one killer feature for day one (before broad integrations)?
