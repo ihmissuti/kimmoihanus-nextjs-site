@@ -102,14 +102,3 @@ Pick a "boring" service in your domain. Now ask: How would an AI agent evaluate 
 That's your GEO strategy.
 
 The companies that understand this will win the next decade. The companies that don't will wonder why their market share is disappearing despite having "better features."
-
----
-
-**Sources:**
-
-- [Resend 1M Users](https://resend.com/blog/1-million-users) - December 2025
-- [JetBrains Developer Ecosystem 2025](https://blog.jetbrains.com/research/2025/10/state-of-developer-ecosystem-2025/)
-- [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/ai)
-- [Lovable $100M ARR](https://lovable.dev/blog/agent)
-- [Bolt.new 1M Websites](https://www.netlify.com/press/bolt-netlify-1-million-ai-generated-websites/)
-- [Thoughtworks on MCP](https://www.thoughtworks.com/insights/blog/generative-ai/model-context-protocol-mcp-impact-2025)

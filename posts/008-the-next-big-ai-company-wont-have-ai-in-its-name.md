@@ -129,14 +129,3 @@ Because at the end of the day, people don't want to build AI agents. They want a
 1. What would you name the "Lovable of AI agents"?
 2. Email, SMS, or something else as the primary interface?
 3. What's the one killer feature for day one (before broad integrations)?
-
----
-
-**Sources:**
-
-- [Hacker News: MCP is a fad](https://news.ycombinator.com/item?id=46552254) - January 2026
-- [Hacker News: The Agentic AI Handbook](https://news.ycombinator.com/item?id=46701969) - January 2026
-- [Hacker News: AI agents are starting to eat SaaS](https://news.ycombinator.com/item?id=46268452) - December 2025
-- [Reddit: The AI agent bubble is popping](https://www.reddit.com/r/learnmachinelearning/comments/1p6zudb/the_ai_agent_bubble_is_popping_and_most_startups/) - December 2025
-- [Reddit: State of AI Industry in enterprise 2026](https://www.reddit.com/r/AI_Agents/comments/1pmz3dr/what_is_the_state_of_the_ai_industry_in_the/) - January 2026
-- [Lovable $100M ARR](https://lovable.dev/blog/agent) - December 2025
