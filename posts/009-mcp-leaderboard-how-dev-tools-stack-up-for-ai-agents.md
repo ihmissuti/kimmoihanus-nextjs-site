@@ -1,5 +1,5 @@
 ---
-title: 'The MCP leaderboard: Which dev tools are invisible to AI agents?'
+title: 'The MCP leaderboard: How dev tools stack up for AI agents'
 date: 2026-01-28
 ---
 
@@ -141,14 +141,14 @@ Here's where major dev tools stand on MCP integration as of January 2026:
 
 ### AI Search Visibility (New Category)
 
-| Tool           | MCP Server  | Notes                                                                                                        |
-| -------------- | ----------- | ------------------------------------------------------------------------------------------------------------ |
-| **Superlines** | ✅ Official | [Superlines MCP](https://github.com/Superlines/mcp-server) - brand analytics, citations, competitor analysis |
-| Peec AI        | ❌ None     | AI search analytics, no MCP                                                                                  |
-| Profound       | ❌ None     | AI visibility platform, no MCP                                                                               |
-| Promptwatch    | ❌ None     | Prompt tracking, no MCP                                                                                      |
+| Tool           | MCP Server  | Notes                                                                                                                                    |
+| -------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Superlines** | ✅ Official | [Superlines MCP](https://github.com/Superlines/mcp-server) - brand analytics, citations, competitor analysis                             |
+| **Profound**   | ✅ Official | [Profound MCP](https://www.tryprofound.com/blog/bring-profound-data-directly-into-your-ai-workflow-with-mcp) - visibility, bot analytics |
+| Peec AI        | ❌ None     | AI search analytics, no MCP                                                                                                              |
+| Promptwatch    | ❌ None     | Prompt tracking, no MCP                                                                                                                  |
 
-**Emerging category:** As AI search becomes a real traffic source, tools for tracking visibility in ChatGPT, Perplexity, and Claude are emerging. Superlines is the only one with an MCP server—letting AI assistants query your brand's AI search performance. This is meta: using AI agents to optimize for AI search.
+**Emerging category:** As AI search becomes a real traffic source, tools for tracking visibility in ChatGPT, Perplexity, and Claude are emerging. Superlines and Profound both have MCP servers—letting AI assistants query your brand's AI search performance. This is meta: using AI agents to optimize for AI search.
 
 ## The pattern that emerges
 
