@@ -1,0 +1,55 @@
+{
+  "name": "@kimmoihanus/geo-tools",
+  "version": "0.1.0",
+  "description": "MCP server for Generative Engine Optimization (GEO) - AI search visibility tools by Kimmo Ihanus",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "kimmo-geo-tools": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "geo",
+    "generative-engine-optimization",
+    "ai-search",
+    "seo",
+    "llm",
+    "chatgpt",
+    "perplexity",
+    "schema-org"
+  ],
+  "author": "Kimmo Ihanus <kimmo@kimmoihanus.com> (https://kimmoihanus.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimmoihanus/geo-tools-mcp"
+  },
+  "homepage": "https://kimmoihanus.com/tools",
+  "bugs": {
+    "url": "https://github.com/kimmoihanus/geo-tools-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "cheerio": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}

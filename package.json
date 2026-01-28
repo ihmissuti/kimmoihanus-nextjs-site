@@ -24,6 +24,8 @@
     ]
   },
   "dependencies": {
+    "cheerio": "^1.0.0",
+    "https-proxy-agent": "^7.0.0",
     "@agentofuser/remark-oembed": "^1.0.4",
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.6",

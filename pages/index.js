@@ -7,7 +7,6 @@ import Intro from '@/prose/intro.md';
 import GraphicPreview from '@/components/GraphicsPreview';
 import styles from '@/css/graphics.module.css';
 import PostListItem from '@/components/PostListItem';
-import Newsletter from '@/components/Newsletter';
 
 export async function getStaticProps() {
   const [posts, graphics] = await Promise.all([getPosts(), getGraphics()]);
@@ -112,8 +111,6 @@ export default function Home({ posts, graphics }) {
         <Link href="/posts">
           <a className="text-sm text-gray-600 dark:text-gray-300 font-medium">All Posts</a>
         </Link>
-
-        <Newsletter />
       </div>
       <div>
         <div className={'max-w-5xl mx-auto mb-6 p-4'}>
