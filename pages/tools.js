@@ -27,16 +27,16 @@ const tools = [
     install: 'curl -X POST https://kimmoihanus.com/api/schema-optimize -d \'{"url":"https://example.com"}\'',
   },
   {
-    name: '@kimmoihanus/geo-tools',
+    name: '@ihmissuti/geo-tools',
     type: 'MCP Server',
     description:
       'Model Context Protocol server for Generative Engine Optimization. Connects Claude, Cursor, or any MCP client to GEO tools.',
     features: ['Claude/Cursor integration', 'Uses GEO API backend', 'Schema generation', 'Agent-friendly scoring'],
     links: {
-      npm: 'https://www.npmjs.com/package/@kimmoihanus/geo-tools',
-      github: 'https://github.com/kimmoihanus/geo-tools-mcp',
+      npm: 'https://www.npmjs.com/package/@ihmissuti/geo-tools',
+      github: 'https://github.com/ihmissuti/geo-tools',
     },
-    install: 'npm install -g @kimmoihanus/geo-tools',
+    install: 'npx @ihmissuti/geo-tools',
   },
   {
     name: 'kimmo-geo-audit',
@@ -50,7 +50,7 @@ const tools = [
       'Actionable recommendations',
     ],
     links: {
-      github: 'https://github.com/kimmoihanus/geo-tools-mcp/tree/main/skills/kimmo-geo-audit',
+      github: 'https://github.com/ihmissuti/ai-search-optimization-cursor-skills',
     },
   },
   {
@@ -65,7 +65,7 @@ const tools = [
       'HowTo for tutorials',
     ],
     links: {
-      github: 'https://github.com/kimmoihanus/geo-tools-mcp/tree/main/skills/kimmo-schema-optimizer',
+      github: 'https://github.com/ihmissuti/ai-search-optimization-cursor-skills',
     },
   },
   {
@@ -80,7 +80,7 @@ const tools = [
       'Competitor benchmarking',
     ],
     links: {
-      github: 'https://github.com/kimmoihanus/geo-tools-mcp/tree/main/skills/kimmo-agent-friendly-score',
+      github: 'https://github.com/ihmissuti/ai-search-optimization-cursor-skills',
     },
   },
 ];
