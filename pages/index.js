@@ -121,7 +121,6 @@ export default function Home({ posts, graphics }) {
         <Project
           title="Superlines"
           image="/superlines_2.png"
-          status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://www.superlines.io"
         >
@@ -134,7 +133,6 @@ export default function Home({ posts, graphics }) {
         <Project
           title="AI Search Index"
           image="/ui_1.png"
-          status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://www.aisearchindex.com"
           flipped
@@ -146,13 +144,7 @@ export default function Home({ posts, graphics }) {
           </div>
         </Project>
 
-        <Project
-          title="EmailMCP"
-          image="/emailmcp.png"
-          status="Launched"
-          buttonText="Visit Website"
-          buttonUrl="https://emailmcp.co"
-        >
+        <Project title="EmailMCP" image="/emailmcp.png" buttonText="Visit Website" buttonUrl="https://emailmcp.co">
           <div className="mb-4">
             Your personal AI assistant that lives in your inbox. Research anything, remember everything, and never
             forget with reminders. Built on MCP (Model Context Protocol), the same standard powering Claude Desktop.
@@ -182,7 +174,6 @@ export default function Home({ posts, graphics }) {
         <Project
           title="ConsoleChat.io"
           image="/consolechat.png"
-          status="Launched"
           buttonText="Visit Website"
           buttonUrl="https://consolechat.io"
           flipped
@@ -197,9 +188,8 @@ export default function Home({ posts, graphics }) {
         <Project
           title="We Became Shadows"
           image="/IMG_2424.jpg"
-          status="Launched"
           buttonText="Visit Website"
-          buttonUrl="https://www.webecameshadows.com"
+          buttonUrl="https://game.webecameshadows.com"
         >
           <div className="mb-4">
             A location-based web game built with Mapbox, node.js and socket.io. Escape and defend your position against
@@ -259,17 +249,14 @@ export default function Home({ posts, graphics }) {
   );
 }
 
-function Project({ title, image, children, status, buttonUrl, buttonText, flipped = false }) {
+function Project({ title, image, children, buttonUrl, buttonText, flipped = false }) {
   return (
     <div className={`py-12 ${flipped ? 'bg-gray-50 dark:bg-gray-800' : ''}`}>
       <div className={`max-w-5xl mx-auto px-4 md:px-0 md:flex ${flipped ? 'flex-row-reverse' : ''}`}>
         <div className="mb-8 md:mb-0 md:w-1/2 md:px-4">
-          <div className="flex">
-            <h2 className="inline-flex text-xl tracking-tight leading-10 font-bold sm:leading-none mr-4">
-              <a href={buttonUrl}>{title}</a>
-            </h2>
-            <ProjectBadge>{status}</ProjectBadge>
-          </div>
+          <h2 className="text-xl tracking-tight leading-10 font-bold sm:leading-none">
+            <a href={buttonUrl}>{title}</a>
+          </h2>
           <div className="mt-3 mb-3 text-base sm:mt-5 md:mt-5 md:mb-5">{children}</div>
           <span className="inline-flex rounded-md shadow-sm">
             <span className="inline-flex rounded-md shadow-sm">
@@ -295,30 +282,6 @@ function Project({ title, image, children, status, buttonUrl, buttonText, flippe
         </div>
       </div>
     </div>
-  );
-}
-
-function ProjectBadge({ children }) {
-  const color = getColor();
-
-  function getColor() {
-    if (/progress/i.test(children)) {
-      return 'bg-yellow-100 text-yellow-800';
-    }
-
-    if (/launch/i.test(children)) {
-      return 'bg-green-100 text-green-800';
-    }
-
-    return 'bg-gray-100 text-gray-800';
-  }
-
-  return (
-    <span
-      className={`inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 ${color} m-auto ml-0`}
-    >
-      {children}
-    </span>
   );
 }
 
