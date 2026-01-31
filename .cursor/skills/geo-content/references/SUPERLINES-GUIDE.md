@@ -1,12 +1,12 @@
-# Superlines Guide: Writing AI Search Optimized Articles
+# Writing AI Search Optimized Articles
 
 This guide outlines best practices for creating articles that maximize visibility in AI Search engines such as ChatGPT, Google Gemini, and Perplexity. It is written in layman's terms so that anyone in your team can follow it and produce content that both humans and AI trust.
 
 ## 1. Topic and Research
 
-- Start with a high-intent commercial query from Superlines.
+- Start with a high-intent query that your audience is asking AI assistants.
 - Review the top-cited or top-ranking content for this query. That is the standard you need to beat.
-- Article length can often reach 2,000–3,000+ words. Longer is fine if there is no repetition.
+- Article length can often reach 2,000-3,000+ words. Longer is fine if there is no repetition.
 - Use synonyms of your main query across the article to cover variations of how people might phrase it.
 
 AI doesn't just match keywords like Google, it interprets meaning. But using synonyms makes sure your article stays relevant across multiple phrasings. Example: instead of only writing "AI Search," also use "AI-powered search," "generative search," and "chat-based search engines."
@@ -21,7 +21,7 @@ AI doesn't just match keywords like Google, it interprets meaning. But using syn
 
 ## 3. Structure and Intro
 
-Here we now assume that you have implemented the Superlines article blueprint already on your site. You can see the blueprint here.
+Here we assume that you have implemented the AI-optimized article blueprint on your site.
 
 - Make the query itself your H1.
 - Immediately under the H1, provide a 2–3 sentence direct answer.
@@ -137,11 +137,11 @@ Use bullet points and numbered lists for clarity. Keep lists between 3 and 5 ite
 
 **Practical Guide Example:**
 
-"To monitor this shift, many businesses now use AI visibility trackers. Tools like Superlines can help you see where your brand is cited in AI-generated answers and provide insights for improving your share of voice."
+"To monitor this shift, many businesses now use AI visibility trackers. Tools like [Your Brand] can help you see where your brand is cited in AI-generated answers and provide insights for improving your share of voice."
 
 **Thought Leadership Example:**
 
-"For those ready to measure their progress, Superlines provides one of the few tools in Europe dedicated to tracking AI search visibility, giving marketing teams data they can act on."
+"For those ready to measure their progress, [Your Brand] offers practical solutions for tracking AI search visibility, giving marketing teams data they can act on."
 
 ## 10. Conclusion and Next Steps section of your article
 
@@ -196,7 +196,7 @@ AI values freshness (publish + updated timestamps). Best practice:
 - Review and update each article at least every 6–12 months.
 - Even small updates (stats, examples, dates) reset the "freshness signal."
 - Update old "2023" stats with new ones.
-- Refresh intros when terminology shifts (e.g., in Superlines field "GSO to GEO").
+- Refresh intros when terminology shifts (e.g., "GSO to GEO", "AI SEO to GEO").
 - Add 1 new paragraph per year with a fresh angle.
 
 These are minimal changes but they have a big effect!

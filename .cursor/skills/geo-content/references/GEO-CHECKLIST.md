@@ -1,56 +1,122 @@
 # GEO Best Practices Checklist 2026
 
-Source: [Superlines](https://www.superlines.io/articles/generative-engine-optimization-best-practices-checklist)
-
 ## GEO in One Glance
 
-- **What GEO is**: Generative Engine Optimization is the process of making your brand visible and citable inside AI generated answers across ChatGPT, Gemini, Perplexity, Google AI Overviews and AI Mode, and other assistants.
+- **What GEO is**: Generative Engine Optimization is the process of making your brand visible and citable inside AI-generated answers across ChatGPT, Gemini, Perplexity, Google AI Overviews and AI Mode, and other assistants.
 - **What it builds on**: GEO sits on top of SEO. Strong technical SEO, solid content and authority signals are still required, then you add structures that help AI engines parse, trust and reuse your pages.
 - **What success looks like**: When users ask buying or research questions about your category, AI assistants regularly cite your brand, your URLs, or your original studies as part of the answer.
-- **Where it happens**: GEO operates across three layers of AI Search, from slow training data to high volume AI surfaces and fast real time agents that scrape pages under tight time budgets.
-- **How you measure it**: Core GEO KPIs are AI Brand Visibility, citation rate, AI Share of Voice against competitors, and how human and bot traffic from AI platforms converts compared to other channels.
+- **Where it happens**: GEO operates across three layers of AI Search, from slow training data to high-volume AI surfaces and fast real-time agents that scrape pages under tight time budgets.
+- **How you measure it**: Core GEO KPIs are AI Brand Visibility, citation rate, AI Share of Voice against competitors, and conversion rates from AI platform traffic.
 
-## 10-Step GEO Checklist
+## Key Statistics
 
-### 1. Run an AI Search visibility audit
+- AI-sourced visitors convert at 27% vs 2.1% from traditional search (12x improvement)
+- 60% of queries now end in zero-click answers
+- Web mentions correlate 3x more strongly with AI visibility than backlinks (0.664 vs 0.218)
+- 40-60% of domains cited in AI answers change within one month
+- Brands using structured data see up to 35% higher extractability and citation rates
+
+## 12-Step GEO Checklist
+
+### 1. Audit Your Current AI Visibility
 
 Test real prompts in ChatGPT, Gemini, Perplexity, Claude, Copilot and DeepSeek. Log which brands are mentioned, how your company is described, and where citations come from.
 
-### 2. Map prompts to intent and funnel stages
+**Questions to answer:**
 
-Group prompts by awareness, consideration and decision. Decide which questions you must own, then connect each to one or more pages on your site.
+- Is your brand mentioned when users ask about your category?
+- Which competitors appear in AI responses where you're absent?
+- What sources do AI systems cite for topics you should own?
 
-### 3. Create deep, authoritative cornerstone content
+### 2. Align GEO Objectives with Business KPIs
 
-Publish guides that fully answer the key questions with clear definitions, examples, real data and expert quotes so AIs can trust and reuse your material.
+Connect AI visibility goals to revenue, pipeline, and conversion metrics. Define success metrics that matter to your business: pipeline contribution, conversion rate differential, customer acquisition cost.
 
-### 4. Optimize for extractability and the 0.4 second speed signal
+### 3. Ensure Technical Infrastructure Readiness
 
-Front load answers, use question style H2s, short paragraphs, lists and tables, and keep first contentful paint around 0.4 seconds on priority pages so real time agents do not abandon your site.
+Configure crawler access, rendering, and page speed for AI systems:
 
-### 5. Implement schema and clean metadata
+- Allow AI crawler access in robots.txt (GPTBot, ClaudeBot, PerplexityBot)
+- Use server-side rendering or static site generation
+- Target Core Web Vitals (LCP < 2.5s, FID < 100ms, CLS < 0.1)
+- Implement llms.txt at your domain root
 
-Add JSON LD for Article, FAQPage, HowTo, Product and Organization. Keep titles, meta descriptions, Open Graph tags and knowledge graph entities consistent across your properties.
+### 4. Implement Strategic Schema Markup
 
-### 6. Build a web wide footprint
+Add JSON-LD for Article, FAQPage, HowTo, Product and Organization. Priority schema types:
 
-Strengthen your presence on Wikipedia or Wikidata, key directories and review sites, LinkedIn Pulse, Reddit and industry forums so AIs see multiple trusted entry points into your brand.
+- FAQPage (high priority, feeds Q&A directly to AI)
+- HowTo (high for instructional content)
+- Author (high for E-E-A-T signals)
+- Organization (medium, site-wide)
 
-### 7. Grow brand authority and engagement
+### 5. Restructure Content for AI Extractability
 
-Maintain a steady cadence of high quality content, PR, thought leadership and reviews. Encourage discussion and references that create independent signals of trust.
+Front-load answers, use question-style H2s, short paragraphs, lists and tables. Keep first contentful paint around 0.4 seconds on priority pages.
 
-### 8. Track GEO metrics, not only traffic
+**Structure checklist:**
 
-Monitor Brand Visibility, citation rate, AI Share of Voice, human versus bot traffic and referral visits from AI surfaces so you can see where you truly appear in answers.
+- Each section leads with direct answer
+- Paragraphs average 2-4 sentences
+- Key data in tables or callouts
+- Processes use numbered lists
+- Headings mirror user question phrasing
 
-### 9. Refresh high value pages every 60 to 90 days
+### 6. Build Question-Based Content Architecture
 
-Update statistics, examples and product details, add new internal links and keep visible change logs so AI engines and users see that core assets are maintained.
+Create content that mirrors how users query AI systems. Develop FAQ content by analyzing actual queries, reviewing AI responses, and mining customer conversations.
 
-### 10. Avoid common GEO mistakes
+### 7. Establish E-E-A-T Authority Signals
 
-Do not rely on thin content, keyword stuffing, one channel distribution, or Google only metrics. Blend SEO and GEO, and keep monitoring prompts, competitors and new AI surfaces.
+Build author profiles that AI systems can verify:
+
+- Dedicated author pages with credentials
+- Author schema markup
+- External validation (LinkedIn, publications)
+- Original research that provides unique data
+
+### 8. Execute a Web Mentions Strategy
+
+Prioritize mentions over backlinks (3x more impactful for AI visibility). Focus on:
+
+- Wikipedia/Wikidata (high authority for training data)
+- Reddit (influences retrieval and training)
+- Industry publications
+- Review sites (G2, Capterra, Trustpilot)
+
+### 9. Map Content to Customer Journey Stages
+
+Align visibility efforts with awareness, evaluation, and purchase queries:
+
+- **Awareness**: Problem-focused, broad (more citations, wider sources)
+- **Consideration**: Solution-focused, comparative (fewer, authoritative sources)
+- **Decision**: Brand/product-focused (brand-specific citations)
+
+### 10. Deploy AI-Specific Tracking and Measurement
+
+Monitor metrics that traditional analytics don't capture:
+
+- Share of Answer (brand appearance rate)
+- Citation Rate (content citation frequency)
+- AI Referral Traffic (visitors from AI platforms)
+- AI Conversion Rate (conversion of AI-sourced visitors)
+
+### 11. Avoid Common GEO Mistakes
+
+Do not rely on:
+
+- Keyword stuffing (AI penalizes manipulation)
+- Platform-generic optimization (each AI has different behaviors)
+- Tracking blind spots (can't improve what you don't measure)
+- Static content (AI favors recently updated pages)
+
+### 12. Implement Continuous Optimization Cycles
+
+Maintain ongoing optimization:
+
+- Weekly: AI platform query monitoring
+- Monthly: Performance metric review, content freshness updates
+- Quarterly: Strategy adjustment, competitive analysis
 
 ## Key Insights
 

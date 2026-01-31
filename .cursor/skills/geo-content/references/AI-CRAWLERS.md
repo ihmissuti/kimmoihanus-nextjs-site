@@ -1,7 +1,5 @@
 # How AI Crawlers Read Your Site
 
-Source: [Superlines](https://www.superlines.io/articles/how-ai-bots-read-your-website)
-
 ## The Three Layers of AI Search
 
 ### Layer 1: Training Data (Slowest)

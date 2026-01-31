@@ -7,6 +7,15 @@ description: Write AI Search optimized articles using GEO (Generative Engine Opt
 
 This skill helps create content optimized for AI Search visibility (GEO - Generative Engine Optimization). Content created with these practices maximizes visibility in AI-generated answers from ChatGPT, Google Gemini, Perplexity, and other AI assistants.
 
+## Why This Matters
+
+AI Search is fundamentally changing how users find information:
+
+- AI-sourced visitors convert at 27% compared to 2.1% from traditional search (12x improvement)
+- 60% of queries now end in zero-click answers
+- Only 16% of brands systematically track AI search performance
+- Web mentions correlate 3x more strongly with AI visibility than backlinks
+
 ## When to Use
 
 - Creating new blog posts or articles
@@ -18,9 +27,9 @@ This skill helps create content optimized for AI Search visibility (GEO - Genera
 
 AI Search operates on three layers:
 
-1. **Training Data** (slowest): LLMs learn during training
+1. **Training Data** (slowest): LLMs learn about brands during their training process
 2. **High-Volume AI Search** (speed depends on SEO): Free ChatGPT, Google AI Overviews
-3. **Agentic AI** (real-time): Perplexity Pro, ChatGPT Research
+3. **Agentic AI** (real-time): Perplexity Pro, ChatGPT Research, Claude with web access
 
 Your content must be structured so AI can parse, trust, and reuse it.
 
@@ -261,6 +270,58 @@ Before publishing, verify:
 - Write in promotional language
 - Leave images without alt text or supporting tables
 - Block AI crawlers in robots.txt
+
+## The 12 Principles of AI-Friendly Writing
+
+AI-friendly content means writing so clearly that both humans and machines can follow your thinking.
+
+### 1. Don't Bury the Point (BLUF)
+
+Start with the main takeaway, then explain it. Open each section with the answer in the first one or two sentences.
+
+### 2. Ask a Question, Answer It Immediately
+
+If your heading is a question, the first sentence should contain a direct answer in plain language.
+
+### 3. Keep Grammatical Dependencies Low
+
+Use short sentences with clear subject and verb. Avoid long chains of clauses that delay the main point.
+
+### 4. Say What You Mean Before You Get Clever
+
+State the point literally first. Add personality, metaphors, or humor after the core idea is clear.
+
+### 5. Use Clear Pronouns and References
+
+Every "it", "this", or "that" should have an obvious referent in the same or previous sentence.
+
+### 6. One Topic at a Time
+
+Each paragraph should support one main idea. New claim = new paragraph.
+
+### 7. Use a Clear Heading Hierarchy
+
+H2 for core sections, H3 for subpoints. Keep the order logical: claim, explanation, proof.
+
+### 8. Keep Terminology Consistent
+
+Pick one term for each important concept and use it throughout.
+
+### 9. Write Confident, Evidence-Backed Statements
+
+When you know something, say it directly. Avoid constant hedging unless you genuinely don't know.
+
+### 10. Use Semantically Related Terms
+
+Surround your main keyword with the natural vocabulary of the topic: related tools, concepts, metrics.
+
+### 11. Define Acronyms and Technical Terms Once
+
+Spell out any acronym the first time you use it.
+
+### 12. Make Every Paragraph Quotable on Its Own
+
+Write each paragraph so it can stand alone as a small answer with enough context.
 
 ## References
 
