@@ -3,7 +3,7 @@ title: 'Google Calendar as an LLM orchestrator'
 date: 2026-02-02
 ---
 
-## Marketing runs on unsexy tasks. I built the unsexy solution.
+## Automating marketing with Google Calendar and LLMs
 
 Most of marketing is invisible grunt work.
 
@@ -13,7 +13,7 @@ Most of this is not creative or always strategic. But it still takes time even w
 
 AI assistants help. I use Claude etc. constantly. But here's the friction: every time I need to run a recurring analysis task, I have to remember to do it, open the chat, re-explain the context, and wait for results. The cognitive overhead adds up.
 
-There are many productivity tools available. Then Clawdbot. OpenClaw. Various "agentic" schedulers. You can spin up a complex solution with Cursor. But they all require learning a new interface, setting up workflows, and maintaining yet another system. For basic recurring tasks, it feels like overkill.
+There are many productivity tools available. Then Clawdbot. OpenClaw. Various "agentic" schedulers. You can spin up a complex solution with Cursor. But they all require learning a new interface or work with CLI, setting up workflows, and maintaining yet another system. For basic recurring tasks, it feels like overkill.
 
 So I built something simple.
 
@@ -111,21 +111,7 @@ Here's what's running on my calendar right now:
 
 The results sit in my calendar. I can review them during my morning routine. No extra dashboard. No context switching.
 
-## Why not just use [existing tool]?
-
-Valid question. Here's my reasoning:
-
-**ChatGPT/Claude directly:** Great for interactive work. Terrible for recurring automation. I don't want to remember to run the same prompt every Monday.
-
-**Zapier/Make.com:** Good for basic automations. But orchestrating multi-step AI tasks with tool calls gets complex fast. And expensive.
-
-**Dedicated agent platforms:** Most are designed for building complex workflows. I don't need complex. I need "run this analysis on Tuesday."
-
-**Custom cron jobs:** No interface. Hard to manage. When something breaks, I won't notice.
-
-The calendar solves the interface problem. Everyone knows how to create, move, and manage calendar events. It's the simplest possible scheduling UI that already exists.
-
-## The code is embarrassingly simple
+## The code
 
 The entire implementation is:
 
@@ -135,27 +121,9 @@ The entire implementation is:
 - `storage.py` — SQLite for persisting notes and memory
 - `api_clients.py` — Direct API fallbacks when MCP isn't available
 
-It runs on a $5/month server. Or locally with a cron job. Or in Docker on Fly.io.
+Run it locally with a cron job. Or in Docker on Fly.io.
 
 The Google Calendar API handles authentication, recurring event management, and synchronization across devices. I didn't have to build any of that.
-
-## What I learned
-
-**1. The interface matters more than the capability.**
-
-The Claude API could already do everything this bot does. What was missing wasn't capability—it was a zero-friction way to schedule recurring tasks. The calendar is that interface.
-
-**2. Memory for recurring events is the killer feature.**
-
-Weekly reports that build on previous weeks. Competitor monitoring that tracks changes over time. The agent knowing what it found last time changes it from "answering a question" to "doing a job."
-
-**3. Tool access changes everything.**
-
-An agent that can only answer questions is limited. An agent that can scrape websites, query SEO APIs, and fetch real-time data is actually useful for work.
-
-**4. Boring tools win.**
-
-No complex DAGs. No visual workflow builders. No orchestration layers. Just calendar events that trigger tasks. It's not exciting. But it works, and I actually use it.
 
 ## The unsexy future
 
@@ -163,20 +131,10 @@ There's a gap between "AI can do amazing things" and "AI is doing amazing things
 
 The gap isn't intelligence. It's integration. How does the AI know what to do? How does it remember context? How does it fit into existing workflows?
 
-For me, the answer turned out to be the most boring tool imaginable: the calendar.
-
 I'm not claiming this is the future of AI orchestration. It's probably too simple for complex workflows. But for the boring, recurring, "I just need this to happen every week" tasks?
 
 It's working.
 
 ---
 
-**Try it yourself:** The code is open source at [github.com/ihmissuti/google-calendar-agent](https://github.com/ihmissuti/google-calendar-agent). Setup takes 15 minutes if you already have Google Calendar API credentials.
-
----
-
-**Discussion questions:**
-
-1. What recurring tasks would you automate if the scheduling interface was trivial?
-2. Is "calendar as orchestrator" genuinely useful or just a quirky hack?
-3. What's the minimum viable memory an AI agent needs for recurring tasks?
+**"General" version repo:** I created a general version of the code and it's here [github.com/ihmissuti/google-calendar-agent](https://github.com/ihmissuti/google-calendar-agent). Setup takes some minutes if you already have Google Calendar API credentials.
