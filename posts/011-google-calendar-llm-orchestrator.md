@@ -171,6 +171,10 @@ It's working.
 
 ---
 
+**Try it yourself:** The code is open source at [github.com/ihmissuti/google-calendar-agent](https://github.com/ihmissuti/google-calendar-agent). Setup takes 15 minutes if you already have Google Calendar API credentials.
+
+---
+
 **Discussion questions:**
 
 1. What recurring tasks would you automate if the scheduling interface was trivial?
