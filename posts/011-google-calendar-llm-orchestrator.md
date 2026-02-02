@@ -21,9 +21,9 @@ So I built something simple.
 
 Calendars are already where I schedule everything. Meetings. Deadlines. Reminders. What if the calendar could also schedule AI tasks?
 
-The idea: create a Google Calendar event with `[AGENT]` in the title. Write the task in the description. At the scheduled time, an agent picks it up, executes it with Claude and MCP tools (SEO, GEO, search, marketing data etc.), and writes the results back into the event notes.
+The idea: create a dedicated Google Calendar for AI tasks. Write your prompt in the event description. At the scheduled time, an agent picks it up, executes it with Claude and MCP tools (SEO, GEO, search, marketing data etc.), and writes the results back into the event notes.
 
-That's it. No new interface. No complex workflow builder. Just calendar events that happen to be intelligent.
+That's it. No new interface. No complex workflow builder. Just a calendar where every event is a task for the AI.
 
 ![Google Calendar with AI agent events - scheduling automated tasks](/blog/images/calendar-ma.png)
 
@@ -31,19 +31,19 @@ That's it. No new interface. No complex workflow builder. Just calendar events t
 
 The architecture is deliberately simple:
 
-**1. Tag events for processing**
+**1. Dedicated calendar for tasks**
 
-Any event containing `[AGENT]` triggers the bot:
+I created a separate Google Calendar just for agent tasks. Every event on this calendar is a prompt:
 
 ```
-Title: [AGENT] Weekly GEO Report
+Title: Weekly GEO Report
 Description: Analyze our website's AI search visibility this week.
 Compare with previous weeks and identify trends.
 ```
 
 **2. Bot polls the calendar**
 
-A Python daemon checks for upcoming `[AGENT]` events. When it finds one in the processing window, it extracts the prompt from the title and description.
+A Python daemon checks for upcoming events. When it finds one in the processing window, it extracts the prompt from the title and description.
 
 **3. Claude executes with MCP tools**
 
@@ -93,21 +93,21 @@ Here's what's running on my calendar right now:
 
 **Daily (8:00 AM):**
 
-- `[AGENT] AEO News Digest` — searches for trending articles, Reddit discussions, and news about AI Search Optimization, Answer Engine Optimization, and GEO from the past 24 hours. Picks one relevant source and summarizes it.
+- `AEO News Digest` — searches for trending articles, Reddit discussions, and news about AI Search Optimization, Answer Engine Optimization, and GEO from the past 24 hours. Picks one relevant source and summarizes it.
 
 **Daily (14:00):**
 
-- `[AGENT] Competitor Monitoring` — scrapes product updates, new features, and launches from competitors in the AI Search Visibility space (Profound, Searchable, Semrush, Ahrefs, Peec AI, etc.)
-- `[AGENT] Sales Lead Generation` — picks a random brand from our AI search data, analyzes their visibility insights, scrapes their website, and drafts personalized outreach (email + LinkedIn versions)
+- `Competitor Monitoring` — scrapes product updates, new features, and launches from competitors in the AI Search Visibility space (Profound, Searchable, Semrush, Ahrefs, Peec AI, etc.)
+- `Sales Lead Generation` — picks a random brand from our AI search data, analyzes their visibility insights, scrapes their website, and drafts personalized outreach (email + LinkedIn versions)
 
 **Weekly (Monday 9:00 AM):**
 
-- `[AGENT] Citation Gap Analysis` — finds prompts where we're cited, identifies the top competing URL dominating that query, scrapes it to understand why it ranks, then suggests improvements to our own content based on GEO best practices
-- `[AGENT] Newsletter Draft` — scrapes our latest published article and transforms it into a newsletter format
+- `Citation Gap Analysis` — finds prompts where we're cited, identifies the top competing URL dominating that query, scrapes it to understand why it ranks, then suggests improvements to our own content based on GEO best practices
+- `Newsletter Draft` — scrapes our latest published article and transforms it into a newsletter format
 
 **Weekly (Wednesday 10:00 AM):**
 
-- `[AGENT] GEO Article Generation` — searches trending discussions about AEO/GEO on Reddit and forums, identifies a topic we should cover, pulls internal data from our analytics, scrapes external sources for supporting insights, and drafts a full article matching our existing style
+- `GEO Article Generation` — searches trending discussions about AEO/GEO on Reddit and forums, identifies a topic we should cover, pulls internal data from our analytics, scrapes external sources for supporting insights, and drafts a full article matching our existing style
 
 The results sit in my calendar. I can review them during my morning routine. No extra dashboard. No context switching.
 
