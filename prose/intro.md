@@ -1,3 +1,3 @@
-Technical founder and AI expert from Helsinki, Finland. Co-founder & CTO of [Superlines](https://www.superlines.io) - helping brands optimize their visibility across AI platforms.
+Technical growth marketers building and scaling [Superlines](https://www.superlines.io) - the agentic AI search analytics platform. Pioneering AI-based marketing and solutions since the pre-ChatGPT era.
 
 [Read more about me →](/about)

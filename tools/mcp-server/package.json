@@ -1,11 +1,11 @@
 {
-  "name": "@kimmoihanus/geo-tools",
+  "name": "@ihmissuti/geo-tools",
   "version": "0.1.0",
   "description": "MCP server for Generative Engine Optimization (GEO) - AI search visibility tools by Kimmo Ihanus",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "kimmo-geo-tools": "dist/index.js"
+    "geo-tools": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -29,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kimmoihanus/geo-tools-mcp"
+    "url": "https://github.com/ihmissuti/geo-tools-mcp"
   },
   "homepage": "https://kimmoihanus.com/tools",
   "bugs": {
-    "url": "https://github.com/kimmoihanus/geo-tools-mcp/issues"
+    "url": "https://github.com/ihmissuti/geo-tools-mcp/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

@@ -255,7 +255,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
 }));
 
 // Handle tool calls
-server.setRequestHandler(CallToolRequestSchema, async (request) => {
+server.setRequestHandler(CallToolRequestSchema, async (request: { params: { name: string; arguments?: Record<string, unknown> } }) => {
   const { name, arguments: args } = request.params;
 
   switch (name) {
@@ -317,7 +317,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         };
 
         // Extract schema types
-        $('script[type="application/ld+json"]').each((_, el) => {
+        const schemaScripts = $('script[type="application/ld+json"]');
+        schemaScripts.toArray().forEach((el) => {
           try {
             const json = JSON.parse($(el).html() || "{}");
             if (json["@type"]) {
@@ -377,7 +378,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
     case "generate_schema": {
       const { type, data } = SchemaGeneratorSchema.parse(args);
-      const generator = schemaTemplates[type];
+      const generator = schemaTemplates[type as keyof typeof schemaTemplates];
 
       if (!generator) {
         return {

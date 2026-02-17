@@ -29,7 +29,7 @@ cp -r skills/* .cursor/skills/
 An npm package that provides GEO tools via the Model Context Protocol.
 
 ```bash
-npm install -g @kimmoihanus/geo-tools
+npm install -g @ihmissuti/geo-tools
 ```
 
 **Tools included:**
@@ -72,7 +72,7 @@ These tools help you understand and optimize for this new reality.
 **Kimmo Ihanus**
 
 - [kimmoihanus.com](https://kimmoihanus.com)
-- [@kimmoihanus](https://github.com/kimmoihanus) on GitHub
+- [@ihmissuti](https://github.com/ihmissuti) on GitHub
 - [@kimmoihanus](https://twitter.com/kimmoihanus) on Twitter
 
 ## License

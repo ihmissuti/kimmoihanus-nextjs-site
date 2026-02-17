@@ -1,4 +1,4 @@
-# @kimmoihanus/geo-tools
+# @ihmissuti/geo-tools
 
 MCP server for Generative Engine Optimization (GEO) - AI search visibility tools.
 
@@ -28,7 +28,7 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) o
   "mcpServers": {
     "geo-tools": {
       "command": "npx",
-      "args": ["-y", "@kimmoihanus/geo-tools"]
+      "args": ["-y", "@ihmissuti/geo-tools"]
     }
   }
 }
@@ -45,7 +45,7 @@ Add to `.cursor/mcp.json`:
   "mcpServers": {
     "geo-tools": {
       "command": "npx",
-      "args": ["-y", "@kimmoihanus/geo-tools"]
+      "args": ["-y", "@ihmissuti/geo-tools"]
     }
   }
 }
@@ -54,7 +54,7 @@ Add to `.cursor/mcp.json`:
 ### Global Installation
 
 ```bash
-npm install -g @kimmoihanus/geo-tools
+npm install -g @ihmissuti/geo-tools
 ```
 
 Then configure:
@@ -63,7 +63,7 @@ Then configure:
 {
   "mcpServers": {
     "geo-tools": {
-      "command": "kimmo-geo-tools"
+      "command": "geo-tools"
     }
   }
 }
