@@ -29,74 +29,57 @@ Technical founder and AI expert with 15+ years of experience in AI, marketing, a
 EXPERIENCE
 
 CO-FOUNDER & CTO | Superlines
-October 2023 - Present | Helsinki, Finland
+Oct 2023 – Present | Global | AI Search Intelligence Platform
 
-• Built Europe's leading AI Search Analytics platform from the ground up
-• Single-handedly developed most of the platform code
-• Responsible for product development, Google Cloud infrastructure, and Full Stack SaaS development, MCP support, analytics database, and more
-• Deployed over 100 AI agents to produce analysis and insights
-• Platform tracks brand visibility across ChatGPT, Perplexity, Gemini, Claude, Google AI Mode
-• Featured in Helsingin Sanomat, Talouselämä, and Markkinointiuutiset
-• Secured pre-seed funding from angel investors and Innovesto
-
-CO-FOUNDER | Grew Oy
-September 2020 - Present | Helsinki, Finland
-
-• Founded AI-focused marketing technology company
-• Launched first Superlines version to US market before ChatGPT existed
-• Built AI-powered marketing tools using GPT-3 (early access, 2020)
-• Developed patented AI-powered secure location detection system using neural networks
+• Defined and executed the full product and AI strategy for Europe's leading AI Search Analytics platform, tracking brand visibility across ChatGPT, Perplexity, Gemini, Claude, and Google AI Mode
+• Single-handedly architected and developed the platform, deploying 100+ individual AI agents for analysis, insights, and automated reporting — a real-world enterprise AI portfolio in production
+• Developed and communicated AI strategy to investors, enterprise clients, and media; featured in Helsingin Sanomat, Talouselämä, and Markkinointiuutiset
+• Built API and MCP (Model Context Protocol) support enabling agentic, multi-system AI workflows for client integrations
+• Selected for Google's AI Startup Program and NVIDIA's Inception program; secured pre-seed funding from investors
+• Responsible for sales, client support, and marketing alongside technical leadership
 
 GROWTH LEAD | Cronvall
-August 2021 - October 2023 | Helsinki, Finland
+2021 – Oct 2023 | Helsinki, Finland | B2B Marketplace Startup, GTM, performance marketing
 
-• Led demand generation and performance marketing initiatives
-• Managed SEO/SEM strategy and implementation
-• Built and scaled HubSpot marketing automation system
-• Led marketing team and growth initiatives
+• Led demand generation, performance marketing, and SEO/SEM strategy across enterprise accounts
+• Built and scaled a HubSpot marketing automation system; led a cross-functional marketing team
+• Advised leadership on AI adoption opportunities in marketing workflows
 
-SENIOR GROWTH HACKER | Avaus
-September 2016 - August 2020 | Helsinki, Finland
+CO-FOUNDER | Grew Oy
+2020 – 2021 | Helsinki, Finland | AI-Powered Marketing Technology
 
-• Growth lead for multiple enterprise client projects
-• Built marketing stacks and automation systems for major companies
-• Established growth teams and methodologies
-• Key player in building Avaus growth hacking offering
-• Early adopter of AI and algorithms in marketing activities
-• Built internal AI-powered marketing tools using machine learning algorithms (eg. Machine Learning powered A/B testing)
-• AI bot and integration development
-• Responsible for Avau's KPI benchmark database and dashboard solution
+• Founded AI-focused marketing technology company; launched first AI-powered SaaS product to the US market prior to ChatGPT's existence (2021)
+• Early access to GPT-3 (2020) — among the first teams in the Nordics to build production AI applications on top of large language models
+• Developed a patent-pending privacy-first location detection system using edge neural networks (published in HackerNoon)
 
-GROWTH MARKETER | Yousician (Slush 100 Winner)
-June 2016 - September 2016 | Helsinki, Finland
+SENIOR GROWTH HACKER / GROWTH LEAD | Avaus
+2016 – Aug 2020 | Helsinki, Finland | Nordic Marketing Technology Consultancy
 
-• Implemented email onboarding programs with Mixpanel
-• Worked with one of Finland's most successful consumer apps
+• Over a decade driving growth strategy and marketing technology transformation for major Nordic and international enterprise clients
+• Among the earliest adopters of AI and algorithmic marketing at scale in the Nordics, integrating ML-driven personalisation and automation into client marketing stacks
+• Built growth teams from scratch, established methodologies, and delivered executive-level recommendations on technology investment priorities
+• Led multi-stakeholder projects requiring alignment across business, technology, and marketing functions
+
+GROWTH MARKETER | Yousician
+2016 | Helsinki, Finland | Consumer Technology / SaaS
+
+• Implemented data-driven email onboarding programmes using Mixpanel for one of Finland's most successful consumer apps
 
 GROWTH HACKER | Avaus
-June 2015 - June 2016 | Helsinki, Finland
+2010 – Sep 2016 | Helsinki, Finland | Marketing Automation, Loyalty Programs, Growth Hacking
 
 • Optimized user journeys and marketing communications
-• Ran rapid data-driven experiments to drive measurable results
+• Led marketing automation implementation projects
+• Coordinated loyalty program development
+• Ran rapid data-driven experiments
 
-MARKETING PRODUCER | Avaus
-October 2012 - May 2015 | Helsinki, Finland
+IKEA FAMILY SPECIALIST | IKEA
+2009 | Helsinki, Finland | Marketing Automation, Loyalty Programs, Growth Hacking
 
-• Led marketing automation implementation and development projects
-• Delivered solutions for enterprise clients
-
-CAMPAIGN COORDINATOR | Avaus
-February 2010 - September 2012 | Helsinki, Finland
-
-• Planned and executed marketing campaigns
-• Coordinated loyalty program development projects
-• Technical maintenance and content production
-
-IKEA FAMILY SPECIALIST | IKEA Group
-May 2009 - October 2009 | Finland & Norway
-
-• Project coordinator for IKEA FAMILY loyalty program implementation
-• Deployed program across IKEA Finland and Norway
+• Optimized user journeys and marketing communications
+• Led marketing automation implementation projects
+• Coordinated loyalty program development
+• Ran rapid data-driven experiments
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -117,7 +100,7 @@ Superlines (superlines.io) - AI Search Analytics platform for marketers
 AI Search Index (aisearchindex.com) - Analytics for AI traffic detection
 EmailMCP (emailmcp.co) - AI assistant built on Model Context Protocol
 ConsoleChat.io (consolechat.io) - Viral project featured on HackerNews
-We Became Shadows (webecameshadows.com) - Location-based web game
+We Became Shadows (webecameshadows.com) - Multiplayer social deduction game with AI bots
 Hacker-AI (hacker-ai.com) - ML-powered HackerNews title predictor
 pointNG (pointng.io) - Privacy-first location detection using edge ML
 
@@ -267,34 +250,31 @@ English (Fluent)
             title="Co-Founder & CTO"
             company="Superlines"
             companyUrl="https://www.superlines.io"
-            period="October 2023 - Present"
-            location="Helsinki, Finland"
+            period="Oct 2023 – Present"
+            location="Global | AI Search Intelligence Platform"
           >
             <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Built Europe's leading AI Search Analytics platform from the ground up</li>
-              <li>Single-handedly developed most of the platform code, utilizing 100+ individual AI agents</li>
-              <li>Responsible for product development, sales, client support, and marketing</li>
-              <li>Platform tracks brand visibility across ChatGPT, Perplexity, Gemini, Claude, Google AI Mode</li>
               <li>
-                Selected for <strong>Google's AI Startup Program</strong>
+                Defined and executed the full product and AI strategy for Europe's leading AI Search Analytics platform,
+                tracking brand visibility across ChatGPT, Perplexity, Gemini, Claude, and Google AI Mode
               </li>
-              <li>Featured in Helsingin Sanomat, Talouselämä, and Markkinointiuutiset</li>
-              <li>Secured pre-seed funding from angel investors and Innovesto</li>
-              <li>Built API and MCP support for agentic workflows</li>
-            </ul>
-          </ExperienceItem>
-
-          <ExperienceItem
-            title="Co-Founder"
-            company="Grew Oy"
-            period="September 2020 - Present"
-            location="Helsinki, Finland"
-          >
-            <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Founded AI-focused marketing technology company</li>
-              <li>Launched first Superlines version to US market before ChatGPT existed</li>
-              <li>Built AI-powered marketing tools using GPT-3 (early access, 2020)</li>
-              <li>Developed patent-pending secure location detection system using neural networks</li>
+              <li>
+                Single-handedly architected and developed the platform, deploying 100+ individual AI agents for
+                analysis, insights, and automated reporting — a real-world enterprise AI portfolio in production
+              </li>
+              <li>
+                Developed and communicated AI strategy to investors, enterprise clients, and media; featured in
+                Helsingin Sanomat, Talouselämä, and Markkinointiuutiset
+              </li>
+              <li>
+                Built API and MCP (Model Context Protocol) support enabling agentic, multi-system AI workflows for
+                client integrations
+              </li>
+              <li>
+                Selected for <strong>Google's AI Startup Program</strong> and{' '}
+                <strong>NVIDIA's Inception program</strong>; secured pre-seed funding from investors
+              </li>
+              <li>Responsible for sales, client support, and marketing alongside technical leadership</li>
             </ul>
           </ExperienceItem>
 
@@ -302,30 +282,61 @@ English (Fluent)
             title="Growth Lead"
             company="Cronvall"
             companyUrl="https://www.cronvall.com"
-            period="August 2021 - October 2023"
-            location="Helsinki, Finland"
+            period="2021 – Oct 2023"
+            location="Helsinki, Finland | B2B Marketplace Startup, GTM, performance marketing"
           >
             <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Led demand generation and performance marketing initiatives</li>
-              <li>Managed SEO/SEM strategy and implementation</li>
-              <li>Built and scaled HubSpot marketing automation system</li>
-              <li>Led marketing team and growth initiatives</li>
+              <li>Led demand generation, performance marketing, and SEO/SEM strategy across enterprise accounts</li>
+              <li>Built and scaled a HubSpot marketing automation system; led a cross-functional marketing team</li>
+              <li>Advised leadership on AI adoption opportunities in marketing workflows</li>
             </ul>
           </ExperienceItem>
 
           <ExperienceItem
-            title="Senior Growth Hacker"
-            company="Avaus"
-            companyUrl="https://www.avaus.com"
-            period="September 2016 - August 2020"
-            location="Helsinki, Finland"
+            title="Co-Founder"
+            company="Grew Oy"
+            period="2020 – 2021"
+            location="Helsinki, Finland | AI-Powered Marketing Technology"
           >
             <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Growth lead for multiple enterprise client projects</li>
-              <li>Built marketing stacks and automation systems for major companies</li>
-              <li>Established growth teams and methodologies</li>
-              <li>Key player in building Avaus growth hacking offering</li>
-              <li>Early adopter of AI and algorithms in marketing activities</li>
+              <li>
+                Founded AI-focused marketing technology company; launched first AI-powered SaaS product to the US market
+                prior to ChatGPT's existence (2021)
+              </li>
+              <li>
+                Early access to GPT-3 (2020) — among the first teams in the Nordics to build production AI applications
+                on top of large language models
+              </li>
+              <li>
+                Developed a patent-pending privacy-first location detection system using edge neural networks (published
+                in HackerNoon)
+              </li>
+            </ul>
+          </ExperienceItem>
+
+          <ExperienceItem
+            title="Senior Growth Hacker / Growth Lead"
+            company="Avaus"
+            companyUrl="https://www.avaus.com"
+            period="2016 – Aug 2020"
+            location="Helsinki, Finland | Nordic Marketing Technology Consultancy"
+          >
+            <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
+              <li>
+                Over a decade driving growth strategy and marketing technology transformation for major Nordic and
+                international enterprise clients
+              </li>
+              <li>
+                Among the earliest adopters of AI and algorithmic marketing at scale in the Nordics, integrating
+                ML-driven personalisation and automation into client marketing stacks
+              </li>
+              <li>
+                Built growth teams from scratch, established methodologies, and delivered executive-level
+                recommendations on technology investment priorities
+              </li>
+              <li>
+                Led multi-stakeholder projects requiring alignment across business, technology, and marketing functions
+              </li>
             </ul>
           </ExperienceItem>
 
@@ -333,22 +344,23 @@ English (Fluent)
             title="Growth Marketer"
             company="Yousician"
             companyUrl="https://www.yousician.com"
-            period="June 2016 - September 2016"
-            location="Helsinki, Finland"
-            badge=""
+            period="2016"
+            location="Helsinki, Finland | Consumer Technology / SaaS"
           >
             <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Implemented email onboarding programs with Mixpanel</li>
-              <li>Worked with one of Finland's most successful consumer apps</li>
+              <li>
+                Implemented data-driven email onboarding programmes using Mixpanel for one of Finland's most successful
+                consumer apps
+              </li>
             </ul>
           </ExperienceItem>
 
           <ExperienceItem
-            title="Growth Hacker → Marketing Producer → Campaign Coordinator"
+            title="Growth Hacker"
             company="Avaus"
             companyUrl="https://www.avaus.com"
-            period="February 2010 - June 2016"
-            location="Helsinki, Finland"
+            period="2010 – Sep 2016"
+            location="Helsinki, Finland | Marketing Automation, Loyalty Programs, Growth Hacking"
           >
             <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
               <li>Optimized user journeys and marketing communications</li>
@@ -360,13 +372,15 @@ English (Fluent)
 
           <ExperienceItem
             title="IKEA FAMILY Specialist"
-            company="IKEA Group"
-            period="March 2009 - October 2009"
-            location="Finland & Norway"
+            company="IKEA"
+            period="2009"
+            location="Helsinki, Finland | Marketing Automation, Loyalty Programs, Growth Hacking"
           >
             <ul className="list-disc list-outside ml-4 space-y-1 text-gray-700 dark:text-gray-300">
-              <li>Project coordinator for IKEA FAMILY loyalty program implementation</li>
-              <li>Deployed program across IKEA Finland and Norway</li>
+              <li>Optimized user journeys and marketing communications</li>
+              <li>Led marketing automation implementation projects</li>
+              <li>Coordinated loyalty program development</li>
+              <li>Ran rapid data-driven experiments</li>
             </ul>
           </ExperienceItem>
         </section>
@@ -411,7 +425,7 @@ English (Fluent)
               Viral project featured on HackerNews front page
             </ProjectItem>
             <ProjectItem name="We Became Shadows" url="https://www.webecameshadows.com">
-              Location-based web game with Mapbox
+              Multiplayer social deduction game with AI bots powered by Claude
             </ProjectItem>
             <ProjectItem name="Hacker-AI" url="https://hacker-ai.com">
               ML-powered HackerNews title predictor
