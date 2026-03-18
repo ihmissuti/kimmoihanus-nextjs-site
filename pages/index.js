@@ -192,8 +192,9 @@ export default function Home({ posts, graphics }) {
           buttonUrl="https://game.webecameshadows.com"
         >
           <div className="mb-4">
-            A location-based web game built with Mapbox, node.js and socket.io. Escape and defend your position against
-            bots that seek you on a real-life map.
+            A multiplayer social deduction game where an AI hive mind called &ldquo;The Organism&rdquo; infiltrates a
+            persistent chat world with bots that learn to mimic humans. Drop in, chat, and figure out who&rsquo;s real
+            &mdash; but accuse wrong and you&rsquo;re out. Powered by Claude, built with Node.js and Socket.IO.
           </div>
         </Project>
         {/* <Project
