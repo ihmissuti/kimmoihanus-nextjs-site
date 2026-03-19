@@ -25,12 +25,29 @@ const tracks = [
     sunoId: 'a9684a18-a43c-48b7-94b9-25abba784d13',
     demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A245848382',
     demoName: 'Orange Jang',
+    story: {
+      subtitle: 'Chasing a Bigger Sound',
+      paragraphs: [
+        'Orange Jang was originally recorded around 2016. It all started with the melody you can hear in the background during the final climax of the demo \u2014 that was the seed the whole song grew from.',
+        'Once that melody existed, the rest of the pieces came together surprisingly easily. In my head, the song was complete pretty quickly.',
+        'The problem was getting it to actually sound the way it sounded in my head. I wanted something big \u2014 movie soundtrack big. For years I kept coming back to it, trying different approaches, but it never quite got there.',
+        'Now it finally sounds like it should.',
+      ],
+    },
   },
   {
     title: 'Ash in the Hourglass',
     sunoId: '5aa2d232-29e6-4745-86a4-04158ba035bf',
     demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A173887372',
     demoName: 'Camp Song',
+    story: {
+      subtitle: 'The Best Thing That Came Out of Me',
+      paragraphs: [
+        'This song was originally recorded in 2015. The first thing I came up with was the guitar melody that kicks in right after the intro. To be honest, I still think it\u2019s one of the best things that has musically come out of me.',
+        'Once that melody was there, the rest of the song followed easily. Our band\u2019s keyboard player \u2014 who is a far better bass, guitar, and all-around player than me \u2014 helped with the original demo. He played the drums and the slide guitars, and helped mix it by running the whole thing through cassette, which I think works brilliantly.',
+        'I actually think the overall atmosphere of the original demo is better than the latest version. But in the new version I managed to produce singing vocals that I\u2019d always imagined this song should have. That was the missing piece.',
+      ],
+    },
   },
 ];
 
