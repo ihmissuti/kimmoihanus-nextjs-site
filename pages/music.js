@@ -62,6 +62,19 @@ const tracks = [
       ],
     },
   },
+  {
+    title: 'Afterslit',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/afterslit',
+    demoSoundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/afterslit-demo',
+    demoName: 'Afterslit (demo)',
+    story: {
+      subtitle: 'Blues, Garage Rock, and Mud',
+      paragraphs: [
+        'Afterslit was recorded in 2015. The song relies on this blues and garage rock riff that just rolls throughout the whole thing.',
+        'I still think the original demo has a kind of cool, muddy sound to it \u2014 although my playing on it is not anywhere near satisfying.',
+      ],
+    },
+  },
 ];
 
 function TrackCard({ track }) {
