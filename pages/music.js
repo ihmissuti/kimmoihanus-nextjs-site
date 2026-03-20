@@ -6,7 +6,7 @@ import { useState } from 'react';
 const tracks = [
   {
     title: 'Lunar',
-    sunoId: '533e5e69-4c3d-4124-b29c-e97e80985523',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/lunar',
     demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A245771692',
     demoName: 'Space Odysseia',
     story: {
@@ -22,7 +22,7 @@ const tracks = [
   },
   {
     title: 'Orange Jang',
-    sunoId: 'a9684a18-a43c-48b7-94b9-25abba784d13',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/the-orange-jang',
     demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A245848382',
     demoName: 'Orange Jang',
     story: {
@@ -37,7 +37,7 @@ const tracks = [
   },
   {
     title: 'Ash in the Hourglass',
-    sunoId: '5aa2d232-29e6-4745-86a4-04158ba035bf',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/ash-in-the-hourglass',
     demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A173887372',
     demoName: 'Camp Song',
     story: {
@@ -61,14 +61,12 @@ function TrackCard({ track }) {
 
       <div className="mb-4">
         <iframe
-          src={`https://suno.com/embed/${track.sunoId}`}
           width="100%"
-          height="240"
-          frameBorder="0"
-          allow="autoplay; encrypted-media; fullscreen"
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
+          height="166"
+          scrolling="no"
+          frameBorder="no"
+          allow="autoplay"
+          src={`https://w.soundcloud.com/player/?url=${track.soundcloudUrl}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`}
           className="rounded"
           title={track.title}
         />
