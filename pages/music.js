@@ -36,6 +36,19 @@ const tracks = [
     },
   },
   {
+    title: 'Summer Breeze',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/summer-breeze',
+    demoSoundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/summer-breeze-demo',
+    demoName: 'Summer Breeze (demo)',
+    story: {
+      subtitle: 'From Death Metal to Feel-Good Pop Rock',
+      paragraphs: [
+        'This is one of the first riffs and melodies I started jamming back in 2014 that wasn\u2019t Black or Death Metal. I actually thought it could be converted into a cool feel-good pop rock tune.',
+        'The basic guitar run is super simple and relies heavily on the airy feeling in it. That lightness is what makes it work.',
+      ],
+    },
+  },
+  {
     title: 'Ash in the Hourglass',
     soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/ash-in-the-hourglass',
     demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A173887372',
