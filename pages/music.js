@@ -43,8 +43,10 @@ const tracks = [
     story: {
       subtitle: 'From Death Metal to Feel-Good Pop Rock',
       paragraphs: [
-        'This is one of the first riffs and melodies I started jamming back in 2014 that wasn\u2019t Black or Death Metal. I actually thought it could be converted into a cool feel-good pop rock tune.',
-        'The basic guitar run is super simple and relies heavily on the airy feeling in it. That lightness is what makes it work.',
+        '"Summer Breeze" is the kind of track that would probably never end up on my own playlist considering the style and genre, but I still consider it a really cool song that I\u2019ve always wanted to finish.',
+        'The main riff is really old, and the original demos were recorded back in 2014. The whole song has essentially been there since those early days: the instruments, lyrics, and vocal melodies. I just never managed to fully produce it until now.',
+        'What finally made it possible was using Suno to sing the missing vocals, based on the demo melodies and lyrics I had recorded.',
+        'I\u2019m no Katy Perry, obviously, but maybe it distantly sounds a little like one of her songs.',
       ],
     },
   },
@@ -75,6 +77,81 @@ const tracks = [
       ],
     },
   },
+  {
+    title: 'Let Me Go',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/let-me-go',
+    story: {
+      subtitle: 'Force Feed the Cat',
+      paragraphs: [
+        '"Let Me Go" was originally recorded between 2012 and 2014 under the project name "Force Feed the Cat." The name came from a ridiculous moment when a large group of people at a beach, party, or some festival (I don\u2019t remember exactly) were all drinking from the same bucket, and someone shouted, "We are force-feeding a cat!"',
+        'Anyway, the original demo wasn\u2019t as punchy and groovy as the final version. It had a calmer vibe and leaned heavily on the melodies. Then one weekend, we headed to my parents\u2019 summer cottage to play and record our songs. The place had a killer sound thanks to its old wooden floors, ceilings, and roof. We started jamming the song there, and the space gave it a punchier, more driven feel.',
+        'I already had some lyrics for the verses that started with "I don\u2019t want to be alone in the dark\u2026". The lines just felt like a natural fit with the rhythm and the melody. For the chorus, our guitarist and singer started throwing out random lines like "I\u2019m running down with you," "Sell myself," "Sell my soul," "Sell my photograph," and so on. Those fragments came together to form the choruses in the cottage demos.',
+        'The final song was made with Suno by mashing up the original home demo with the cottage recordings and remixing everything around the lyrics.',
+      ],
+    },
+  },
+  {
+    title: 'Hollow Eyes',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/hollow-eyes',
+    story: {
+      subtitle: 'A Song That Probably Shouldn\u2019t Exist',
+      paragraphs: [
+        'This is the kind of song that probably shouldn\u2019t exist. Like many of the slower rock songs I\u2019ve written, it doesn\u2019t represent what I usually listen to \u2014 but maybe that\u2019s exactly why it interests me.',
+        '"Hollow Eyes" was first recorded as a rehearsal demo around 2014, back when it was always called ROT. I don\u2019t remember why.',
+        'Unlike almost everything else I write, this one didn\u2019t start with a guitar or bass riff. It started with a vocal melody I just began humming. The chorus followed, then the guitars and lyrics came in one go. I thought it was kind of cheesy, but in a strange way I still liked it. Since the lyrics came out so quickly, I figure they must mean something.',
+        'I brought it to our rock trio, Dog Day Sunrise (never forget), and we eventually rehearsed it, recorded some takes, and played it live once at Zoom bar in Hyvink\u00e4\u00e4. Then ROT disappeared for years.',
+        'Recently I decided to revisit it, produce and master the track properly, use Suno to recreate the vocals from the original demos, and remix the whole thing.',
+        'I\u2019m really happy that Hollow Eyes, a.k.a. ROT, has finally found its place.',
+      ],
+    },
+  },
+  {
+    title: 'Pretty Boy',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/pretty-boy',
+    story: {
+      subtitle: 'Chasing Song 2 by Blur',
+      paragraphs: [
+        'I\'ve always wanted to do something at least a bit similar to Song 2 by Blur. "Pretty Boy" is what I tried, but it\'s a song I never played for anyone. Or at least never seriously pitched to any of my bandmates. I think it was because I always wanted to record the vocals myself, and was partly ashamed that they fell far short of the level the song deserved.',
+        'After remixing the original demo with Suno, I finally got what I was after: that laid-back, almost lazy feel in the verses, paired with a chorus that still hits.',
+      ],
+    },
+  },
+  {
+    title: 'Self Raping Worm',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/self-raping-worm-instrumental',
+    story: {
+      subtitle: "The Best Song I've Ever Written",
+      paragraphs: [
+        'Around 2004 my friend and I formed a two-man band called "Napalm Cunt". Many people confused us with Anal Cunt and said how much they liked our music. We did not waste our energy correcting them.',
+        'A song I wrote during this time was called "Self Raping Worm" and it was a story of a maggot defiling himself, as we took inspiration from the fact that many worms in nature can breed without a companion. The song was a full 8-minute black & death metal song that had multiple melodic sections and a headbanging chorus. We took inspiration from bands such as Decapitated, Dimmu Borgir, Cadaver, Berzerker, Ulver, Macabre, Bloodbath (especially "Eaten") but also Pink Floyd, Kingston Wall etc.',
+        "I still think this is the best and most complete song I've ever written, but it has not yet been recorded or produced into a version that I could release.",
+        "I'm so attached to the melodies in the song, so I decided to take the instrumental parts and do a bit of remixing. You can hear them in this track.",
+      ],
+    },
+  },
+  {
+    title: 'Losing Time',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/losing-time',
+    story: {
+      subtitle: 'Rock Riffs Stitched Together',
+      paragraphs: [
+        '"Losing Time" was originally just a bunch of rock riffs stitched together. But who cares, they work really well.',
+        "I'm still not happy with the verses, honestly. They feel a bit juvenile, telling the story of a man on death row in an old western town waiting for the gallows. The lyrics also have little to do with what the chorus is saying. That said, the chorus just works and for some reason I'm obsessed with the line \"Boy you're losing time\".",
+      ],
+    },
+  },
+  {
+    title: 'Organic Heat (silloin tällöin)',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/organic-heat-silloin-taelloein',
+    story: {
+      subtitle: 'Four Guys at Sziget Festival',
+      paragraphs: [
+        'Back in 2011, four guys ended up at Sziget Festival. We all played in different bands but shared a thing for roots and reggae. Somewhere between the stages and the late nights, we decided to start a band together: Ever Flowing Stream of Organic Pleasures.',
+        'The plan was simple: each of us writes one reggae song, and we record them together.',
+        'Organic Heat ended up being a weird mix of jazzy guitar+bass and rap \u2014 but anyways, this was my contribution.',
+      ],
+    },
+  },
 ];
 
 function TrackCard({ track }) {
@@ -99,13 +176,17 @@ function TrackCard({ track }) {
       </div>
 
       <div className="flex flex-wrap gap-x-6 gap-y-2">
-        <button
-          onClick={() => setShowDemo(!showDemo)}
-          className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center gap-2"
-        >
-          <span className={`inline-block transform transition-transform ${showDemo ? 'rotate-90' : ''}`}>&#9654;</span>
-          Based on demo: {track.demoName}
-        </button>
+        {track.demoSoundcloudUrl && (
+          <button
+            onClick={() => setShowDemo(!showDemo)}
+            className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center gap-2"
+          >
+            <span className={`inline-block transform transition-transform ${showDemo ? 'rotate-90' : ''}`}>
+              &#9654;
+            </span>
+            Based on demo: {track.demoName}
+          </button>
+        )}
 
         {track.story && (
           <button
