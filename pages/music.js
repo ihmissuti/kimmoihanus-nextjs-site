@@ -118,7 +118,7 @@ const tracks = [
   },
   {
     title: 'Self Raping Worm',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/self-raping-worm-instrumental',
+    soundcloudUrl: 'https%3A//soundcloud.com/rotwurm/self-raping-worm-1',
     story: {
       subtitle: "The Best Song I've Ever Written",
       paragraphs: [
@@ -126,6 +126,16 @@ const tracks = [
         'A song I wrote during this time was called "Self Raping Worm" and it was a story of a maggot defiling himself, as we took inspiration from the fact that many worms in nature can breed without a companion. The song was a full 8-minute black & death metal song that had multiple melodic sections and a headbanging chorus. We took inspiration from bands such as Decapitated, Dimmu Borgir, Cadaver, Berzerker, Ulver, Macabre, Bloodbath (especially "Eaten") but also Pink Floyd, Kingston Wall etc.',
         "I still think this is the best and most complete song I've ever written, but it has not yet been recorded or produced into a version that I could release.",
         "I'm so attached to the melodies in the song, so I decided to take the instrumental parts and do a bit of remixing. You can hear them in this track.",
+      ],
+    },
+  },
+  {
+    title: 'Underground Human Flesh Store',
+    soundcloudUrl: 'https%3A//soundcloud.com/rotwurm/underground-human-flesh-store',
+    story: {
+      subtitle: 'Twenty Years of Gore',
+      paragraphs: [
+        'This song was originally composed around 2006\u20132008. I had a clear vision for it from the start, but it took until 2026 to finally nail the lyrics, vocals, and song structure into the kind of gore level I originally wished for.',
       ],
     },
   },
@@ -149,6 +159,27 @@ const tracks = [
         'Back in 2011, four guys ended up at Sziget Festival. We all played in different bands but shared a thing for roots and reggae. Somewhere between the stages and the late nights, we decided to start a band together: Ever Flowing Stream of Organic Pleasures.',
         'The plan was simple: each of us writes one reggae song, and we record them together.',
         'Organic Heat ended up being a weird mix of jazzy guitar+bass and rap \u2014 but anyways, this was my contribution.',
+      ],
+    },
+  },
+  {
+    title: 'Burn Down',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/burn-down',
+    story: {
+      subtitle: 'Three Chords and a Folk Mood',
+      paragraphs: [
+        'The inspiration for Burn Down came from Finnish "rautalanka" style, Tuomari Nurmio, and The Greenhornes. In the final piece those elements aren\u2019t so prominent anymore, but the song just started working pretty well as a slightly moody rock tune with a bit of a folk vibe.',
+        'The whole song only has three chords, but the transitions between them create the backbone for the singing vocals that play with it.',
+      ],
+    },
+  },
+  {
+    title: 'Together We Are (Little Monsters)',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/together-we-are-little',
+    story: {
+      subtitle: 'A Patchwork of Riffs',
+      paragraphs: [
+        'It\u2019s hard to tell the year when this was composed \u2014 it\u2019s really a glue-and-stitch of multiple guitar riffs that I enjoy. But they work really well together!',
       ],
     },
   },
