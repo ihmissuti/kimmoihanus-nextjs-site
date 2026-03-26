@@ -5,6 +5,20 @@ import { useState } from 'react';
 
 const tracks = [
   {
+    title: 'Eight Hundred',
+    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/eight-hundred',
+    demoSoundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/800mg-demo',
+    demoName: '800mg',
+    story: {
+      subtitle: 'Golden Stripes and Painkillers',
+      paragraphs: [
+        'For a long time I\'d been playing around with a simple guitar melody that shifts between two parts. I never actually thought about turning it into a full song until I heard LL Cool J\'s "30 Decembers", which samples riffs and melodies from Wigwam\'s "Lucky Golden Stripes and Starpose". That\'s when I decided to try to use these guitars in a rap song — I just sucked at making one.',
+        'The original guitar demo was called 800mg. Not because I was into substances or anything like that, but because during the time I recorded it, I had a really bad case of tendonitis in my arm from nonstop coding, rehearsing, and recording. I had a prescription for some basic painkillers, and the dosage was 800 mg. I noticed the "800 mg" printed on the prescription paper lying nearby and used it as the file name when I saved the demo.',
+        'Later, when I started writing the lyrics, I kept recycling that "Eight Hundred" theme and even put some "Golden Stripes" themes in there. In the lyrics, we\'re flexing the idea that "Eight Hundred is a lot," leaving it open for everyone to interpret in their own way.',
+      ],
+    },
+  },
+  {
     title: 'Lunar',
     soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/lunar',
     demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A245771692',
