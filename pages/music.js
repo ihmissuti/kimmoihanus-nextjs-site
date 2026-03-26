@@ -132,12 +132,11 @@ const tracks = [
   },
   {
     title: 'Self Raping Worm',
-    soundcloudUrl: 'https%3A//soundcloud.com/rotwurm/self-raping-worm-1',
+    soundcloudUrl: 'https%3A//soundcloud.com/rotwurm/self-raping-worm-instrumental',
     story: {
       subtitle: "The Best Song I've Ever Written",
       paragraphs: [
-        'Around 2004 my friend and I formed a two-man band called "Napalm Cunt". Many people confused us with Anal Cunt and said how much they liked our music. We did not waste our energy correcting them.',
-        'A song I wrote during this time was called "Self Raping Worm" and it was a story of a maggot defiling himself, as we took inspiration from the fact that many worms in nature can breed without a companion. The song was a full 8-minute black & death metal song that had multiple melodic sections and a headbanging chorus. We took inspiration from bands such as Decapitated, Dimmu Borgir, Cadaver, Berzerker, Ulver, Macabre, Bloodbath (especially "Eaten") but also Pink Floyd, Kingston Wall etc.',
+        'Around 2004 my friend and I formed a two-man band. A song I wrote during this time was called "Self Raping Worm" and it was a story of a maggot defiling himself, as we took inspiration from the fact that many worms in nature can breed without a companion. The song was a full 8-minute black & death metal song that had multiple melodic sections and a headbanging chorus. We took inspiration from bands such as Decapitated, Dimmu Borgir, Cadaver, Berzerker, Ulver, Macabre, Bloodbath (especially "Eaten") but also Pink Floyd, Kingston Wall etc.',
         "I still think this is the best and most complete song I've ever written, but it has not yet been recorded or produced into a version that I could release.",
         "I'm so attached to the melodies in the song, so I decided to take the instrumental parts and do a bit of remixing. You can hear them in this track.",
       ],
