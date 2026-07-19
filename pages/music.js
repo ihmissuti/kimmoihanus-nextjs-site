@@ -3,12 +3,80 @@ import Heading from '@/components/Heading';
 import { NextSeo } from 'next-seo';
 import { useState } from 'react';
 
+const projects = [
+  {
+    name: 'ihmissuti',
+    tagline:
+      'The mother project. Two decades of songwriting, from muddy garage rock to soft pop-rock — this is where the raw demos and finished tracks live.',
+    home: true,
+    links: [
+      { label: 'Spotify', href: 'https://open.spotify.com/artist/1BuOyEmJD4M6n5lkAKtNkS' },
+      { label: 'SoundCloud', href: 'https://soundcloud.com/ihmissuti' },
+      { label: 'YouTube', href: 'https://www.youtube.com/@ihmissuti' },
+      { label: 'TikTok', href: 'https://www.tiktok.com/@ihmissuti' },
+      { label: 'Instagram', href: 'https://www.instagram.com/ihmissutiproject' },
+      { label: 'Website', href: 'https://ihmissuti.com' },
+    ],
+  },
+  {
+    name: 'Amzart',
+    tagline: 'Experimental hip hop and underground rap.',
+    links: [
+      { label: 'Spotify', href: 'https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ' },
+      { label: 'Website', href: 'https://amzartmusic.com' },
+    ],
+  },
+  {
+    name: 'Cometfall',
+    tagline: 'Spacey, atmospheric alternative and progressive rock — meant to be played loud.',
+    links: [
+      { label: 'Spotify', href: 'https://open.spotify.com/artist/2HQ9MRr9LEem4ZTzJM8KsN' },
+      { label: 'Instagram', href: 'https://instagram.com/cometfallmusic' },
+      { label: 'Website', href: 'https://cometfallmusic.com' },
+    ],
+  },
+  {
+    name: 'erizou',
+    tagline: 'Cosmic Spanish dance music for the sweaty floor — progressive house, reggaeton and EDM.',
+    links: [
+      { label: 'Spotify', href: 'https://open.spotify.com/artist/7GY9sAyIvttsZav3Xtn6v1' },
+      { label: 'TikTok', href: 'https://www.tiktok.com/@erizou_' },
+      { label: 'Instagram', href: 'https://www.instagram.com/erizou_official' },
+      { label: 'Website', href: 'https://erizou.com' },
+    ],
+  },
+  {
+    name: 'halogeist',
+    tagline: 'Futuristic, industrial-leaning progressive house — steel-cold textures and hypnotic grooves.',
+    links: [
+      { label: 'Spotify', href: 'https://open.spotify.com/artist/5uajUWjmTDxgSvWDUFSWuQ' },
+      { label: 'Instagram', href: 'https://www.instagram.com/halogeistmusic' },
+      { label: 'Website', href: 'https://halogeist.com' },
+    ],
+  },
+  {
+    name: 'rotwurm',
+    tagline: 'Underground, extreme, uncompromising black & death metal.',
+    links: [
+      { label: 'Spotify', href: 'https://open.spotify.com/artist/6RT5OJAnN0no67CO9kX3UA' },
+      { label: 'SoundCloud', href: 'https://soundcloud.com/rotwurm' },
+      { label: 'TikTok', href: 'https://www.tiktok.com/@rotwurm' },
+      { label: 'Website', href: 'https://rotwurm.com' },
+    ],
+  },
+  {
+    name: 'Mönjä',
+    tagline: 'A newer project, still taking shape. No releases out yet.',
+    comingSoon: true,
+    links: [],
+  },
+];
+
 const tracks = [
   {
     title: 'Eight Hundred',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/eight-hundred',
-    demoSoundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/800mg-demo',
-    demoName: '800mg',
+    project: 'Amzart',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/eight-hundred',
     story: {
       subtitle: 'Golden Stripes and Painkillers',
       paragraphs: [
@@ -19,9 +87,10 @@ const tracks = [
     },
   },
   {
-    title: 'Lunar',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/lunar',
-    demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A245771692',
+    title: 'Buried Elsewhere',
+    project: 'Cometfall',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/space-odysseya',
+    demoSoundcloudUrl: 'https://soundcloud.com/ihmissuti/space-odysseia',
     demoName: 'Space Odysseia',
     story: {
       subtitle: '10 Years in the Making',
@@ -36,8 +105,8 @@ const tracks = [
   },
   {
     title: 'Orange Jang',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/the-orange-jang',
-    demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A245848382',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/the-orange-jang',
+    demoSoundcloudUrl: 'https://soundcloud.com/ihmissuti/orange-jang',
     demoName: 'Orange Jang',
     story: {
       subtitle: 'Chasing a Bigger Sound',
@@ -51,9 +120,7 @@ const tracks = [
   },
   {
     title: 'Summer Breeze',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/summer-breeze',
-    demoSoundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/summer-breeze-demo',
-    demoName: 'Summer Breeze (demo)',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/summer-breeze',
     story: {
       subtitle: 'From Death Metal to Feel-Good Pop Rock',
       paragraphs: [
@@ -66,8 +133,8 @@ const tracks = [
   },
   {
     title: 'Ash in the Hourglass',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/ash-in-the-hourglass',
-    demoSoundcloudUrl: 'https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A173887372',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/ash-in-the-hourglass',
+    demoSoundcloudUrl: 'https://soundcloud.com/ihmissuti/camp-song',
     demoName: 'Camp Song',
     story: {
       subtitle: 'The Best Thing That Came Out of Me',
@@ -80,9 +147,7 @@ const tracks = [
   },
   {
     title: 'Afterslit',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/afterslit',
-    demoSoundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/afterslit-demo',
-    demoName: 'Afterslit (demo)',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/afterslit',
     story: {
       subtitle: 'Blues, Garage Rock, and Mud',
       paragraphs: [
@@ -93,7 +158,7 @@ const tracks = [
   },
   {
     title: 'Let Me Go',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/let-me-go',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/let-me-go',
     story: {
       subtitle: 'Force Feed the Cat',
       paragraphs: [
@@ -106,7 +171,7 @@ const tracks = [
   },
   {
     title: 'Hollow Eyes',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/hollow-eyes',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/hollow-eyes',
     story: {
       subtitle: 'A Song That Probably Shouldn\u2019t Exist',
       paragraphs: [
@@ -121,7 +186,7 @@ const tracks = [
   },
   {
     title: 'Pretty Boy',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/pretty-boy',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/pretty-boy',
     story: {
       subtitle: 'Chasing Song 2 by Blur',
       paragraphs: [
@@ -132,7 +197,8 @@ const tracks = [
   },
   {
     title: 'Self Raping Worm',
-    soundcloudUrl: 'https%3A//soundcloud.com/rotwurm/self-raping-worm-instrumental',
+    project: 'rotwurm',
+    soundcloudUrl: 'https://soundcloud.com/rotwurm/self-raping-worm',
     story: {
       subtitle: "The Best Song I've Ever Written",
       paragraphs: [
@@ -144,7 +210,8 @@ const tracks = [
   },
   {
     title: 'Underground Human Flesh Store',
-    soundcloudUrl: 'https%3A//soundcloud.com/rotwurm/underground-human-flesh-store',
+    project: 'rotwurm',
+    soundcloudUrl: 'https://soundcloud.com/rotwurm/underground-human-flesh-store',
     story: {
       subtitle: 'Twenty Years of Gore',
       paragraphs: [
@@ -154,7 +221,7 @@ const tracks = [
   },
   {
     title: 'Losing Time',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/losing-time',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/losing-time',
     story: {
       subtitle: 'Rock Riffs Stitched Together',
       paragraphs: [
@@ -164,20 +231,8 @@ const tracks = [
     },
   },
   {
-    title: 'Organic Heat (silloin tällöin)',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/organic-heat-silloin-taelloein',
-    story: {
-      subtitle: 'Four Guys at Sziget Festival',
-      paragraphs: [
-        'Back in 2011, four guys ended up at Sziget Festival. We all played in different bands but shared a thing for roots and reggae. Somewhere between the stages and the late nights, we decided to start a band together: Ever Flowing Stream of Organic Pleasures.',
-        'The plan was simple: each of us writes one reggae song, and we record them together.',
-        'Organic Heat ended up being a weird mix of jazzy guitar+bass and rap \u2014 but anyways, this was my contribution.',
-      ],
-    },
-  },
-  {
     title: 'Burn Down',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/burn-down',
+    soundcloudUrl: 'https://soundcloud.com/ihmissuti/burn-down',
     story: {
       subtitle: 'Three Chords and a Folk Mood',
       paragraphs: [
@@ -186,17 +241,49 @@ const tracks = [
       ],
     },
   },
-  {
-    title: 'Together We Are (Little Monsters)',
-    soundcloudUrl: 'https%3A//soundcloud.com/ihmissuti/together-we-are-little',
-    story: {
-      subtitle: 'A Patchwork of Riffs',
-      paragraphs: [
-        'It\u2019s hard to tell the year when this was composed \u2014 it\u2019s really a glue-and-stitch of multiple guitar riffs that I enjoy. But they work really well together!',
-      ],
-    },
-  },
 ];
+
+function ProjectCard({ project }) {
+  return (
+    <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-5 flex flex-col">
+      <div className="flex items-baseline justify-between gap-2 mb-2">
+        <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100">{project.name}</h3>
+        {project.home && (
+          <span className="text-xs font-medium uppercase tracking-wide text-gray-400 dark:text-gray-500">
+            Home base
+          </span>
+        )}
+        {project.comingSoon && (
+          <span className="text-xs font-medium uppercase tracking-wide text-gray-400 dark:text-gray-500">
+            Coming soon
+          </span>
+        )}
+      </div>
+      <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">{project.tagline}</p>
+      {project.links.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {project.links.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-medium px-3 py-1 rounded-full border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-300 hover:border-gray-400 hover:text-gray-900 dark:hover:text-gray-100 dark:hover:border-gray-500 transition-colors"
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function soundcloudEmbed(url) {
+  return `https://w.soundcloud.com/player/?url=${encodeURIComponent(
+    url
+  )}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`;
+}
 
 function TrackCard({ track }) {
   const [showDemo, setShowDemo] = useState(false);
@@ -204,7 +291,12 @@ function TrackCard({ track }) {
 
   return (
     <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
-      <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-4">{track.title}</h3>
+      <div className="flex items-baseline justify-between gap-2 mb-4">
+        <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">{track.title}</h3>
+        {track.project && (
+          <span className="text-xs font-medium text-gray-400 dark:text-gray-500">released as {track.project}</span>
+        )}
+      </div>
 
       <div className="mb-4">
         <iframe
@@ -213,7 +305,7 @@ function TrackCard({ track }) {
           scrolling="no"
           frameBorder="no"
           allow="autoplay"
-          src={`https://w.soundcloud.com/player/?url=${track.soundcloudUrl}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`}
+          src={soundcloudEmbed(track.soundcloudUrl)}
           className="rounded"
           title={track.title}
         />
@@ -245,7 +337,7 @@ function TrackCard({ track }) {
         )}
       </div>
 
-      {showDemo && (
+      {showDemo && track.demoSoundcloudUrl && (
         <div className="mt-3">
           <iframe
             width="100%"
@@ -253,7 +345,7 @@ function TrackCard({ track }) {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src={`https://w.soundcloud.com/player/?url=${track.demoSoundcloudUrl}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`}
+            src={soundcloudEmbed(track.demoSoundcloudUrl)}
             className="rounded"
             title={`${track.demoName} (demo)`}
           />
@@ -279,17 +371,33 @@ export default function Music() {
     <Wrapper>
       <NextSeo
         title="Music - Kimmo Ihanus"
-        description="Songs and demos by Kimmo Ihanus. From bass line ideas to finished tracks — listen to the music and read the stories behind them."
+        description="The music of Kimmo Ihanus (ihmissuti) and its release projects — Amzart, Cometfall, erizou, halogeist, rotwurm and Mönjä. Listen on Spotify and SoundCloud, and read the stories behind the songs."
       />
 
       <Heading className="mb-4">Music</Heading>
 
       <p className="text-gray-600 dark:text-gray-400 mb-10 max-w-2xl">
-        These songs started as rough demos recorded on phones and in GarageBand sessions, and eventually became full
-        productions with the help of AI tools like Suno. Click "Based on demo" to hear what they sounded like before.
+        <span className="font-medium text-gray-800 dark:text-gray-200">ihmissuti</span> is my lifelong songwriting
+        project — two decades of riffs, demos and half-finished ideas, most of them recorded on phones and in GarageBand
+        and finally brought to life with AI tools like Suno. The polished tracks go out into the world under a handful
+        of genre-specific projects, each with its own sound. Here they all are.
       </p>
 
+      <section className="mb-14">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-5">Projects</h2>
+        <div className="grid gap-4 sm:grid-cols-2">
+          {projects.map((project) => (
+            <ProjectCard key={project.name} project={project} />
+          ))}
+        </div>
+      </section>
+
       <section className="mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">Songs &amp; stories</h2>
+        <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-2xl">
+          A selection of tracks from the ihmissuti catalogue. Click &quot;Based on demo&quot; to hear the original rough
+          recording, or &quot;Behind the song&quot; to read where it came from.
+        </p>
         {tracks.map((track) => (
           <TrackCard key={track.title} track={track} />
         ))}
