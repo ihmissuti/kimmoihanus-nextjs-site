@@ -1,408 +1,109 @@
-import Wrapper from '@/components/Wrapper';
-import Heading from '@/components/Heading';
+import MusicProjectCard from '@/components/MusicProjectCard';
+import TrackCard from '@/components/TrackCard';
+import { projects, tracks, orphanGenres } from '@/lib/music';
 import { NextSeo } from 'next-seo';
-import { useState } from 'react';
 
-const projects = [
-  {
-    name: 'ihmissuti',
-    tagline:
-      'The mother project. Two decades of songwriting, from muddy garage rock to soft pop-rock — this is where the raw demos and finished tracks live.',
-    home: true,
-    links: [
-      { label: 'Spotify', href: 'https://open.spotify.com/artist/1BuOyEmJD4M6n5lkAKtNkS' },
-      { label: 'SoundCloud', href: 'https://soundcloud.com/ihmissuti' },
-      { label: 'YouTube', href: 'https://www.youtube.com/@ihmissuti' },
-      { label: 'TikTok', href: 'https://www.tiktok.com/@ihmissuti' },
-      { label: 'Instagram', href: 'https://www.instagram.com/ihmissutiproject' },
-      { label: 'Website', href: 'https://ihmissuti.com' },
-    ],
-  },
-  {
-    name: 'Amzart',
-    tagline: 'Experimental hip hop and underground rap.',
-    links: [
-      { label: 'Spotify', href: 'https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ' },
-      { label: 'Website', href: 'https://amzartmusic.com' },
-    ],
-  },
-  {
-    name: 'Cometfall',
-    tagline: 'Spacey, atmospheric alternative and progressive rock — meant to be played loud.',
-    links: [
-      { label: 'Spotify', href: 'https://open.spotify.com/artist/2HQ9MRr9LEem4ZTzJM8KsN' },
-      { label: 'Instagram', href: 'https://instagram.com/cometfallmusic' },
-      { label: 'Website', href: 'https://cometfallmusic.com' },
-    ],
-  },
-  {
-    name: 'erizou',
-    tagline: 'Cosmic Spanish dance music for the sweaty floor — progressive house, reggaeton and EDM.',
-    links: [
-      { label: 'Spotify', href: 'https://open.spotify.com/artist/7GY9sAyIvttsZav3Xtn6v1' },
-      { label: 'TikTok', href: 'https://www.tiktok.com/@erizou_' },
-      { label: 'Instagram', href: 'https://www.instagram.com/erizou_official' },
-      { label: 'Website', href: 'https://erizou.com' },
-    ],
-  },
-  {
-    name: 'halogeist',
-    tagline: 'Futuristic, industrial-leaning progressive house — steel-cold textures and hypnotic grooves.',
-    links: [
-      { label: 'Spotify', href: 'https://open.spotify.com/artist/5uajUWjmTDxgSvWDUFSWuQ' },
-      { label: 'Instagram', href: 'https://www.instagram.com/halogeistmusic' },
-      { label: 'Website', href: 'https://halogeist.com' },
-    ],
-  },
-  {
-    name: 'rotwurm',
-    tagline: 'Underground, extreme, uncompromising black & death metal.',
-    links: [
-      { label: 'Spotify', href: 'https://open.spotify.com/artist/6RT5OJAnN0no67CO9kX3UA' },
-      { label: 'SoundCloud', href: 'https://soundcloud.com/rotwurm' },
-      { label: 'TikTok', href: 'https://www.tiktok.com/@rotwurm' },
-      { label: 'Website', href: 'https://rotwurm.com' },
-    ],
-  },
-  {
-    name: 'Mönjä',
-    tagline: 'A newer project, still taking shape. No releases out yet.',
-    comingSoon: true,
-    links: [],
-  },
-];
-
-const tracks = [
-  {
-    title: 'Eight Hundred',
-    project: 'Amzart',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/eight-hundred',
-    story: {
-      subtitle: 'Golden Stripes and Painkillers',
-      paragraphs: [
-        'For a long time I\'d been playing around with a simple guitar melody that shifts between two parts. I never actually thought about turning it into a full song until I heard LL Cool J\'s "30 Decembers", which samples riffs and melodies from Wigwam\'s "Lucky Golden Stripes and Starpose". That\'s when I decided to try to use these guitars in a rap song — I just sucked at making one.',
-        'The original guitar demo was called 800mg. Not because I was into substances or anything like that, but because during the time I recorded it, I had a really bad case of tendonitis in my arm from nonstop coding, rehearsing, and recording. I had a prescription for some basic painkillers, and the dosage was 800 mg. I noticed the "800 mg" printed on the prescription paper lying nearby and used it as the file name when I saved the demo.',
-        'Later, when I started writing the lyrics, I kept recycling that "Eight Hundred" theme and even put some "Golden Stripes" themes in there. In the lyrics, we\'re flexing the idea that "Eight Hundred is a lot," leaving it open for everyone to interpret in their own way.',
-      ],
-    },
-  },
-  {
-    title: 'Buried Elsewhere',
-    project: 'Cometfall',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/space-odysseya',
-    demoSoundcloudUrl: 'https://soundcloud.com/ihmissuti/space-odysseia',
-    demoName: 'Space Odysseia',
-    story: {
-      subtitle: '10 Years in the Making',
-      paragraphs: [
-        'Some songs come together quickly. This one took ten years.',
-        'In 2016 I came up with a simple bass line that I got kind of obsessed with. At the time I thought it would work as a nu-metal or rap track, but as I kept adding elements to it the direction slowly shifted toward pop-rock with a danceable groove.',
-        'The original demo had the bass played pretty badly, but I never bothered fixing it \u2014 I just kept building on top of it anyway.',
-        'The track sat unfinished for years until 2026 when I decided to finally wrap it up. I wrote some lyrics that are admittedly a bit cheesy, produced the vocals with Suno, and the result ended up being pretty much exactly what I had in mind when I first started messing around with that bass line a decade ago.',
-        'Better late than never.',
-      ],
-    },
-  },
-  {
-    title: 'Orange Jang',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/the-orange-jang',
-    demoSoundcloudUrl: 'https://soundcloud.com/ihmissuti/orange-jang',
-    demoName: 'Orange Jang',
-    story: {
-      subtitle: 'Chasing a Bigger Sound',
-      paragraphs: [
-        'Orange Jang was originally recorded around 2016. It all started with the melody you can hear in the background during the final climax of the demo \u2014 that was the seed the whole song grew from.',
-        'Once that melody existed, the rest of the pieces came together surprisingly easily. In my head, the song was complete pretty quickly.',
-        'The problem was getting it to actually sound the way it sounded in my head. I wanted something big \u2014 movie soundtrack big. For years I kept coming back to it, trying different approaches, but it never quite got there.',
-        'Now it finally sounds like it should.',
-      ],
-    },
-  },
-  {
-    title: 'Summer Breeze',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/summer-breeze',
-    story: {
-      subtitle: 'From Death Metal to Feel-Good Pop Rock',
-      paragraphs: [
-        '"Summer Breeze" is the kind of track that would probably never end up on my own playlist considering the style and genre, but I still consider it a really cool song that I\u2019ve always wanted to finish.',
-        'The main riff is really old, and the original demos were recorded back in 2014. The whole song has essentially been there since those early days: the instruments, lyrics, and vocal melodies. I just never managed to fully produce it until now.',
-        'What finally made it possible was using Suno to sing the missing vocals, based on the demo melodies and lyrics I had recorded.',
-        'I\u2019m no Katy Perry, obviously, but maybe it distantly sounds a little like one of her songs.',
-      ],
-    },
-  },
-  {
-    title: 'Ash in the Hourglass',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/ash-in-the-hourglass',
-    demoSoundcloudUrl: 'https://soundcloud.com/ihmissuti/camp-song',
-    demoName: 'Camp Song',
-    story: {
-      subtitle: 'The Best Thing That Came Out of Me',
-      paragraphs: [
-        'This song was originally recorded in 2015. The first thing I came up with was the guitar melody that kicks in right after the intro. To be honest, I still think it\u2019s one of the best things that has musically come out of me.',
-        'Once that melody was there, the rest of the song followed easily. Our band\u2019s keyboard player \u2014 who is a far better bass, guitar, and all-around player than me \u2014 helped with the original demo. He played the drums and the slide guitars, and helped mix it by running the whole thing through cassette, which I think works brilliantly.',
-        'I actually think the overall atmosphere of the original demo is better than the latest version. But in the new version I managed to produce singing vocals that I\u2019d always imagined this song should have. That was the missing piece.',
-      ],
-    },
-  },
-  {
-    title: 'Afterslit',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/afterslit',
-    story: {
-      subtitle: 'Blues, Garage Rock, and Mud',
-      paragraphs: [
-        'Afterslit was recorded in 2015. The song relies on this blues and garage rock riff that just rolls throughout the whole thing.',
-        'I still think the original demo has a kind of cool, muddy sound to it \u2014 although my playing on it is not anywhere near satisfying.',
-      ],
-    },
-  },
-  {
-    title: 'Let Me Go',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/let-me-go',
-    story: {
-      subtitle: 'Force Feed the Cat',
-      paragraphs: [
-        '"Let Me Go" was originally recorded between 2012 and 2014 under the project name "Force Feed the Cat." The name came from a ridiculous moment when a large group of people at a beach, party, or some festival (I don\u2019t remember exactly) were all drinking from the same bucket, and someone shouted, "We are force-feeding a cat!"',
-        'Anyway, the original demo wasn\u2019t as punchy and groovy as the final version. It had a calmer vibe and leaned heavily on the melodies. Then one weekend, we headed to my parents\u2019 summer cottage to play and record our songs. The place had a killer sound thanks to its old wooden floors, ceilings, and roof. We started jamming the song there, and the space gave it a punchier, more driven feel.',
-        'I already had some lyrics for the verses that started with "I don\u2019t want to be alone in the dark\u2026". The lines just felt like a natural fit with the rhythm and the melody. For the chorus, our guitarist and singer started throwing out random lines like "I\u2019m running down with you," "Sell myself," "Sell my soul," "Sell my photograph," and so on. Those fragments came together to form the choruses in the cottage demos.',
-        'The final song was made with Suno by mashing up the original home demo with the cottage recordings and remixing everything around the lyrics.',
-      ],
-    },
-  },
-  {
-    title: 'Hollow Eyes',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/hollow-eyes',
-    story: {
-      subtitle: 'A Song That Probably Shouldn\u2019t Exist',
-      paragraphs: [
-        'This is the kind of song that probably shouldn\u2019t exist. Like many of the slower rock songs I\u2019ve written, it doesn\u2019t represent what I usually listen to \u2014 but maybe that\u2019s exactly why it interests me.',
-        '"Hollow Eyes" was first recorded as a rehearsal demo around 2014, back when it was always called ROT. I don\u2019t remember why.',
-        'Unlike almost everything else I write, this one didn\u2019t start with a guitar or bass riff. It started with a vocal melody I just began humming. The chorus followed, then the guitars and lyrics came in one go. I thought it was kind of cheesy, but in a strange way I still liked it. Since the lyrics came out so quickly, I figure they must mean something.',
-        'I brought it to our rock trio, Dog Day Sunrise (never forget), and we eventually rehearsed it, recorded some takes, and played it live once at Zoom bar in Hyvink\u00e4\u00e4. Then ROT disappeared for years.',
-        'Recently I decided to revisit it, produce and master the track properly, use Suno to recreate the vocals from the original demos, and remix the whole thing.',
-        'I\u2019m really happy that Hollow Eyes, a.k.a. ROT, has finally found its place.',
-      ],
-    },
-  },
-  {
-    title: 'Pretty Boy',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/pretty-boy',
-    story: {
-      subtitle: 'Chasing Song 2 by Blur',
-      paragraphs: [
-        'I\'ve always wanted to do something at least a bit similar to Song 2 by Blur. "Pretty Boy" is what I tried, but it\'s a song I never played for anyone. Or at least never seriously pitched to any of my bandmates. I think it was because I always wanted to record the vocals myself, and was partly ashamed that they fell far short of the level the song deserved.',
-        'After remixing the original demo with Suno, I finally got what I was after: that laid-back, almost lazy feel in the verses, paired with a chorus that still hits.',
-      ],
-    },
-  },
-  {
-    title: 'Self Raping Worm',
-    project: 'rotwurm',
-    soundcloudUrl: 'https://soundcloud.com/rotwurm/self-raping-worm',
-    story: {
-      subtitle: "The Best Song I've Ever Written",
-      paragraphs: [
-        'Around 2004 my friend and I formed a two-man band. A song I wrote during this time was called "Self Raping Worm" and it was a story of a maggot defiling himself, as we took inspiration from the fact that many worms in nature can breed without a companion. The song was a full 8-minute black & death metal song that had multiple melodic sections and a headbanging chorus. We took inspiration from bands such as Decapitated, Dimmu Borgir, Cadaver, Berzerker, Ulver, Macabre, Bloodbath (especially "Eaten") but also Pink Floyd, Kingston Wall etc.',
-        "I still think this is the best and most complete song I've ever written, but it has not yet been recorded or produced into a version that I could release.",
-        "I'm so attached to the melodies in the song, so I decided to take the instrumental parts and do a bit of remixing. You can hear them in this track.",
-      ],
-    },
-  },
-  {
-    title: 'Underground Human Flesh Store',
-    project: 'rotwurm',
-    soundcloudUrl: 'https://soundcloud.com/rotwurm/underground-human-flesh-store',
-    story: {
-      subtitle: 'Twenty Years of Gore',
-      paragraphs: [
-        'This song was originally composed around 2006\u20132008. I had a clear vision for it from the start, but it took until 2026 to finally nail the lyrics, vocals, and song structure into the kind of gore level I originally wished for.',
-      ],
-    },
-  },
-  {
-    title: 'Losing Time',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/losing-time',
-    story: {
-      subtitle: 'Rock Riffs Stitched Together',
-      paragraphs: [
-        '"Losing Time" was originally just a bunch of rock riffs stitched together. But who cares, they work really well.',
-        "I'm still not happy with the verses, honestly. They feel a bit juvenile, telling the story of a man on death row in an old western town waiting for the gallows. The lyrics also have little to do with what the chorus is saying. That said, the chorus just works and for some reason I'm obsessed with the line \"Boy you're losing time\".",
-      ],
-    },
-  },
-  {
-    title: 'Burn Down',
-    soundcloudUrl: 'https://soundcloud.com/ihmissuti/burn-down',
-    story: {
-      subtitle: 'Three Chords and a Folk Mood',
-      paragraphs: [
-        'The inspiration for Burn Down came from Finnish "rautalanka" style, Tuomari Nurmio, and The Greenhornes. In the final piece those elements aren\u2019t so prominent anymore, but the song just started working pretty well as a slightly moody rock tune with a bit of a folk vibe.',
-        'The whole song only has three chords, but the transitions between them create the backbone for the singing vocals that play with it.',
-      ],
-    },
-  },
-];
-
-function ProjectCard({ project }) {
+function SectionHeading({ eyebrow, children }) {
   return (
-    <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-5 flex flex-col">
-      <div className="flex items-baseline justify-between gap-2 mb-2">
-        <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100">{project.name}</h3>
-        {project.home && (
-          <span className="text-xs font-medium uppercase tracking-wide text-gray-400 dark:text-gray-500">
-            Home base
-          </span>
-        )}
-        {project.comingSoon && (
-          <span className="text-xs font-medium uppercase tracking-wide text-gray-400 dark:text-gray-500">
-            Coming soon
-          </span>
-        )}
-      </div>
-      <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">{project.tagline}</p>
-      {project.links.length > 0 && (
-        <div className="flex flex-wrap gap-2">
-          {project.links.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs font-medium px-3 py-1 rounded-full border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-300 hover:border-gray-400 hover:text-gray-900 dark:hover:text-gray-100 dark:hover:border-gray-500 transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
-function soundcloudEmbed(url) {
-  return `https://w.soundcloud.com/player/?url=${encodeURIComponent(
-    url
-  )}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false`;
-}
-
-function TrackCard({ track }) {
-  const [showDemo, setShowDemo] = useState(false);
-  const [showStory, setShowStory] = useState(false);
-
-  return (
-    <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 mb-6">
-      <div className="flex items-baseline justify-between gap-2 mb-4">
-        <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">{track.title}</h3>
-        {track.project && (
-          <span className="text-xs font-medium text-gray-400 dark:text-gray-500">released as {track.project}</span>
-        )}
-      </div>
-
-      <div className="mb-4">
-        <iframe
-          width="100%"
-          height="166"
-          scrolling="no"
-          frameBorder="no"
-          allow="autoplay"
-          src={soundcloudEmbed(track.soundcloudUrl)}
-          className="rounded"
-          title={track.title}
-        />
-      </div>
-
-      <div className="flex flex-wrap gap-x-6 gap-y-2">
-        {track.demoSoundcloudUrl && (
-          <button
-            onClick={() => setShowDemo(!showDemo)}
-            className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center gap-2"
-          >
-            <span className={`inline-block transform transition-transform ${showDemo ? 'rotate-90' : ''}`}>
-              &#9654;
-            </span>
-            Based on demo: {track.demoName}
-          </button>
-        )}
-
-        {track.story && (
-          <button
-            onClick={() => setShowStory(!showStory)}
-            className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 transition-colors flex items-center gap-2"
-          >
-            <span className={`inline-block transform transition-transform ${showStory ? 'rotate-90' : ''}`}>
-              &#9654;
-            </span>
-            Behind the song
-          </button>
-        )}
-      </div>
-
-      {showDemo && track.demoSoundcloudUrl && (
-        <div className="mt-3">
-          <iframe
-            width="100%"
-            height="166"
-            scrolling="no"
-            frameBorder="no"
-            allow="autoplay"
-            src={soundcloudEmbed(track.demoSoundcloudUrl)}
-            className="rounded"
-            title={`${track.demoName} (demo)`}
-          />
-        </div>
-      )}
-
-      {showStory && track.story && (
-        <div className="mt-4 border-l-2 border-gray-200 dark:border-gray-700 pl-4">
-          <p className="text-sm text-gray-500 dark:text-gray-400 italic mb-3">{track.story.subtitle}</p>
-          <div className="space-y-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-            {track.story.paragraphs.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-        </div>
-      )}
+    <div className="mb-6">
+      <p className="font-mono text-xs uppercase tracking-widest mb-2" style={{ color: '#e8622c' }}>
+        {eyebrow}
+      </p>
+      <h2 className="text-3xl font-black tracking-tight text-white">{children}</h2>
     </div>
   );
 }
 
 export default function Music() {
   return (
-    <Wrapper>
+    <div className="music-stage">
       <NextSeo
         title="Music - Kimmo Ihanus"
-        description="The music of Kimmo Ihanus (ihmissuti) and its release projects — Amzart, Cometfall, erizou, halogeist, rotwurm and Mönjä. Listen on Spotify and SoundCloud, and read the stories behind the songs."
+        description="The music of Kimmo Ihanus (ihmissuti) — indie rock, rap, reggae, progressive house, black metal and everything in between, released across projects like Cometfall, Amzart, erizou, halogeist, Shaky Dope, rotwurm and DJ KLMA. Listen on Spotify and SoundCloud, and read the stories behind the songs."
       />
 
-      <Heading className="mb-4">Music</Heading>
-
-      <p className="text-gray-600 dark:text-gray-400 mb-10 max-w-2xl">
-        <span className="font-medium text-gray-800 dark:text-gray-200">ihmissuti</span> is my lifelong songwriting
-        project — two decades of riffs, demos and half-finished ideas, most of them recorded on phones and in GarageBand
-        and finally brought to life with AI tools like Suno. The polished tracks go out into the world under a handful
-        of genre-specific projects, each with its own sound. Here they all are.
-      </p>
-
-      <section className="mb-14">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-5">Projects</h2>
-        <div className="grid gap-4 sm:grid-cols-2">
-          {projects.map((project) => (
-            <ProjectCard key={project.name} project={project} />
-          ))}
+      <div className="max-w-3xl mx-auto p-4 py-16">
+        {/* Hero */}
+        <div className="mb-16">
+          <p className="font-mono text-xs uppercase tracking-widest mb-4" style={{ color: '#e8622c' }}>
+            Kimmo Ihanus — My ideas brought alive
+          </p>
+          <h1 className="text-5xl md:text-6xl font-black tracking-tight text-white mb-5">Music</h1>
+          <p className="font-mono text-xs uppercase tracking-widest mb-8" style={{ color: '#737373' }}>
+            Indie rock · Rap · Reggae · Progressive house · Alt rock · Everything in between
+          </p>
+          <p className="mb-4 max-w-2xl" style={{ color: '#9ca3af' }}>
+            Tracks span genres, projects and artist names. Some grew from ideas I had 20 years ago. Some are oven-fresh.
+          </p>
+          <p style={{ color: '#9ca3af' }}>Made in Helsinki, Finland. 🇫🇮</p>
         </div>
-      </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">Songs &amp; stories</h2>
-        <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-2xl">
-          A selection of tracks from the ihmissuti catalogue. Click &quot;Based on demo&quot; to hear the original rough
-          recording, or &quot;Behind the song&quot; to read where it came from.
-        </p>
-        {tracks.map((track) => (
-          <TrackCard key={track.title} track={track} />
-        ))}
-      </section>
-    </Wrapper>
+        <section className="mb-16">
+          <SectionHeading eyebrow="Projects">Artists &amp; projects</SectionHeading>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {projects.map((project) => (
+              <MusicProjectCard key={project.name} project={project} />
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <SectionHeading eyebrow="No fixed address">Orphan songs &amp; genres</SectionHeading>
+          <p className="mb-6 max-w-2xl" style={{ color: '#9ca3af' }}>
+            Not everything fits a project. These songs and genre experiments live in the{' '}
+            <a
+              href="https://soundcloud.com/ihmissuti"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-white"
+            >
+              main SoundCloud
+            </a>{' '}
+            without a home of their own.
+          </p>
+          <ul className="space-y-3">
+            {orphanGenres.map((genre) => (
+              <li key={genre.label} className="pl-4 border-l-2" style={{ borderColor: '#262626' }}>
+                <span className="font-medium text-white">{genre.label}</span>
+                {genre.detail && (
+                  <span className="text-sm" style={{ color: '#9ca3af' }}>
+                    {' '}
+                    — {genre.detail}
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mb-16">
+          <SectionHeading eyebrow="From demo to full production">Songs &amp; stories</SectionHeading>
+          <p className="mb-8 max-w-2xl" style={{ color: '#9ca3af' }}>
+            A selection of tracks from the ihmissuti catalogue. Open &quot;Based on demo&quot; to hear the original
+            rough recording, or &quot;Behind the song&quot; to read where it came from.
+          </p>
+          {tracks.map((track, i) => (
+            <TrackCard key={track.title} track={track} index={i} />
+          ))}
+        </section>
+
+        <section>
+          <SectionHeading eyebrow="Process">How the music gets made</SectionHeading>
+          <div className="space-y-4 max-w-2xl" style={{ color: '#9ca3af' }}>
+            <p>
+              I write the lyrics and build the melodies and structures with guitar, MIDI, tab, home recording,
+              GarageBand and rehearsal-room recordings. Most vocals and final production are done with Suno. Some tracks
+              use MIDI and demo recordings dating back to 2005. Most are brand new.
+            </p>
+            <p>
+              Lyrics take inspiration from literature, cosmic ideas, imaginary characters, psychedelia, horror fantasy —
+              or just words put in an order that feels right for the song. Writers I keep coming back to: Dylan Thomas
+              and Christopher Buehlman.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
   );
 }
 

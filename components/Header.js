@@ -12,8 +12,8 @@ export default function Header() {
 
         <nav className="flex items-center">
           <NavItem href="/">Home</NavItem>
-          <NavItem href="/posts">Posts</NavItem>
           <NavItem href="/music">Music</NavItem>
+          <NavItem href="/posts">Posts</NavItem>
         </nav>
       </div>
     </header>

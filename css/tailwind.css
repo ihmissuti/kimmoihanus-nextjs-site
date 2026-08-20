@@ -125,4 +125,20 @@ p code {
   @apply bg-yellow-800;
 }
 
+/* Music "stage" sections — always dark, matching the artist sites
+   (amzartmusic.com, ihmissuti.com, cometfallmusic.com) regardless of
+   the site-wide light/dark theme. */
+.music-stage {
+  background-color: #070707;
+  color: #fff;
+}
+
+.music-stage-link {
+  color: #737373;
+}
+
+.music-stage-link:hover {
+  color: #fff;
+}
+
 @tailwind utilities;

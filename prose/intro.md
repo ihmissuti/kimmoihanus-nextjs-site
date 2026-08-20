@@ -1,3 +1,5 @@
-Technical growth marketers building and scaling [Superlines](https://www.superlines.io) - the agentic AI search analytics platform. Pioneering AI-based marketing and solutions since the pre-ChatGPT era.
+I make music that spans genres, projects and artist names — indie rock, rap, reggae, progressive house, alt rock, and everything in between. I write the lyrics and build the melodies; some tracks grew from ideas I had 20 years ago, some are oven-fresh. Made in Helsinki, Finland. 🇫🇮
+
+By day I build [Superlines](https://www.superlines.io), an agentic AI search analytics platform.
 
 [Read more about me →](/about)

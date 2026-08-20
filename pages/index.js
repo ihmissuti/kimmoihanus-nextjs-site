@@ -2,9 +2,12 @@ import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 import { getPosts } from '@/lib/posts';
 import { getGraphics } from '@/lib/graphics';
+import { projects, featuredTracks } from '@/lib/music';
 
 import Intro from '@/prose/intro.md';
 import GraphicPreview from '@/components/GraphicsPreview';
+import MusicProjectCard from '@/components/MusicProjectCard';
+import TrackCard from '@/components/TrackCard';
 import styles from '@/css/graphics.module.css';
 import PostListItem from '@/components/PostListItem';
 
@@ -24,7 +27,7 @@ export default function Home({ posts, graphics }) {
     <div className="mt-8">
       <NextSeo
         title="Kimmo Ihanus"
-        description="A hacker and a maker with over 10-years experience in helping companies to create better services with marketing technology. I'm a Co-Founder who codes with node.js and javascript at Grew."
+        description="Music producer and songwriter from Helsinki, Finland. Indie rock, rap, reggae, progressive house, black metal and everything in between — released as ihmissuti, Cometfall, Amzart, erizou, halogeist, Shaky Dope, rotwurm and DJ KLMA. Also builds AI tools like Superlines."
       />
       <div className="max-w-3xl mx-auto mb-6 p-4">
         <div className="mb-12">
@@ -33,10 +36,58 @@ export default function Home({ posts, graphics }) {
             <Intro />
           </div>
         </div>
+      </div>
 
-        {/* Experience Section */}
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Experience</h2>
+      {/* Music stage — always dark, styled after the artist sites */}
+      <div className="music-stage">
+        <div className="max-w-3xl mx-auto p-4 py-16">
+          <p className="font-mono text-xs uppercase tracking-widest mb-4" style={{ color: '#e8622c' }}>
+            My ideas brought alive — Helsinki, FI
+          </p>
+          <h2 className="text-4xl md:text-5xl font-black tracking-tight text-white mb-4">Music</h2>
+          <p className="mb-10 max-w-2xl" style={{ color: '#9ca3af' }}>
+            Tracks span genres, projects and artist names. Some grew from ideas I had 20 years ago. Some are oven-fresh.
+          </p>
+
+          <div className="grid gap-4 sm:grid-cols-2 mb-12">
+            {projects.map((project) => (
+              <MusicProjectCard key={project.name} project={project} />
+            ))}
+          </div>
+
+          <div className="mb-10">
+            <p className="font-mono text-xs uppercase tracking-widest mb-6" style={{ color: '#e8622c' }}>
+              Listen
+            </p>
+            {featuredTracks.map((track, i) => (
+              <TrackCard key={track.title} track={track} index={i} />
+            ))}
+          </div>
+
+          <Link href="/music">
+            <a className="font-mono text-sm uppercase tracking-widest text-white hover:underline">
+              All songs, stories &amp; demos →
+            </a>
+          </Link>
+        </div>
+      </div>
+
+      <div className="max-w-3xl mx-auto mb-6 p-4">
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-4">Posts</h2>
+        </div>
+        <ul className="mb-4">
+          {posts.map((post) => {
+            return <PostListItem key={post.title} post={post} href="/posts/[slug]" as={`/posts/${post.nextPath}`} />;
+          })}
+        </ul>
+        <Link href="/posts">
+          <a className="text-sm text-gray-600 dark:text-gray-300 font-medium">All Posts</a>
+        </Link>
+
+        {/* Work Section */}
+        <div className="mt-14 mb-12">
+          <h2 className="text-2xl font-bold mb-6">Work</h2>
           <div className="space-y-6">
             <ExperienceItem
               role="Co-Founder & CTO"
@@ -100,22 +151,11 @@ export default function Home({ posts, graphics }) {
             </Link>
           </div>
         </div>
-        <div className="mt-12">
-          <h2 className="text-4xl font-bold mb-4">Posts</h2>
-        </div>
-        <ul className="mb-4">
-          {posts.map((post) => {
-            return <PostListItem key={post.title} post={post} href="/posts/[slug]" as={`/posts/${post.nextPath}`} />;
-          })}
-        </ul>
-        <Link href="/posts">
-          <a className="text-sm text-gray-600 dark:text-gray-300 font-medium">All Posts</a>
-        </Link>
       </div>
       <div>
         <div className={'max-w-5xl mx-auto mb-6 p-4'}>
           <div className="mt-12">
-            <h3 className="text-4xl font-bold mb-4">Projects I build</h3>
+            <h3 className="text-2xl font-bold mb-4">Things I build</h3>
           </div>
         </div>
         <Project
@@ -150,27 +190,6 @@ export default function Home({ posts, graphics }) {
             forget with reminders. Built on MCP (Model Context Protocol), the same standard powering Claude Desktop.
           </div>
         </Project>
-        {/* <Project
-          title="pointNG"
-          image="/pointng_main_page.png"
-          status="Prototype"
-          buttonText="Visit Website"
-          buttonUrl="https://www.pointng.io"
-        >
-          pointNG is a machine learning based innovation (patent pending) that uses neural networks to detect user location securely in the browser. I built the algorithms with <a href="https://www.brain.js.org">Brain.js</a> machine learning models and invented the "chaining" method that makes running neural networks possible and light in a browser environment.
-        </Project> */}
-        {/* <Project
-          title="Hacker-AI"
-          image="/hacker_ai.png"
-          status="Launched"
-          buttonText="Visit Website"
-          buttonUrl="https://www.hacker-ai.com"
-          flipped
-        >
-          <div className="mb-4">
-          Hacker-AI uses machine learning to predict the success of Hacker News post titles. If you're uncertain about what title to use, trust statistical mathematics! Pre-test your "Show HN" titles and increase your chances of hitting high points in Hacker News. Built with <a href="https://brain.js.org">Brain.js</a>
-          </div>
-        </Project> */}
         <Project
           title="ConsoleChat.io"
           image="/consolechat.png"
@@ -197,35 +216,6 @@ export default function Home({ posts, graphics }) {
             &mdash; but accuse wrong and you&rsquo;re out. Powered by Claude, built with Node.js and Socket.IO.
           </div>
         </Project>
-        {/* <Project
-          title="Pixtu"
-          image="/pixtu.png"
-          status="Prototype"
-          buttonText="Visit Website"
-          buttonUrl="https://www.pixtu.io"
-          flipped
-        >
-          Cookieless real-time lead conversion optimization tool that predicts whether your website visitors will buy or bounce. Read more from <a href="https://ihmissuti.medium.com/real-time-website-visitor-conversion-prediction-ddc13553a61a" target="_blank">this blog</a>.
-        </Project> */}
-        {/* <Project
-          title="abtestcalculation.com"
-          image="/abtestcalculation.png"
-          status="Launched"
-          buttonText="Visit Website"
-          buttonUrl="http://www.abtestcalculation.com"
-        >
-          Calculate the results of your A/B or multivariate test and estimate the required duration to achieve statistical significance. Built with Vue.js
-        </Project> */}
-        {/* <Project
-          title="Emobot.io"
-          status="Prototype"
-          buttonText="Visit Website"
-          buttonUrl="https://emobot.io"
-          image="/emo.png"
-          flipped
-        >
-         Emotional chatbot that reacts to love confessions and insults. Made with <a href="https://www.rivescript.com/" target="_blank">RiveScript.</a>
-        </Project> */}
       </div>
       <div className="py-12 max-w-5xl mx-auto mb-8 p-4">
         <h2 className="font-bold text-2xl mb-4">Graphics</h2>
@@ -306,4 +296,4 @@ function ExperienceItem({ role, company, companyUrl, period, children }) {
   );
 }
 
-Home.favicon = '💾';
+Home.favicon = '🎸';
