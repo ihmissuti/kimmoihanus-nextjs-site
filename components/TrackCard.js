@@ -16,6 +16,11 @@ export default function TrackCard({ track, index }) {
           </span>
         )}
         <h3 className="text-xl font-bold tracking-tight text-white flex-1">{track.title}</h3>
+        {track.upcoming && (
+          <span className="font-mono text-xs uppercase tracking-widest" style={{ color: '#e8622c' }}>
+            Spotify {track.upcoming}
+          </span>
+        )}
         {track.project && (
           <span className="font-mono text-xs uppercase tracking-widest" style={{ color: '#6b7280' }}>
             as {track.project}
@@ -38,6 +43,16 @@ export default function TrackCard({ track, index }) {
       </div>
 
       <div className="flex flex-wrap gap-x-6 gap-y-2">
+        {track.spotifyUrl && (
+          <a
+            href={track.spotifyUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-xs uppercase tracking-widest transition-colors music-stage-link"
+          >
+            Spotify ↗
+          </a>
+        )}
         {track.demoSoundcloudUrl && (
           <button
             onClick={() => setShowDemo(!showDemo)}
