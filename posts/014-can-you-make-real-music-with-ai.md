@@ -31,7 +31,8 @@ Nobody has interviewed me about the music. So I wrote the questions down and ans
 2. Songs made purely by prompting are audible from a long way off, and the lyrics give them away first.
 3. AI cannot supply the part that matters most: human energy, live performance, and the persona of an artist.
 4. Volume is a real problem. Deezer received around 90,000 fully AI-generated tracks per day in June 2026, more than half of everything uploaded, and that content drew only 1% to 3% of streams.
-5. For an independent artist, the interesting shift is not cheaper production. It is being able to test an idea on a real audience before committing to it.
+5. No song was ever 100% one person's doing. Authorship lives in the seed, and how the last steps get finished is a question of method rather than ownership.
+6. For an independent artist, the interesting shift is not cheaper production. It is being able to test an idea on a real audience before committing to it.
 
 ## Do you need to play an instrument well to write good songs?
 
@@ -50,6 +51,24 @@ Yes, and the reason people doubt it is that they are imagining a different proce
 Here is the honest shape of it. I bring the composition: lyrics, melody, structure, the genre it wants to be, the emotional target. The tools collapse the distance between that and actually hearing it. Twenty years ago, bringing a vision to life meant instruments, bandmates, rehearsal rooms, and recording time, and you had to spend all of that before you could tell whether the idea was even worth pursuing.
 
 That speed does not subtract one gram of the imagination that went into the composition. The song was mine before any tool touched it. What changed is that I find out sooner whether I was right.
+
+## Do you still make music without AI?
+
+Yes, constantly. There has never been a single route from an idea to a finished song, and AI did not replace the other ones.
+
+Sometimes a song gets there by jamming it with other people until it becomes something none of us planned. Sometimes it gets there alone at a computer with MIDI, which is how most of my catalogue was built for twenty years. Sometimes it now goes through AI. Very often it is a mixture: a part played, a part programmed, a part generated, then rewritten.
+
+None of those is the correct way and none of them is the wrong way. They are different roads to the same place, and which road a song takes usually depends on what the song needs and who happens to be around.
+
+## Is a song ever 100% yours?
+
+No, and mine never have been. This is worth saying plainly, because a lot of the argument about AI and authorship assumes a kind of purity that does not exist in music and never did.
+
+Think about what actually goes into a finished song. Whatever I was listening to when the melody arrived, and what that did to its shape. The people I first jammed the raw idea with, who pushed it somewhere I would not have taken it alone. Whoever recorded it, whoever mixed it, whatever decisions happened in production that I did not make. I have never finished a song that works and been able to say honestly that it was 100% my doing.
+
+What I care about is the seed: the idea, the core melody, the words. That part I want to be mine, and it is. Beyond that, the particular combination that takes the last steps is not the interesting question. Humans, AI, or humans and AI together. It does not matter much. Good music matters.
+
+The thing I do find ugly is people taking credit for work that is not theirs. That is not a new problem and it is not really an AI problem, but AI makes it easier and there is a lot of it about. It is also a different failure from using a tool. One is a question about how a song got made. The other is just lying.
 
 ## Are these old songs or new ones?
 
@@ -161,7 +180,8 @@ The third is that consistency beats intensity. A release every Friday teaches an
 2. Cheap verification is the real change. You can now explore risky ideas because finding out costs almost nothing.
 3. Prompt-only output is recognisable, and lyrics are where it falls apart first.
 4. Human energy, live performance, and artist persona remain entirely human, which is why a solo catalogue is a pitch to musicians rather than a replacement for them.
-5. Independent artists can now test material with a real audience before committing, which inverts the traditional finish-then-release order.
+5. There is no single correct route from an idea to a song. Playing it with people, building it alone in MIDI, and working with AI are all roads to the same place, and most songs use more than one.
+6. Independent artists can now test material with a real audience before committing, which inverts the traditional finish-then-release order.
 
 ## Frequently asked questions
 
@@ -169,7 +189,7 @@ The third is that consistency beats intensity. A release every Friday teaches an
 One person. Cometfall is my solo project: I write the lyrics and melodies, produce the records, and play bass on them. There are no other members and no invented ones.
 
 **Which tools are actually involved?**
-Suno at the production stage, LANDR for mastering, and DistroKid for distribution, on top of MIDI demos and recordings I made myself. The writing is mine.
+Suno at the production stage, LANDR for mastering, and DistroKid for distribution, on top of MIDI demos and recordings I made myself. Not every song takes the same route, and plenty of the work involves no AI at all. The writing is always mine.
 
 **Does Cometfall play live?**
 Not yet. Bringing the songs to musicians is the next phase, and the form is open: a live band, a rotating cast, or session players on the next record.
@@ -184,6 +204,6 @@ On Spotify and every other major platform, and at [cometfallmusic.com](https://c
 
 The debate about AI and music tends to collapse two separate arguments: whether there is too much generated audio being uploaded, and whether an individual songwriter should use these tools. The first is a real problem with a measurable shape. The second is a question about craft, and craft has not changed much. You still need something to say, and you still have to write the words yourself.
 
-There is a version of this that is genuinely good for people like me, who spent decades with more ideas than means. There is also a version that produces 90,000 tracks a day nobody asked for. The difference between them is not the software.
+There is a version of this that is genuinely good for people like me, who spent decades with more ideas than means. There is also a version that produces 90,000 tracks a day nobody asked for. The difference between them is not the software. It is whether there is a real seed underneath, and whether the person putting their name on it is being honest about how it got there.
 
 I spend my working life at [Superlines](https://superlines.io) looking at how AI systems decide what to surface and cite, which is probably why I think about the music side this way too. Both come down to the same thing: whether there is anything underneath worth pointing at.
