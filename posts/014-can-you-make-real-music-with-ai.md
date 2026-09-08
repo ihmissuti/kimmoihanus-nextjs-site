@@ -35,9 +35,11 @@ Nobody has interviewed me about the music. So I wrote the questions down and ans
 
 ## Do you need to play an instrument well to write good songs?
 
-No, and I am the evidence. I have always identified as a songwriter rather than a player. I do not have real talent on any instrument, and I was never willing to spend a decade committing to one. That is a lazy answer, but it is the true one.
+No, and I want to be precise about that, because I do play. I spent close to a decade playing bass in various lineups, I compose mainly on guitar, and the bass on the Cometfall records is me. What I am not is a virtuoso. I was never willing to spend years mastering a single instrument when I could play a few of them well enough to get an idea out, and I have always identified as a songwriter rather than a player.
 
-What I do have is imagination. I can write lyrics. I can hear a melody before it exists. I know what genre an idea wants to be, how the finished thing should sound, and how it should be presented. Those are separate skills from execution, and the music industry has always quietly known it. That is why producers, topliners, and songwriters get credits of their own.
+My instruments are writing tools. Enough guitar to find the chord movement and hear where a song wants to go, enough bass to hold the low end of a real arrangement together. That is a different relationship with an instrument than a lead player has, and it is the one most songwriters actually have.
+
+The part I trust is the imagination. I can write lyrics. I can hear a melody before it exists. I know what genre an idea wants to be, how the finished thing should sound, and how it should be presented. Those are separate skills from execution, and the music industry has always quietly known it. That is why producers, topliners, and songwriters get credits of their own.
 
 What is new is that you no longer need to convince four other people to donate their evenings before you can find out whether your idea works.
 
