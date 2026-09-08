@@ -205,5 +205,3 @@ On Spotify and every other major platform, and at [cometfallmusic.com](https://c
 The debate about AI and music tends to collapse two separate arguments: whether there is too much generated audio being uploaded, and whether an individual songwriter should use these tools. The first is a real problem with a measurable shape. The second is a question about craft, and craft has not changed much. You still need something to say, and you still have to write the words yourself.
 
 There is a version of this that is genuinely good for people like me, who spent decades with more ideas than means. There is also a version that produces 90,000 tracks a day nobody asked for. The difference between them is not the software. It is whether there is a real seed underneath, and whether the person putting their name on it is being honest about how it got there.
-
-I spend my working life at [Superlines](https://superlines.io) looking at how AI systems decide what to surface and cite, which is probably why I think about the music side this way too. Both come down to the same thing: whether there is anything underneath worth pointing at.
