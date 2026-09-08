@@ -1,7 +1,7 @@
 ---
 title: 'Can You Make Real Music With AI? The Questions I Keep Getting Asked'
 date: 2026-09-08
-description: 'You can make real music with AI, but not by prompting from zero. A songwriter of thirty years answers the questions he keeps getting asked about AI-assisted music, lyrics, taste, and what the tools cannot do.'
+description: 'Making good music with AI does not happen by prompting from zero. A songwriter of thirty years answers the questions he keeps getting asked about AI-assisted music, lyrics, taste, authorship, and what the tools cannot do.'
 ---
 
 <!--
@@ -19,7 +19,7 @@ five things need your eyes:
      be publicly blunt about that test.
 -->
 
-Yes, you can make real music with AI, but not by typing a prompt and publishing whatever comes out. The composition still has to be yours: the lyrics, the melody, the structure, the taste to know when something is working. What these tools actually change is how fast you find out whether an idea was worth having.
+I am not the one to decide what counts as real music. What I can speak to is my own experience, and it is this: making _good_ music with AI does not happen by typing a prompt and publishing whatever comes out. The composition still has to be yours: the lyrics, the melody, the structure, the taste to know when something is working. What these tools actually change is how fast you find out whether an idea was worth having.
 
 I have been making music for about thirty years and released it under nine artist names, most actively as Cometfall, a cosmic alternative rock project from Helsinki. By day I build AI search analytics software. That combination means I get asked the same handful of questions constantly, in comments, in DMs, and by friends who found a Spotify link and were not sure what to make of it.
 
@@ -46,7 +46,7 @@ What is new is that you no longer need to convince four other people to donate t
 
 ## Can you actually make real music with AI?
 
-Yes, and the reason people doubt it is that they are imagining a different process than the one I use. Most people who have never made a song assume the hard part is the sound. It is not. The hard part is having something worth turning into a sound.
+Again, I would rather talk about good than real, and yes. The reason people doubt it is that they are imagining a different process than the one I use. Most people who have never made a song assume the hard part is the sound. It is not. The hard part is having something worth turning into a sound.
 
 Here is the honest shape of it. I bring the composition: lyrics, melody, structure, the genre it wants to be, the emotional target. The tools collapse the distance between that and actually hearing it. Twenty years ago, bringing a vision to life meant instruments, bandmates, rehearsal rooms, and recording time, and you had to spend all of that before you could tell whether the idea was even worth pursuing.
 
