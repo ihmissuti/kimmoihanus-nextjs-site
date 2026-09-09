@@ -3,7 +3,7 @@ import { soundcloudEmbed } from '@/lib/music';
 
 // Dark numbered track card matching the artist-site track lists
 // (e.g. "01 Eight Hundred — Listen on SoundCloud ↗" on ihmissuti.com).
-export default function TrackCard({ track, index }) {
+export default function TrackCard({ track, index, showProject = true }) {
   const [showDemo, setShowDemo] = useState(false);
   const [showStory, setShowStory] = useState(false);
 
@@ -21,7 +21,7 @@ export default function TrackCard({ track, index }) {
             Spotify {track.upcoming}
           </span>
         )}
-        {track.project && (
+        {showProject && track.project && (
           <span className="font-mono text-xs uppercase tracking-widest" style={{ color: '#6b7280' }}>
             as {track.project}
           </span>

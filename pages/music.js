@@ -1,6 +1,6 @@
 import MusicProjectCard from '@/components/MusicProjectCard';
 import TrackCard from '@/components/TrackCard';
-import { projects, tracks, orphanGenres } from '@/lib/music';
+import { spearheadProjects, archiveProjects, storyGroups, orphanGenres } from '@/lib/music';
 import { NextSeo } from 'next-seo';
 
 function SectionHeading({ eyebrow, children }) {
@@ -19,30 +19,38 @@ export default function Music() {
     <div className="music-stage">
       <NextSeo
         title="Music - Kimmo Ihanus"
-        description="The music of Kimmo Ihanus (ihmissuti) — indie rock, rap, reggae, progressive house, black metal and everything in between, released across projects like Cometfall, Amzart, erizou, halogeist, Shaky Dope, rotwurm and DJ KLMA. Listen on Spotify and SoundCloud, and read the stories behind the songs."
+        description="I release under a few names. The ones I'm pushing now are Cometfall, rotwurm, and Amzart. How the songs are made, and the stories behind them. Helsinki, Finland."
       />
 
       <div className="max-w-3xl mx-auto p-4 py-16">
-        {/* Hero */}
         <div className="mb-16">
           <p className="font-mono text-xs uppercase tracking-widest mb-4" style={{ color: '#e8622c' }}>
             Kimmo Ihanus — My ideas brought alive
           </p>
-          <h1 className="text-5xl md:text-6xl font-black tracking-tight text-white mb-5">Music</h1>
-          <p className="font-mono text-xs uppercase tracking-widest mb-8" style={{ color: '#737373' }}>
-            Indie rock · Rap · Reggae · Progressive house · Alt rock · Everything in between
-          </p>
-          <p className="mb-4 max-w-2xl" style={{ color: '#9ca3af' }}>
-            Tracks span genres, projects and artist names. Some grew from ideas I had 20 years ago. Some are oven-fresh.
+          <h1 className="text-5xl md:text-6xl font-black tracking-tight text-white mb-6">Music</h1>
+          <p className="mb-4 max-w-2xl text-lg" style={{ color: '#d1d5db' }}>
+            I release under a few names. The ones I&apos;m pushing now are Cometfall, rotwurm, and Amzart. Other
+            projects stay in the catalog.
           </p>
           <p style={{ color: '#9ca3af' }}>Made in Helsinki, Finland. 🇫🇮</p>
         </div>
 
         <section className="mb-16">
-          <SectionHeading eyebrow="Projects">Artists &amp; projects</SectionHeading>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {projects.map((project) => (
-              <MusicProjectCard key={project.name} project={project} />
+          <SectionHeading eyebrow="2026">Artists &amp; projects</SectionHeading>
+          <div className="space-y-6">
+            {spearheadProjects.map((project) => (
+              <MusicProjectCard key={project.name} project={project} size="featured" />
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <p className="font-mono text-xs uppercase tracking-widest mb-4" style={{ color: '#737373' }}>
+            Also writing as
+          </p>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {archiveProjects.map((project) => (
+              <MusicProjectCard key={project.name} project={project} size="compact" />
             ))}
           </div>
         </section>
@@ -78,12 +86,20 @@ export default function Music() {
 
         <section className="mb-16">
           <SectionHeading eyebrow="From demo to full production">Songs &amp; stories</SectionHeading>
-          <p className="mb-8 max-w-2xl" style={{ color: '#9ca3af' }}>
-            A selection of tracks from the ihmissuti catalogue. Open &quot;Based on demo&quot; to hear the original
-            rough recording, or &quot;Behind the song&quot; to read where it came from.
+          <p className="mb-10 max-w-2xl" style={{ color: '#9ca3af' }}>
+            Tracks that carry a story — from the projects I&apos;m pushing now, then a few from the archive. Open
+            &quot;Based on demo&quot; to hear the original rough recording, or &quot;Behind the song&quot; to read where
+            it came from.
           </p>
-          {tracks.map((track, i) => (
-            <TrackCard key={track.title} track={track} index={i} />
+          {storyGroups.map((group) => (
+            <div key={group.heading} className="mb-10">
+              <p className="font-mono text-xs uppercase tracking-widest mb-4" style={{ color: '#737373' }}>
+                {group.heading}
+              </p>
+              {group.tracks.map((track) => (
+                <TrackCard key={track.title} track={track} showProject={false} />
+              ))}
+            </div>
           ))}
         </section>
 

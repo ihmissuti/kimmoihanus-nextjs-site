@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 import { getPosts } from '@/lib/posts';
 import { getGraphics } from '@/lib/graphics';
-import { projects, featuredTracks } from '@/lib/music';
+import { spearheadProjects, featuredTracks } from '@/lib/music';
 
 import Intro from '@/prose/intro.md';
 import GraphicPreview from '@/components/GraphicsPreview';
@@ -27,7 +27,7 @@ export default function Home({ posts, graphics }) {
     <div className="mt-8">
       <NextSeo
         title="Kimmo Ihanus"
-        description="Music producer and songwriter from Helsinki, Finland. Indie rock, rap, reggae, progressive house, black metal and everything in between — released as ihmissuti, Cometfall, Amzart, erizou, halogeist, Shaky Dope, rotwurm and DJ KLMA. Also builds AI tools like Superlines."
+        description="Music producer and songwriter from Helsinki, Finland. The projects I'm pushing now are Cometfall, rotwurm, and Amzart. Also builds AI tools like Superlines."
       />
       <div className="max-w-3xl mx-auto mb-6 p-4">
         <div className="mb-12">
@@ -44,14 +44,11 @@ export default function Home({ posts, graphics }) {
           <p className="font-mono text-xs uppercase tracking-widest mb-4" style={{ color: '#e8622c' }}>
             My ideas brought alive — Helsinki, FI
           </p>
-          <h2 className="text-4xl md:text-5xl font-black tracking-tight text-white mb-4">Music</h2>
-          <p className="mb-10 max-w-2xl" style={{ color: '#9ca3af' }}>
-            Tracks span genres, projects and artist names. Some grew from ideas I had 20 years ago. Some are oven-fresh.
-          </p>
+          <h2 className="text-4xl md:text-5xl font-black tracking-tight text-white mb-10">Music</h2>
 
-          <div className="grid gap-4 sm:grid-cols-2 mb-12">
-            {projects.map((project) => (
-              <MusicProjectCard key={project.name} project={project} />
+          <div className="space-y-6 mb-12">
+            {spearheadProjects.map((project) => (
+              <MusicProjectCard key={project.name} project={project} size="featured" brief />
             ))}
           </div>
 
@@ -59,14 +56,14 @@ export default function Home({ posts, graphics }) {
             <p className="font-mono text-xs uppercase tracking-widest mb-6" style={{ color: '#e8622c' }}>
               Listen
             </p>
-            {featuredTracks.map((track, i) => (
-              <TrackCard key={track.title} track={track} index={i} />
+            {featuredTracks.map((track) => (
+              <TrackCard key={track.title} track={track} />
             ))}
           </div>
 
           <Link href="/music">
             <a className="font-mono text-sm uppercase tracking-widest text-white hover:underline">
-              All songs, stories &amp; demos →
+              All projects, songs &amp; stories →
             </a>
           </Link>
         </div>
