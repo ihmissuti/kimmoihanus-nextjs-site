@@ -1,5 +1,5 @@
-I make records under a few names — mainly **Cometfall**, then **rotwurm** and **Amzart**. More projects live in the catalog. I write the lyrics and build the melodies; some tracks grew from ideas I had 20 years ago, some are oven-fresh. Made in Helsinki, Finland. 🇫🇮
+A lifetime obsession with writing music that crawls on earth in the form of **Cometfall**, **rotwurm**, and **Amzart** — and many other projects.
 
-By day I build [Superlines](https://www.superlines.io), an agentic AI search analytics platform.
+SaaS and startups close to the heart. Built [Superlines](https://www.superlines.io) as Co-Founder & CTO.
 
 [Read more about me →](/about)

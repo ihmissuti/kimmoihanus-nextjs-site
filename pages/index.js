@@ -27,7 +27,7 @@ export default function Home({ posts, graphics }) {
     <div className="mt-8">
       <NextSeo
         title="Kimmo Ihanus"
-        description="Music producer and songwriter from Helsinki, Finland. The projects I'm pushing now are Cometfall, rotwurm, and Amzart. Also builds AI tools like Superlines."
+        description="A lifetime obsession with writing music that crawls on earth in the form of Cometfall, rotwurm, and Amzart. SaaS and startups close to the heart. Co-Founder & CTO of Superlines."
       />
       <div className="max-w-3xl mx-auto mb-6 p-4">
         <div className="mb-12">
