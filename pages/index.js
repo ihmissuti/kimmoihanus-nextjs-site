@@ -42,11 +42,7 @@ export default function Home({ posts, graphics, releases }) {
             Songwriter behind Cometfall and rotwurm. Helsinki, Finland.
           </p>
           <p className="font-medium leading-relaxed mb-6 text-gray-600 dark:text-gray-300">
-            I write and compose the songs on guitar, bass or MIDI. AI performs and produces them from my demos. More on
-            that in{' '}
-            <Link href="/posts/[slug]" as="/posts/014-can-you-make-real-music-with-ai">
-              <a className="underline">Can You Make Real Music With AI?</a>
-            </Link>
+            I write and compose the songs on guitar, bass or MIDI. AI performs and produces them from my demos.
           </p>
           <p className="text-sm text-gray-600 dark:text-gray-300">
             Also: Co-Founder &amp; CTO at{' '}
