@@ -1,8 +1,8 @@
-Lifetime obsession: writing music that crawls on earth. It shows up as [Cometfall](https://cometfallmusic.com), rotwurm, Amzart, and a handful of other names. SaaS and startups are the other half. I built [Superlines](https://www.superlines.io) as co-founder and CTO.
+Lifetime obsession: writing music that crawls on earth. I'm the songwriter behind [Cometfall](https://cometfallmusic.com) and [rotwurm](https://rotwurm.com), and a handful of other names. SaaS and startups are the other half. I built [Superlines](https://www.superlines.io) as co-founder and CTO.
 
 I built Superlines as co-founder and CTO. Superlines is an AI search analytics platform: it tracks how visible a brand is across ChatGPT, Perplexity, Gemini, Claude, and Google AI Mode. I built the agentic stack — more than 100 AI agents, plus an API and MCP. In 2020, at Grew, we were among the first teams in the Nordics with access to GPT-3. Superlines has been written about in [Helsingin Sanomat](https://www.hs.fi/visio/art-2000011333578.html), [Talouselämä](https://www.talouselama.fi/uutiset/a/6f5337ec-37d7-4aef-ab4b-b6d60e54bab0), and [Markkinointiuutiset](https://www.markkinointiuutiset.fi/artikkelit/suomalainen-markkinoijille-suunnattu-tekoaly-startup-hamuaa-vauhdilla-globaaleille-markkinoille).
 
-I'm a songwriter in Helsinki. I write the lyrics and the melodies, and I release under several names so each project can have a coherent audience. Cometfall is a solo project and says so — there are no other members and no invented ones. The records are the point. The long version of how they get made is in [Can You Make Real Music With AI?](/posts/014-can-you-make-real-music-with-ai).
+I'm a songwriter in Helsinki. I write and compose the songs on guitar, bass or MIDI, and AI performs and produces them from my demos. I release under several names so each project can have a coherent audience. Cometfall is a solo project and says so — there are no other members and no invented ones. The records are the point. The long version of how they get made is in [Can You Make Real Music With AI?](/posts/014-can-you-make-real-music-with-ai).
 
 ## Work
 
@@ -14,14 +14,13 @@ Helsinki, Finland. [kimmo@superlines.io](mailto:kimmo@superlines.io).
 
 ## Music
 
-I write the lyrics and the melodies. The records go out under a few names so each one can keep its own audience:
+I write and compose the songs. The records go out under a few names so each one can keep its own audience:
 
-- **[Cometfall](https://cometfallmusic.com)** — cosmic / alt / psych rock. The catalog lives on the artist site, not here.
-- **rotwurm** — black / pagan / blackgaze. Its own world, [rotwurm.com](https://rotwurm.com).
-- **Amzart** — experimental rap, [amzartmusic.com](https://amzartmusic.com).
-- Other projects stay in the [catalog](/music).
+- **[Cometfall](https://cometfallmusic.com)** — cosmic alternative rock. The catalog lives on the artist site, not here.
+- **[rotwurm](https://rotwurm.com)** — black and death metal. Its own world.
+- **Amzart**, **[Napalm Cunt](https://napalmcunt.com)**, **erizou** and **halogeist**, plus my own demos, are on the [music page](/music).
 
-Some of the songs started 15–20 years ago. Some are new. I still write the lyrics and the structures myself. Cometfall is a solo project.
+Some of the songs started 15–20 years ago. Some are new. Cometfall is a solo project.
 
 If you want the method, not the marketing: [Can You Make Real Music With AI?](/posts/014-can-you-make-real-music-with-ai) and the earlier essay, [Notes on AI and Music, from a Lifetime of Making It](/posts/013-notes-on-ai-and-music-from-a-lifetime-of-making-it).
 

@@ -2,6 +2,8 @@
 // ihmissuti.com, cometfallmusic.com): near-black surface, per-project
 // accent color, monospace uppercase labels.
 
+import { formatReleaseDate } from '@/lib/releases';
+
 const SOCIAL_KINDS = ['instagram', 'tiktok', 'youtube'];
 
 function linkKind(link) {
@@ -51,7 +53,30 @@ function SocialIcon({ kind }) {
   return null;
 }
 
-export default function MusicProjectCard({ project, size = 'featured', brief = false }) {
+function ReleaseRow({ label, release, accent }) {
+  if (!release) return null;
+  const title = release.spotify_url ? (
+    <a href={release.spotify_url} target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
+      {release.title}
+    </a>
+  ) : (
+    <span className="text-white">{release.title}</span>
+  );
+  return (
+    <p>
+      <span className="font-mono text-xs uppercase tracking-widest mr-2" style={{ color: accent }}>
+        {label}
+      </span>
+      {title}
+      <span style={{ color: '#9ca3af' }}>
+        {' '}
+        · {release.type === 'album' ? 'album' : 'single'} · {formatReleaseDate(release.date)}
+      </span>
+    </p>
+  );
+}
+
+export default function MusicProjectCard({ project, size = 'featured', releases = null }) {
   const accent = project.accent || '#e8622c';
   const compact = size === 'compact';
   const links = project.links || [];
@@ -87,36 +112,14 @@ export default function MusicProjectCard({ project, size = 'featured', brief = f
         </p>
       )}
 
-      {!brief && (
-        <p className={`flex-1 ${compact ? 'text-sm mb-3' : 'mb-5'}`} style={{ color: '#9ca3af' }}>
-          {project.tagline}
-        </p>
-      )}
+      <p className={`flex-1 ${compact ? 'text-sm mb-3' : 'mb-5'}`} style={{ color: '#9ca3af' }}>
+        {project.tagline}
+      </p>
 
-      {brief && project.now && (
-        <p className="text-sm mb-5 flex-1" style={{ color: '#d1d5db' }}>
-          {project.now}
-        </p>
-      )}
-
-      {!brief && !compact && project.status && (
+      {!compact && releases && (releases.latest || releases.next) && (
         <div className="mb-6 space-y-2 text-sm" style={{ color: '#d1d5db' }}>
-          {project.status.current && (
-            <p>
-              <span className="font-mono text-xs uppercase tracking-widest mr-2" style={{ color: accent }}>
-                Current
-              </span>
-              {project.status.current}
-            </p>
-          )}
-          {project.status.next && (
-            <p>
-              <span className="font-mono text-xs uppercase tracking-widest mr-2" style={{ color: accent }}>
-                Next
-              </span>
-              {project.status.next}
-            </p>
-          )}
+          <ReleaseRow label="Latest" release={releases.latest} accent={accent} />
+          <ReleaseRow label="Next" release={releases.next} accent={accent} />
         </div>
       )}
 

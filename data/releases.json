@@ -1,0 +1,390 @@
+{
+  "generated": "2026-11-11",
+  "generator": "music-projects/tools/site-kimmoihanus/export.py",
+  "artists": {
+    "cometfall": {
+      "name": "Cometfall",
+      "genres": ["alternative rock", "psychedelic rock"],
+      "spotify": "https://open.spotify.com/artist/2HQ9MRr9LEem4ZTzJM8KsN",
+      "website": "https://cometfallmusic.com",
+      "same_as": [
+        "https://cometfallmusic.com",
+        "https://open.spotify.com/artist/2HQ9MRr9LEem4ZTzJM8KsN",
+        "https://music.apple.com/artist/cometfall/6774600039",
+        "https://www.youtube.com/@cometfallmusic",
+        "https://www.instagram.com/cometfallofficial/",
+        "https://www.facebook.com/profile.php?id=61594009430823",
+        "https://www.tiktok.com/@cometfallmusic",
+        "https://www.deezer.com/artist/393822351",
+        "https://tidal.com/artist/80345503",
+        "https://www.amazon.com/music/player/artists/B0H68QDZF3",
+        "https://musicbrainz.org/artist/5ac97829-3e92-4edf-b6b2-ded4e377bb1c",
+        "https://www.wikidata.org/wiki/Q141640829",
+        "https://genius.com/artists/Cometfall"
+      ],
+      "latest": {
+        "title": "Held Under Light",
+        "type": "single",
+        "date": "2026-11-06"
+      },
+      "next": {
+        "title": "Machinery of Stars",
+        "type": "single",
+        "date": "2026-11-13"
+      },
+      "released": [
+        {
+          "title": "Held Under Light",
+          "type": "single",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "Paper and Hope",
+          "type": "album",
+          "date": "2026-10-16",
+          "spotify_url": "https://open.spotify.com/album/3y9iOO9TnB2Eqo8YSUgSIT"
+        },
+        {
+          "title": "Undertow",
+          "type": "single",
+          "date": "2026-09-25",
+          "spotify_url": "https://open.spotify.com/track/2bTngUPJK4EyVEfKCFznh9"
+        },
+        {
+          "title": "Paper Radio",
+          "type": "single",
+          "date": "2026-09-11",
+          "spotify_url": "https://open.spotify.com/track/46iboGOwb25aQtRoBsK1Gc"
+        },
+        {
+          "title": "Buried Elsewhere",
+          "type": "album",
+          "date": "2026-08-14"
+        },
+        {
+          "title": "Cosmic Silence",
+          "type": "single",
+          "date": "2026-07-02",
+          "spotify_url": "https://open.spotify.com/track/0eSkQf1eBljYUziFz4VUHc"
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "Machinery of Stars",
+          "type": "single",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Wild Tommy Rain",
+          "type": "single",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "Ashes in Blue",
+          "type": "single",
+          "date": "2026-11-27"
+        },
+        {
+          "title": "I Forgot How to Move",
+          "type": "single",
+          "date": "2026-12-04"
+        },
+        {
+          "title": "Move Me, Great Power",
+          "type": "album",
+          "date": "2026-12-11"
+        }
+      ]
+    },
+    "rotwurm": {
+      "name": "rotwurm",
+      "genres": [
+        "melodic death metal",
+        "black metal",
+        "industrial metal",
+        "progressive death metal",
+        "goregrind",
+        "gore metal"
+      ],
+      "spotify": "https://open.spotify.com/artist/6RT5OJAnN0no67CO9kX3UA",
+      "website": "https://rotwurm.com",
+      "same_as": [
+        "https://rotwurm.com",
+        "https://open.spotify.com/artist/6RT5OJAnN0no67CO9kX3UA",
+        "https://www.instagram.com/rotwurmproject/",
+        "https://www.tiktok.com/@rotwurm",
+        "https://soundcloud.com/rotwurm",
+        "https://musicbrainz.org/artist/8716b0bf-276c-40e5-86a8-5e26521cac73",
+        "https://www.wikidata.org/wiki/Q142091678",
+        "https://genius.com/artists/Rotwurm"
+      ],
+      "latest": {
+        "title": "Great Hunger",
+        "type": "single",
+        "date": "2026-11-06"
+      },
+      "next": {
+        "title": "Blood Is the Key",
+        "type": "single",
+        "date": "2026-11-13"
+      },
+      "released": [
+        {
+          "title": "Great Hunger",
+          "type": "single",
+          "date": "2026-11-06"
+        },
+        {
+          "title": "Passenger",
+          "type": "single",
+          "date": "2026-10-30"
+        },
+        {
+          "title": "She Grinds",
+          "type": "single",
+          "date": "2026-10-16"
+        },
+        {
+          "title": "Into the Hollow of a Stone",
+          "type": "single",
+          "date": "2026-10-09"
+        },
+        {
+          "title": "Among the Slain",
+          "type": "album",
+          "date": "2026-09-25"
+        },
+        {
+          "title": "Here in the Carven Hall",
+          "type": "single",
+          "date": "2026-09-11"
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "Blood Is the Key",
+          "type": "single",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "War Slime",
+          "type": "single",
+          "date": "2026-11-27"
+        },
+        {
+          "title": "The Wound of Existence",
+          "type": "single",
+          "date": "2026-12-04"
+        },
+        {
+          "title": "The Inverse Tide",
+          "type": "single",
+          "date": "2026-12-11"
+        },
+        {
+          "title": "Throat of Nothing",
+          "type": "album",
+          "date": "2026-12-18"
+        },
+        {
+          "title": "Rooms of Light",
+          "type": "single",
+          "date": "2027-01-15"
+        },
+        {
+          "title": "Hoc est corpus meum",
+          "type": "single",
+          "date": "2027-01-22"
+        },
+        {
+          "title": "Under the Houses",
+          "type": "single",
+          "date": "2027-01-22"
+        }
+      ]
+    },
+    "napalm-cunt": {
+      "name": "Napalm Cunt",
+      "genres": ["death metal", "black metal", "gore metal", "goregrind", "industrial metal"],
+      "founded": 2005,
+      "founders": ["Jon Korhonen", "Kimmo Ihanus"],
+      "spotify": null,
+      "website": "https://napalmcunt.com",
+      "same_as": [
+        "https://napalmcunt.com",
+        "https://www.youtube.com/@napalmcunt",
+        "https://www.instagram.com/napalmcvnt/",
+        "https://www.facebook.com/profile.php?id=61595891396049",
+        "https://soundcloud.com/napalmcunt",
+        "https://genius.com/artists/Napalm-cunt"
+      ],
+      "latest": null,
+      "next": {
+        "title": "Underground Human Flesh Store",
+        "type": "single",
+        "date": "2026-11-13"
+      },
+      "released": [],
+      "upcoming": [
+        {
+          "title": "Underground Human Flesh Store",
+          "type": "single",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Cadaverial Face Implant",
+          "type": "single",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "Brutal Ways to Pursue Inspiration",
+          "type": "album",
+          "date": "2026-12-11"
+        },
+        {
+          "title": "Scalpel Psalm",
+          "type": "single",
+          "date": "2027-01-15"
+        },
+        {
+          "title": "Sewer of Light",
+          "type": "single",
+          "date": "2027-01-29"
+        },
+        {
+          "title": "Self-Cure",
+          "type": "single",
+          "date": "2027-02-05"
+        },
+        {
+          "title": "When There's No One Left to Eat",
+          "type": "album",
+          "date": "2027-02-26"
+        }
+      ]
+    },
+    "amzart": {
+      "name": "Amzart",
+      "genres": ["hip-hop", "rap"],
+      "spotify": "https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ",
+      "website": null,
+      "same_as": ["https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ", "https://www.instagram.com/amzartmusic/"],
+      "latest": {
+        "title": "Fall Awake",
+        "type": "single",
+        "date": "2026-10-31"
+      },
+      "next": {
+        "title": "No Coast",
+        "type": "single",
+        "date": "2026-11-21"
+      },
+      "released": [
+        {
+          "title": "Fall Awake",
+          "type": "single",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "Chase Angels",
+          "type": "single",
+          "date": "2026-10-10"
+        },
+        {
+          "title": "Bow When It's Time",
+          "type": "single",
+          "date": "2026-09-19"
+        },
+        {
+          "title": "You Go Soft",
+          "type": "single",
+          "date": "2026-08-28",
+          "spotify_url": "https://open.spotify.com/track/4Xg01CJsq3sAh7XDYcSwsI"
+        },
+        {
+          "title": "800mg",
+          "type": "album",
+          "date": "2026-07-31",
+          "spotify_url": "https://open.spotify.com/album/3TnthYcmY7eiIndmgk8CI9"
+        },
+        {
+          "title": "Hangman",
+          "type": "single",
+          "date": "2026-07-13",
+          "spotify_url": "https://open.spotify.com/track/2kCC4BKICyG74MXGaa6FYj"
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "No Coast",
+          "type": "single",
+          "date": "2026-11-21"
+        },
+        {
+          "title": "Night Bell",
+          "type": "single",
+          "date": "2026-12-11"
+        }
+      ]
+    },
+    "erizou": {
+      "name": "Erizou",
+      "genres": ["EDM", "progressive house", "reggaeton", "latin"],
+      "spotify": "https://open.spotify.com/artist/7GY9sAyIvttsZav3Xtn6v1",
+      "website": null,
+      "same_as": [
+        "https://open.spotify.com/artist/7GY9sAyIvttsZav3Xtn6v1",
+        "https://www.youtube.com/@erizou_official",
+        "https://www.instagram.com/erizou_official/",
+        "https://www.tiktok.com/@erizou_"
+      ],
+      "latest": {
+        "title": "Lado oscuro",
+        "type": "album",
+        "date": "2026-07-03"
+      },
+      "next": null,
+      "released": [
+        {
+          "title": "Lado oscuro",
+          "type": "album",
+          "date": "2026-07-03"
+        },
+        {
+          "title": "Lado Oscuro",
+          "type": "single",
+          "date": "2026-06-19",
+          "spotify_url": "https://open.spotify.com/track/0vJyGeOx1jZxCtS9vx7zNz"
+        },
+        {
+          "title": "Cántame",
+          "type": "single",
+          "date": "2026-06-05",
+          "spotify_url": "https://open.spotify.com/track/1d3x2hBppw08tpzukKQ3f1"
+        }
+      ],
+      "upcoming": []
+    },
+    "halogeist": {
+      "name": "Halogeist",
+      "genres": ["EDM"],
+      "spotify": "https://open.spotify.com/artist/5uajUWjmTDxgSvWDUFSWuQ",
+      "website": null,
+      "same_as": ["https://open.spotify.com/artist/5uajUWjmTDxgSvWDUFSWuQ", "https://www.instagram.com/halogeistmusic"],
+      "latest": {
+        "title": "Enter the Chamber",
+        "type": "album",
+        "date": "2026-08-29"
+      },
+      "next": null,
+      "released": [
+        {
+          "title": "Enter the Chamber",
+          "type": "album",
+          "date": "2026-08-29"
+        }
+      ],
+      "upcoming": []
+    }
+  }
+}

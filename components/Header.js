@@ -14,6 +14,7 @@ export default function Header() {
           <NavItem href="/">Home</NavItem>
           <NavItem href="/music">Music</NavItem>
           <NavItem href="/posts">Posts</NavItem>
+          <NavItem href="/cv">Work</NavItem>
         </nav>
       </div>
     </header>

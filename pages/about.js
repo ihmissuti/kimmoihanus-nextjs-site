@@ -4,18 +4,19 @@ import AboutText from '@/prose/about.md';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import Link from 'next/link';
+import { personSchema } from '@/lib/personSchema';
 
 const PAGE_URL = 'https://kimmoihanus.com/about';
 const PAGE_TITLE = 'About Kimmo Ihanus';
 const PAGE_DESCRIPTION =
-  'Kimmo Ihanus — Helsinki songwriter (Cometfall, rotwurm, Amzart) and co-founder & CTO of Superlines.';
+  'Kimmo Ihanus — Helsinki songwriter behind Cometfall and rotwurm, and co-founder & CTO of Superlines.';
 const OG_IMAGE = 'https://kimmoihanus.com/emo.png';
 
 const faqs = [
   {
     question: 'Who is Kimmo Ihanus?',
     answer:
-      'Kimmo Ihanus is a Helsinki songwriter and technical founder. He releases music under Cometfall, rotwurm, Amzart and other names, and he is co-founder and CTO of Superlines.',
+      'Kimmo Ihanus is a Helsinki songwriter and technical founder. He is the songwriter behind Cometfall and rotwurm, also releases as Amzart, Napalm Cunt, erizou and halogeist, and is co-founder and CTO of Superlines.',
   },
   {
     question: 'What is Superlines, and what did you build there?',
@@ -30,7 +31,7 @@ const faqs = [
   {
     question: 'Do you use AI to make the music?',
     answer:
-      'Kimmo Ihanus uses AI tools on some tracks. It is not a prompt-and-publish pipeline. He writes the lyrics and the composition. The long version is in Can You Make Real Music With AI? at https://kimmoihanus.com/posts/014-can-you-make-real-music-with-ai.',
+      'Yes. Kimmo Ihanus writes and composes the songs on guitar, bass or MIDI, and AI performs and produces them from his demos. It is not a prompt-and-publish pipeline. The long version is in Can You Make Real Music With AI? at https://kimmoihanus.com/posts/014-can-you-make-real-music-with-ai.',
   },
   {
     question: 'Are you available to talk about GEO / AI search?',
@@ -38,37 +39,6 @@ const faqs = [
       'Yes. Kimmo Ihanus is available to talk about GEO, AI search, growth, and also music or press. Reach him on X at https://x.com/ihmissuti, LinkedIn, or kimmo@superlines.io.',
   },
 ];
-
-const personSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Kimmo Ihanus',
-  url: PAGE_URL,
-  image: OG_IMAGE,
-  jobTitle: 'Co-Founder & CTO',
-  email: 'kimmo@superlines.io',
-  worksFor: {
-    '@type': 'Organization',
-    name: 'Superlines',
-    url: 'https://www.superlines.io',
-  },
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Helsinki',
-    addressCountry: 'FI',
-  },
-  sameAs: [
-    'https://kimmoihanus.com',
-    'https://www.linkedin.com/in/kimmo-ihanus-8175aa56',
-    'https://github.com/ihmissuti',
-    'https://x.com/ihmissuti',
-    'https://www.superlines.io/about/',
-    'https://cometfallmusic.com',
-    'https://rotwurm.com',
-    'https://amzartmusic.com',
-    'https://open.spotify.com/artist/2HQ9MRr9LEem4ZTzJM8KsN',
-  ],
-};
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -108,7 +78,10 @@ export default function About() {
         }}
       />
       <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema({ url: PAGE_URL })) }}
+        />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       </Head>
 
@@ -127,8 +100,8 @@ export default function About() {
             <p>
               {faq.question === 'Do you use AI to make the music?' ? (
                 <>
-                  Kimmo Ihanus uses AI tools on some tracks. It is not a prompt-and-publish pipeline. He writes the
-                  lyrics and the composition. The long version is in{' '}
+                  Yes. Kimmo Ihanus writes and composes the songs on guitar, bass or MIDI, and AI performs and produces
+                  them from his demos. It is not a prompt-and-publish pipeline. The long version is in{' '}
                   <Link href="/posts/014-can-you-make-real-music-with-ai">
                     <a>Can You Make Real Music With AI?</a>
                   </Link>

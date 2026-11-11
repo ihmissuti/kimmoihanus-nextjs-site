@@ -1,5 +1,7 @@
 import { NextSeo } from 'next-seo';
 import { useRef } from 'react';
+import { ThingsIBuild } from '@/components/ProjectShowcase';
+import WorkSummary from '@/components/WorkSummary';
 
 export default function CV() {
   const cvRef = useRef(null);
@@ -525,6 +527,11 @@ English (Fluent)
             </div>
           </div>
         </section>
+      </div>
+
+      <div className="no-print border-t border-gray-200 dark:border-gray-700">
+        <WorkSummary />
+        <ThingsIBuild />
       </div>
     </div>
   );
