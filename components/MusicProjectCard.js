@@ -70,7 +70,7 @@ function ReleaseRow({ label, release, accent }) {
       {title}
       <span style={{ color: '#9ca3af' }}>
         {' '}
-        · {release.type === 'album' ? 'album' : 'single'} · {formatReleaseDate(release.date)}
+        · {release.label || (release.type === 'album' ? 'album' : 'single')} · {formatReleaseDate(release.date)}
       </span>
     </p>
   );

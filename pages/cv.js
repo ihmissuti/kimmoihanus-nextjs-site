@@ -52,7 +52,7 @@ CO-FOUNDER | Grew Oy
 
 • Founded AI-focused marketing technology company; launched first AI-powered SaaS product to the US market prior to ChatGPT's existence (2021)
 • Early access to GPT-3 (2020) — among the first teams in the Nordics to build production AI applications on top of large language models
-• Developed a patent-pending privacy-first location detection system using edge neural networks (published in HackerNoon)
+• Developed a privacy-first location detection system using edge neural networks (published in HackerNoon)
 
 SENIOR GROWTH HACKER / GROWTH LEAD | Avaus
 2016 – Aug 2020 | Helsinki, Finland | Nordic Marketing Technology Consultancy
@@ -310,8 +310,7 @@ English (Fluent)
                 on top of large language models
               </li>
               <li>
-                Developed a patent-pending privacy-first location detection system using edge neural networks (published
-                in HackerNoon)
+                Developed a privacy-first location detection system using edge neural networks (published in HackerNoon)
               </li>
             </ul>
           </ExperienceItem>

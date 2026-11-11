@@ -27,8 +27,7 @@ export default function WorkSummary() {
 
         <ExperienceItem role="Co-Founder" company="Grew" period="Sep 2020 - Jul 2021">
           Invented and programmed a privacy-friendly location detection algorithm using neural networks in the browser.
-          Patented in EU and US. First in the Nordics to gain access to OpenAI's commercial GPT model and created a
-          Google Ads-based SaaS tool.
+          First in the Nordics to gain access to OpenAI's commercial GPT model and created a Google Ads-based SaaS tool.
         </ExperienceItem>
 
         <ExperienceItem
