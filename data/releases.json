@@ -4,7 +4,10 @@
   "artists": {
     "cometfall": {
       "name": "Cometfall",
-      "genres": ["alternative rock", "psychedelic rock"],
+      "genres": [
+        "alternative rock",
+        "psychedelic rock"
+      ],
       "spotify": "https://open.spotify.com/artist/2HQ9MRr9LEem4ZTzJM8KsN",
       "website": "https://cometfallmusic.com",
       "same_as": [
@@ -194,9 +197,18 @@
     },
     "napalm-cunt": {
       "name": "Napalm Cunt",
-      "genres": ["death metal", "black metal", "gore metal", "goregrind", "industrial metal"],
+      "genres": [
+        "death metal",
+        "black metal",
+        "gore metal",
+        "goregrind",
+        "industrial metal"
+      ],
       "founded": 2005,
-      "founders": ["Jon Korhonen", "Kimmo Ihanus"],
+      "founders": [
+        "Jon Korhonen",
+        "Kimmo Ihanus"
+      ],
       "spotify": "https://open.spotify.com/artist/68HEecYIedPW8gll8KTpJg",
       "website": "https://napalmcunt.com",
       "same_as": [
@@ -264,10 +276,16 @@
     },
     "amzart": {
       "name": "Amzart",
-      "genres": ["hip-hop", "rap"],
+      "genres": [
+        "hip-hop",
+        "rap"
+      ],
       "spotify": "https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ",
       "website": null,
-      "same_as": ["https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ", "https://www.instagram.com/amzartmusic/"],
+      "same_as": [
+        "https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ",
+        "https://www.instagram.com/amzartmusic/"
+      ],
       "latest": {
         "title": "No Coast",
         "type": "single",
@@ -322,7 +340,12 @@
     },
     "erizou": {
       "name": "Erizou",
-      "genres": ["EDM", "progressive house", "reggaeton", "latin"],
+      "genres": [
+        "EDM",
+        "progressive house",
+        "reggaeton",
+        "latin"
+      ],
       "spotify": "https://open.spotify.com/artist/7GY9sAyIvttsZav3Xtn6v1",
       "website": null,
       "same_as": [
@@ -360,10 +383,15 @@
     },
     "halogeist": {
       "name": "Halogeist",
-      "genres": ["EDM"],
+      "genres": [
+        "EDM"
+      ],
       "spotify": "https://open.spotify.com/artist/5uajUWjmTDxgSvWDUFSWuQ",
       "website": null,
-      "same_as": ["https://open.spotify.com/artist/5uajUWjmTDxgSvWDUFSWuQ", "https://www.instagram.com/halogeistmusic"],
+      "same_as": [
+        "https://open.spotify.com/artist/5uajUWjmTDxgSvWDUFSWuQ",
+        "https://www.instagram.com/halogeistmusic"
+      ],
       "latest": {
         "title": "Enter the Chamber",
         "type": "album",
@@ -381,10 +409,16 @@
     },
     "kimmo-ihanus": {
       "name": "Kimmo Ihanus",
-      "genres": ["Acoustic guitar", "Instrumental"],
+      "genres": [
+        "Acoustic guitar",
+        "Instrumental"
+      ],
       "spotify": "https://open.spotify.com/artist/7jbBgUvcbRDUEcDH3BQ8Lf",
       "website": "https://kimmoihanus.com",
-      "same_as": ["https://kimmoihanus.com", "https://open.spotify.com/artist/7jbBgUvcbRDUEcDH3BQ8Lf"],
+      "same_as": [
+        "https://kimmoihanus.com",
+        "https://open.spotify.com/artist/7jbBgUvcbRDUEcDH3BQ8Lf"
+      ],
       "latest": {
         "title": "Lullaby for the Worm",
         "type": "single",
