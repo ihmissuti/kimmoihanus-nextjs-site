@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11",
+  "generated": "2026-11-22",
   "generator": "music-projects/tools/site-kimmoihanus/export.py",
   "artists": {
     "cometfall": {
@@ -23,16 +23,26 @@
         "https://genius.com/artists/Cometfall"
       ],
       "latest": {
-        "title": "Held Under Light",
+        "title": "Wild Tommy Rain",
         "type": "single",
-        "date": "2026-11-06"
+        "date": "2026-11-20"
       },
       "next": {
-        "title": "Machinery of Stars",
+        "title": "Ashes in Blue",
         "type": "single",
-        "date": "2026-11-13"
+        "date": "2026-11-27"
       },
       "released": [
+        {
+          "title": "Wild Tommy Rain",
+          "type": "single",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "Machinery of Stars",
+          "type": "single",
+          "date": "2026-11-13"
+        },
         {
           "title": "Held Under Light",
           "type": "single",
@@ -55,30 +65,9 @@
           "type": "single",
           "date": "2026-09-11",
           "spotify_url": "https://open.spotify.com/track/46iboGOwb25aQtRoBsK1Gc"
-        },
-        {
-          "title": "Buried Elsewhere",
-          "type": "album",
-          "date": "2026-08-14"
-        },
-        {
-          "title": "Cosmic Silence",
-          "type": "single",
-          "date": "2026-07-02",
-          "spotify_url": "https://open.spotify.com/track/0eSkQf1eBljYUziFz4VUHc"
         }
       ],
       "upcoming": [
-        {
-          "title": "Machinery of Stars",
-          "type": "single",
-          "date": "2026-11-13"
-        },
-        {
-          "title": "Wild Tommy Rain",
-          "type": "single",
-          "date": "2026-11-20"
-        },
         {
           "title": "Ashes in Blue",
           "type": "single",
@@ -119,16 +108,21 @@
         "https://genius.com/artists/Rotwurm"
       ],
       "latest": {
-        "title": "Great Hunger",
-        "type": "single",
-        "date": "2026-11-06"
-      },
-      "next": {
         "title": "Blood Is the Key",
         "type": "single",
         "date": "2026-11-13"
       },
+      "next": {
+        "title": "War Slime",
+        "type": "single",
+        "date": "2026-11-27"
+      },
       "released": [
+        {
+          "title": "Blood Is the Key",
+          "type": "single",
+          "date": "2026-11-13"
+        },
         {
           "title": "Great Hunger",
           "type": "single",
@@ -153,19 +147,9 @@
           "title": "Among the Slain",
           "type": "album",
           "date": "2026-09-25"
-        },
-        {
-          "title": "Here in the Carven Hall",
-          "type": "single",
-          "date": "2026-09-11"
         }
       ],
       "upcoming": [
-        {
-          "title": "Blood Is the Key",
-          "type": "single",
-          "date": "2026-11-13"
-        },
         {
           "title": "War Slime",
           "type": "single",
@@ -200,6 +184,11 @@
           "title": "Under the Houses",
           "type": "single",
           "date": "2027-01-22"
+        },
+        {
+          "title": "Ash Eucharist",
+          "type": "single",
+          "date": "2027-01-29"
         }
       ]
     },
@@ -208,34 +197,43 @@
       "genres": ["death metal", "black metal", "gore metal", "goregrind", "industrial metal"],
       "founded": 2005,
       "founders": ["Jon Korhonen", "Kimmo Ihanus"],
-      "spotify": null,
+      "spotify": "https://open.spotify.com/artist/68HEecYIedPW8gll8KTpJg",
       "website": "https://napalmcunt.com",
       "same_as": [
         "https://napalmcunt.com",
+        "https://open.spotify.com/artist/68HEecYIedPW8gll8KTpJg",
+        "https://music.apple.com/us/album/underground-human-flesh-store-single/6828786211",
         "https://www.youtube.com/@napalmcunt",
         "https://www.instagram.com/napalmcvnt/",
         "https://www.facebook.com/profile.php?id=61595891396049",
+        "https://www.tiktok.com/@napalmcunt",
         "https://soundcloud.com/napalmcunt",
         "https://genius.com/artists/Napalm-cunt"
       ],
-      "latest": null,
-      "next": {
-        "title": "Underground Human Flesh Store",
+      "latest": {
+        "title": "Cadaverial Face Implant",
         "type": "single",
-        "date": "2026-11-13"
+        "date": "2026-11-20"
       },
-      "released": [],
-      "upcoming": [
-        {
-          "title": "Underground Human Flesh Store",
-          "type": "single",
-          "date": "2026-11-13"
-        },
+      "next": {
+        "title": "Brutal Ways to Pursue Inspiration",
+        "type": "album",
+        "date": "2026-12-11",
+        "label": "EP"
+      },
+      "released": [
         {
           "title": "Cadaverial Face Implant",
           "type": "single",
           "date": "2026-11-20"
         },
+        {
+          "title": "Underground Human Flesh Store",
+          "type": "single",
+          "date": "2026-11-13"
+        }
+      ],
+      "upcoming": [
         {
           "title": "Brutal Ways to Pursue Inspiration",
           "type": "album",
@@ -271,16 +269,21 @@
       "website": null,
       "same_as": ["https://open.spotify.com/artist/2IA9euRzwuly5CuCNEypCJ", "https://www.instagram.com/amzartmusic/"],
       "latest": {
-        "title": "Fall Awake",
-        "type": "single",
-        "date": "2026-10-31"
-      },
-      "next": {
         "title": "No Coast",
         "type": "single",
         "date": "2026-11-21"
       },
+      "next": {
+        "title": "Night Bell",
+        "type": "single",
+        "date": "2026-12-11"
+      },
       "released": [
+        {
+          "title": "No Coast",
+          "type": "single",
+          "date": "2026-11-21"
+        },
         {
           "title": "Fall Awake",
           "type": "single",
@@ -307,20 +310,9 @@
           "type": "album",
           "date": "2026-07-31",
           "spotify_url": "https://open.spotify.com/album/3TnthYcmY7eiIndmgk8CI9"
-        },
-        {
-          "title": "Hangman",
-          "type": "single",
-          "date": "2026-07-13",
-          "spotify_url": "https://open.spotify.com/track/2kCC4BKICyG74MXGaa6FYj"
         }
       ],
       "upcoming": [
-        {
-          "title": "No Coast",
-          "type": "single",
-          "date": "2026-11-21"
-        },
         {
           "title": "Night Bell",
           "type": "single",
@@ -386,6 +378,39 @@
         }
       ],
       "upcoming": []
+    },
+    "kimmo-ihanus": {
+      "name": "Kimmo Ihanus",
+      "genres": ["Acoustic guitar", "Instrumental"],
+      "spotify": "https://open.spotify.com/artist/7jbBgUvcbRDUEcDH3BQ8Lf",
+      "website": "https://kimmoihanus.com",
+      "same_as": ["https://kimmoihanus.com", "https://open.spotify.com/artist/7jbBgUvcbRDUEcDH3BQ8Lf"],
+      "latest": {
+        "title": "Lullaby for the Worm",
+        "type": "single",
+        "date": "2026-11-20",
+        "spotify_url": "https://open.spotify.com/track/7yOyuX15JP7lkhPloHBj14"
+      },
+      "next": {
+        "title": "Orbit",
+        "type": "single",
+        "date": "2026-12-04"
+      },
+      "released": [
+        {
+          "title": "Lullaby for the Worm",
+          "type": "single",
+          "date": "2026-11-20",
+          "spotify_url": "https://open.spotify.com/track/7yOyuX15JP7lkhPloHBj14"
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "Orbit",
+          "type": "single",
+          "date": "2026-12-04"
+        }
+      ]
     }
   }
 }

@@ -36,7 +36,7 @@ export default function Music({ releases }) {
     <div className="music-stage">
       <NextSeo
         title="Music - Kimmo Ihanus"
-        description="Cometfall and rotwurm, plus Amzart, Napalm Cunt, erizou, halogeist and my own demos. How the songs are made, and the stories behind them. Helsinki, Finland."
+        description="Cometfall and rotwurm, plus my own instrumentals, Amzart, Napalm Cunt, erizou, halogeist and my own demos. How the songs are made, and the stories behind them. Helsinki, Finland."
       />
 
       <div className="max-w-3xl mx-auto p-4 py-16">
