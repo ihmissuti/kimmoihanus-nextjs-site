@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-28",
   "generator": "music-projects/tools/site-kimmoihanus/export.py",
   "artists": {
     "cometfall": {
@@ -26,16 +26,21 @@
         "https://genius.com/artists/Cometfall"
       ],
       "latest": {
-        "title": "Wild Tommy Rain",
-        "type": "single",
-        "date": "2026-11-20"
-      },
-      "next": {
         "title": "Ashes in Blue",
         "type": "single",
         "date": "2026-11-27"
       },
+      "next": {
+        "title": "I Forgot How to Move",
+        "type": "single",
+        "date": "2026-12-04"
+      },
       "released": [
+        {
+          "title": "Ashes in Blue",
+          "type": "single",
+          "date": "2026-11-27"
+        },
         {
           "title": "Wild Tommy Rain",
           "type": "single",
@@ -62,20 +67,9 @@
           "type": "single",
           "date": "2026-09-25",
           "spotify_url": "https://open.spotify.com/track/2bTngUPJK4EyVEfKCFznh9"
-        },
-        {
-          "title": "Paper Radio",
-          "type": "single",
-          "date": "2026-09-11",
-          "spotify_url": "https://open.spotify.com/track/46iboGOwb25aQtRoBsK1Gc"
         }
       ],
       "upcoming": [
-        {
-          "title": "Ashes in Blue",
-          "type": "single",
-          "date": "2026-11-27"
-        },
         {
           "title": "I Forgot How to Move",
           "type": "single",
@@ -111,16 +105,21 @@
         "https://genius.com/artists/Rotwurm"
       ],
       "latest": {
-        "title": "Blood Is the Key",
-        "type": "single",
-        "date": "2026-11-13"
-      },
-      "next": {
         "title": "War Slime",
         "type": "single",
         "date": "2026-11-27"
       },
+      "next": {
+        "title": "The Wound of Existence",
+        "type": "single",
+        "date": "2026-12-04"
+      },
       "released": [
+        {
+          "title": "War Slime",
+          "type": "single",
+          "date": "2026-11-27"
+        },
         {
           "title": "Blood Is the Key",
           "type": "single",
@@ -145,19 +144,9 @@
           "title": "Into the Hollow of a Stone",
           "type": "single",
           "date": "2026-10-09"
-        },
-        {
-          "title": "Among the Slain",
-          "type": "album",
-          "date": "2026-09-25"
         }
       ],
       "upcoming": [
-        {
-          "title": "War Slime",
-          "type": "single",
-          "date": "2026-11-27"
-        },
         {
           "title": "The Wound of Existence",
           "type": "single",
@@ -192,6 +181,11 @@
           "title": "Ash Eucharist",
           "type": "single",
           "date": "2027-01-29"
+        },
+        {
+          "title": "Forest Holds Its Dead",
+          "type": "album",
+          "date": "2027-02-05"
         }
       ]
     },
@@ -426,7 +420,7 @@
         "spotify_url": "https://open.spotify.com/track/7yOyuX15JP7lkhPloHBj14"
       },
       "next": {
-        "title": "Orbit",
+        "title": "800mg",
         "type": "single",
         "date": "2026-12-04"
       },
@@ -439,6 +433,11 @@
         }
       ],
       "upcoming": [
+        {
+          "title": "800mg",
+          "type": "single",
+          "date": "2026-12-04"
+        },
         {
           "title": "Orbit",
           "type": "single",
